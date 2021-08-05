@@ -1,0 +1,115 @@
+---
+title: "LabBot bosquejo 2021_08_02"
+author: "Raymond L. Tremblay"
+date: "Agosto 2021"
+output: 
+  html_document: 
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## LABORATORIO DE BOTANICA – BIOL4429
+### Sección 001 y 005    Agosto - Diciembre 2021
+
+
+Profesor: 	Denny S. Fernández del Viso
+Oficina:	Horas de consulta: 
+
+  - Mar. 9:00 - 10:30,
+  - Mar. 1:00 - 2:00, 
+  - Mier. 1:30 -  4:30
+  
+Oficina del Profersor (Al lado del Ascensor)
+Dirección de correo electrónico: 	raymond.tremblay@upr.edu
+
+MOODLE:	https://online.upr.edu
+
+
+## Administración:
+
+El curso se administrá a través de la plataforma MOODLE de la UPR. 
+ 
+Los estudiantes deben conocer los procedimientos de trabajo con MOODLE, y el manejo de archivos en el sistema operativo de su computadora.  
+
+## Objetivos Generales:
+
+Al terminar este curso, lo/as estudiantes podrán:
+
+1. Identificar los principales tejidos, células y organelos de las plantas.
+2. Describir las características morfológicas de los grupos taxonómicos superiores de las plantas.
+3. Relacionar las estructuras observadas con su función en las plantas.
+4. Reconstruir la evolución de las plantas, usando las características morfológicas y anatómicas observadas.
+4. Elaborar hipótesis para una investigación con plantas.
+
+## Temas:
+
+1. Introducción al laboratorio y las plantas como sistema biológico.
+2. Introducción a las macromoléculas, pigmentos y célula eucariótica vegetal
+Germinación		
+3. La raíz
+4. El tallo
+5. La hoja
+6. Cianobacterias, microalgas y líquenes
+7. Macroalgas
+8. Briófitas
+9. Plantas vasculares sin semilla
+10. Plantas con semillas: Gimnospermas
+11. Plantas con semillas: Angiospermas
+12. Flores - Inflorescencias - Polinización
+13. Frutos - Semillas - Dispersión
+14. Botánica Económica y Etnobotánica
+
+## Plan de Trabajo (tentativo) del Semestre:
+
+LabBot actividades Agosto2021-20210717
+
+### Evaluación:
+'
+
+- Pruebas cortas…………………………30 %
+- Informes……...…………………………50 %
+- Informe y presentación del Proyecto...20 %
+
+_____
+
+### Las pruebas cortas
+
+Las pruebas cortas (QUIZES) estarán disponibles en MOODLE durante la semana de la sesión de laboratorio y por al menos tres días. En los quizes se harán preguntas de los subtemas y conceptos descritos para el laboratorio de esa semana. Los subtemas, definiciones, conceptos, preguntas, observaciones, etc. para las pruebas cortas los pueden encontrar en la presentación de CONTENIDO, de cada laboratorio. Tiene dos oportunidades para realizar el quiz, y la nota final es el promedio de ambos intentos (o la de un único intento).  En la última semana de clases podrá repetir (o completar) un (1) quiz. Para esto debe notificar la semana antes al profesor indicando el quiz que desea repetir o completar.  
+
+-----
+
+
+### Los Informes 
+
+Los informes (no necesariamente habrá asignaciones todas las semanas) aparecen con el nombre INFORME. Tiene 10 días para completarlos, o perderá hasta el 10% de la nota si no lo entrega a tiempo, o no ha solicitado más tiempo. La evaluación de cada informe (escrito u oral) se hará mediante una rúbrica que deben revisar antes de hacerlo.  
+
+
+----
+
+El Proyecto
+
+
+El proyecto consiste en una investigación casera sobre alguno de los temas que se hayan cubierto en las sesiones de laboratorio. Antes de iniciar su investigación, deberá presentar la hipótesis, objetivos y diseño de la investigación.  Debe realizar un informe, en formato de artículo científico y una presentación corta del proyecto.  El proyecto puede ser realizado por una persona o en pareja.
+
+Se otorgarán bonos a la nota final del laboratorio (máximo de 8 puntos), a discreción del profesor, por participación en viajes de campo fuera de la universidad, o actividades que anuncie durante el semestre.
+
+----
+
+
+### Materiales solicitados:
+
+libreta de laboratorio
+cada estudiante debe presentarse con bata de laboratorio, mascarilla adecuada, y gafas de seguridad o cubierta facial
+
+
+### Referencias:
+
+Libros de botánica disponible o texto de la clase.
+Internet (sitios con contenido moderado, editado y/o evaluado, Wikipedia, p. ej.).
+Para cada tema tendrán disponibles artículos científicos.
