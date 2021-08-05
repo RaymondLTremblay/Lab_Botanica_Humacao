@@ -3,7 +3,9 @@ title: "NORMAS DE SEGURIDAD"
 author: "BIOL4558"
 date: "Agosto 2021"
 output:
-  html_document: 
+  pdf_document:
+    toc: yes
+  html_document:
     theme: spacelab
     toc: yes
     toc_float: yes
