@@ -1,6 +1,6 @@
 ---
 title: "NORMAS DE SEGURIDAD"
-author: "BIOL4558"
+author: "Laboratorios"
 date: "Agosto 2021"
 output:
   pdf_document:
