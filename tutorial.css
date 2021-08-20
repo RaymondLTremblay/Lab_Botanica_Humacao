@@ -33,7 +33,7 @@ ol > li {
     margin:0 0 10px 2em; /* Give each list item a left margin to make room for the numbers */
     padding:10px 80px; /* Add some spacing around the content */
     list-style:none; /* Disable the normal item numbering */
-    border-top:2px solid #317EAC;
+    border-top:2px solid #f70707;
     background:rgba(49, 126, 172, 0.1);
 }
 ol > li:before {
@@ -51,7 +51,7 @@ ol > li:before {
        generated content but not positioning it (Camino 2 is one example) */
     margin-right:8px;
     padding:4px;
-    border-top:2px solid #317EAC;
+    border-top:2px solid #f70707;
     color:#fff;
     background:#317EAC;
     font-weight:bold;
