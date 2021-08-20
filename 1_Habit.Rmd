@@ -1,0 +1,67 @@
+---
+title: "Forma de Vida"
+author: "Raymond L. Tremblay"
+date: "8/20/2021"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+#  theme: simplex   To have the TOC in Red
+    toc: yes
+    toc_float: yes
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Forma de Vida de las Plantas
+
+#### Las Plantas tienen diferentes formas estructurales/forma de vida o sea arquitectura. 
+
+Descripción de los tipos de estructura/arquitectura/forma de vida de las plantas
+
+***
+
+
+### Objetivos
+
+Definen y reconocer las siguientes forma de vida de las Plantas
+
++	Herbáceas
++	Lenõsas
+	
+	
+    -	Arboles
+    -	Arbustos
+    -	Herbáceas
+    -	Suculentas
+    -	Gramas
+    - Enredaderas
+      - lianas
+      - herbaceas (sin lignina)
+    
+[Vea este enlace para las formas de Vida de las Plantas](https://en.wikipedia.org/wiki/Habit_(biology))   
+    
+***  
+
+### Objetivos
+
+Definen y reconocer las siguientes forma de vida de las Briofitas
+
+
++ Briofitas [Bryophyte](https://en.wikipedia.org/wiki/Bryophyte)
+
+[Vea un Musgos aqui](https://en.wiktionary.org/wiki/bryophyte#/media/File:Marchantia_polymorpha_190708.jpg)
+
+
+
+
+  + Clasificación de Briofitas
+   [Classification](https://www.toppr.com/ask/content/concept/classification-of-bryophytes-202047/)
+
+    - foliose   [foliose](https://en.wikipedia.org/wiki/Foliose_lichen)
+    - thallose  [thallus](https://en.wikipedia.org/wiki/Thallus) 
+
+

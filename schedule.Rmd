@@ -1,0 +1,53 @@
+---
+title: "Calendario, Primer semestre 2020"
+author: "BIOL 4026-001"
+date: "Agosto, 2020"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+    theme: simplex
+    toc: no
+    toc_float: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r include=FALSE}
+library(huxtable)
+library(knitr)
+library(tidyverse)
+
+
+```
+
+
+
+Favor mirar el calendario regularmente, ya que este puede cambiar!
+
+```{r include=FALSE}
+Calendario_Curso <- read.csv("Schedule_2021.csv")
+```
+
+
+
+```{r, echo=FALSE}
+huxtable(Calendario_Curso)%>%
+  theme_article(header_col = FALSE)%>%
+  set_position("left") %>%
+set_bottom_border(row = 1, col = everywhere, value = 2) %>%
+set_caption("Calendario tentativo")%>%
+
+      set_background_color(1:1, 1:1, "cadetblue4")%>% 
+      set_background_color(1:1, 2:2, "purple")%>% 
+      set_background_color(1:1, 3:3, "chocolate4")%>% 
+      set_background_color(1:1, 4:4, "goldenrod4")%>% 
+      set_background_color(1:1, 5:5, "red")%>%
+      set_text_color(1:1, 1:5, "white")%>%
+      set_text_color(7:7, 2:2, "blue4")
+```
+
+

@@ -1,0 +1,29 @@
+--- 
+name: "BIOL 4429"
+navbar: 
+  left: 
+    -
+       href: index.html
+       text: Home
+    - 
+     menu:  
+       - 
+         href: schedule.html
+         text: Calendario
+       - 
+         href: COVID-19.html
+         text: Covid-19
+      
+     text: Lo Básico
+    - 
+      menu: 
+        - 
+          href: 1_Habit.html
+          text: "Diversidad de Forma de Vida"
+        - 
+          href: 2_Hojas.html
+          text: "Diversidad de Forma de Hojas"
+        
+      text: Lectures
+  title: " Lab. de Botánica"
+output_dir: "."

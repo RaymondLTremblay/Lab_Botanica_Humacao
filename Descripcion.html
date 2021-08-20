@@ -9,15 +9,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Raymond L. Tremblay" />
 
 
-<title>LabBot bosquejo 2021_08_02</title>
+<title>Descripción</title>
 
 <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -34,9 +33,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -47,21 +43,12 @@
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
 
 
+<link rel="stylesheet" href="tutorial.css" type="text/css" />
 
 
 
@@ -220,9 +207,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -365,108 +349,62 @@ div.tocify {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
-
-<h1 class="title toc-ignore">LabBot bosquejo 2021_08_02</h1>
-<h4 class="author">Raymond L. Tremblay</h4>
-<h4 class="date">Agosto 2021</h4>
+<h1 class="title toc-ignore">Descripción</h1>
 
 </div>
 
 
-<div id="laboratorio-de-botanica-biol4429" class="section level2">
-<h2>LABORATORIO DE BOTANICA – BIOL4429</h2>
-<div id="sección-001-y-005-agosto---diciembre-2021" class="section level3">
-<h3>Sección 001 y 005 Agosto - Diciembre 2021</h3>
-<p>Profesor: Denny S. Fernández del Viso Oficina: Horas de consulta:</p>
+<p>Fecha de la ultima revisión</p>
+<pre><code>## [1] &quot;2021-08-20&quot;</code></pre>
+<div id="biol3740" class="section level2">
+<h2>BIOL3740</h2>
+<p>Este sitio es una guía para el curso de Biometría, BIOL3740 en la Universidad de Puerto Rico en Humacao. El objetivo de este sitio es presentar una organización simple y básica para el curso de estadística con ejemplos diversos.</p>
+<p>El curso hará énfasis en los supuestos de las pruebas paramétricas y no-paramétricas.</p>
+</div>
+<div id="pruebas-paramétricas" class="section level2">
+<h2>Pruebas Paramétricas</h2>
 <ul>
-<li>Mar. 9:00 - 10:30,</li>
-<li>Mar. 1:00 - 2:00,</li>
-<li>Mier. 1:30 - 4:30</li>
+<li>Prueba de Z</li>
+<li>Prueba de t</li>
+<li>Prueba de t con datos pareados</li>
+<li>ANOVA</li>
+<li>Regresión lineal</li>
+<li>Regresión logística</li>
 </ul>
-<p>Oficina del Profersor (Al lado del Ascensor) Dirección de correo electrónico: <a href="mailto:raymond.tremblay@upr.edu" class="email">raymond.tremblay@upr.edu</a></p>
-<p>MOODLE: <a href="https://online.upr.edu" class="uri">https://online.upr.edu</a></p>
 </div>
-</div>
-<div id="administración" class="section level2">
-<h2>Administración:</h2>
-<p>El curso se administrá a través de la plataforma MOODLE de la UPR.</p>
-<p>Los estudiantes deben conocer los procedimientos de trabajo con MOODLE, y el manejo de archivos en el sistema operativo de su computadora.</p>
-</div>
-<div id="objetivos-generales" class="section level2">
-<h2>Objetivos Generales:</h2>
-<p>Al terminar este curso, lo/as estudiantes podrán:</p>
-<ol style="list-style-type: decimal">
-<li>Identificar los principales tejidos, células y organelos de las plantas.</li>
-<li>Describir las características morfológicas de los grupos taxonómicos superiores de las plantas.</li>
-<li>Relacionar las estructuras observadas con su función en las plantas.</li>
-<li>Reconstruir la evolución de las plantas, usando las características morfológicas y anatómicas observadas.</li>
-<li>Elaborar hipótesis para una investigación con plantas.</li>
-</ol>
-</div>
-<div id="temas" class="section level2">
-<h2>Temas:</h2>
-<ol style="list-style-type: decimal">
-<li>Introducción al laboratorio y las plantas como sistema biológico.</li>
-<li>Introducción a las macromoléculas, pigmentos y célula eucariótica vegetal Germinación<br />
-</li>
-<li>La raíz</li>
-<li>El tallo</li>
-<li>La hoja</li>
-<li>Cianobacterias, microalgas y líquenes</li>
-<li>Macroalgas</li>
-<li>Briófitas</li>
-<li>Plantas vasculares sin semilla</li>
-<li>Plantas con semillas: Gimnospermas</li>
-<li>Plantas con semillas: Angiospermas</li>
-<li>Flores - Inflorescencias - Polinización</li>
-<li>Frutos - Semillas - Dispersión</li>
-<li>Botánica Económica y Etnobotánica</li>
-</ol>
-</div>
-<div id="plan-de-trabajo-tentativo-del-semestre" class="section level2">
-<h2>Plan de Trabajo (tentativo) del Semestre:</h2>
-<p>LabBot actividades Agosto2021-20210717</p>
-<div id="evaluación" class="section level3">
-<h3>Evaluación:</h3>
-<p>’</p>
+<div id="pruebas-no-paramétricas" class="section level2">
+<h2>Pruebas no Paramétricas</h2>
 <ul>
-<li>Pruebas cortas…………………………30 %</li>
-<li>Informes…………………………………50 %</li>
-<li>Informe y presentación del Proyecto…20 %</li>
+<li>Prueba de Mann-Whitney U</li>
+<li>Prueba de Wilcoxon (datos pareados)</li>
+<li>Prueba de Kruskal-Wallis</li>
+<li>Bondad de Ajuste</li>
+<li>Tabla de Contingencia</li>
 </ul>
-<hr />
 </div>
-<div id="las-pruebas-cortas" class="section level3">
-<h3>Las pruebas cortas</h3>
-<p>Las pruebas cortas (QUIZES) estarán disponibles en MOODLE durante la semana de la sesión de laboratorio y por al menos tres días. En los quizes se harán preguntas de los subtemas y conceptos descritos para el laboratorio de esa semana. Los subtemas, definiciones, conceptos, preguntas, observaciones, etc. para las pruebas cortas los pueden encontrar en la presentación de CONTENIDO, de cada laboratorio. Tiene dos oportunidades para realizar el quiz, y la nota final es el promedio de ambos intentos (o la de un único intento). En la última semana de clases podrá repetir (o completar) un (1) quiz. Para esto debe notificar la semana antes al profesor indicando el quiz que desea repetir o completar.</p>
-<hr />
-</div>
-<div id="los-informes" class="section level3">
-<h3>Los Informes</h3>
-<p>Los informes (no necesariamente habrá asignaciones todas las semanas) aparecen con el nombre INFORME. Tiene 10 días para completarlos, o perderá hasta el 10% de la nota si no lo entrega a tiempo, o no ha solicitado más tiempo. La evaluación de cada informe (escrito u oral) se hará mediante una rúbrica que deben revisar antes de hacerlo.</p>
-<hr />
-<p>El Proyecto</p>
-<p>El proyecto consiste en una investigación casera sobre alguno de los temas que se hayan cubierto en las sesiones de laboratorio. Antes de iniciar su investigación, deberá presentar la hipótesis, objetivos y diseño de la investigación. Debe realizar un informe, en formato de artículo científico y una presentación corta del proyecto. El proyecto puede ser realizado por una persona o en pareja.</p>
-<p>Se otorgarán bonos a la nota final del laboratorio (máximo de 8 puntos), a discreción del profesor, por participación en viajes de campo fuera de la universidad, o actividades que anuncie durante el semestre.</p>
-<hr />
-</div>
-<div id="materiales-solicitados" class="section level3">
-<h3>Materiales solicitados:</h3>
-<p>libreta de laboratorio cada estudiante debe presentarse con bata de laboratorio, mascarilla adecuada, y gafas de seguridad o cubierta facial</p>
-</div>
-<div id="referencias" class="section level3">
-<h3>Referencias:</h3>
-<p>Libros de botánica disponible o texto de la clase. Internet (sitios con contenido moderado, editado y/o evaluado, Wikipedia, p. ej.). Para cada tema tendrán disponibles artículos científicos.</p>
-</div>
+<div id="metodos-y-pruebas-para-evaluar-los-supuestos" class="section level2">
+<h2>Metodos y Pruebas para evaluar los supuestos</h2>
+<ul>
+<li>Supuestos de normalidad
+<ul>
+<li>Shapiro-Wilks</li>
+<li>Histograma</li>
+<li>qqplot</li>
+</ul></li>
+<li>Supuestos de Igualdad de Varianza
+<ul>
+<li>Los residuales</li>
+<li>Prueba de Levene</li>
+</ul></li>
+<li>Reconocer datos sesgados (outliers)
+<ul>
+<li>Gráficos de caja (boxplots)</li>
+<li>Distancia de Cook’s</li>
+</ul></li>
+</ul>
+<p>Flujo grama de las selecciones de pruebas y en cual de los módulos se encuentra las pruebas</p>
 </div>
 
 
@@ -504,11 +442,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 <script>
 $(document).ready(function ()  {
