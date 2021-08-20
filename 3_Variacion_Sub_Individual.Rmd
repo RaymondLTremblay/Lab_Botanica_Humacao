@@ -32,4 +32,12 @@ knitr::opts_chunk$set(echo = TRUE)
 + Plasticidad Fenotípica
 
 
-Leer este articulo [Brushi 2003](PDF/2003AnnBotanyRoveri.pdf)
+Leer este articulo [Brushi 2003](PDF/2003AnnBotanyRoveri.pdf).
+ 
+ Cuando lee el articulo concentrarse en las caracteristicas morfológicas. 
+ 
+ Preguntas guias:
+       - ¿Cual son las variables morfológicas que se midieron?
+       - ¿Que quiere decir ***Mean*** y  ***s.d.***?
+       - 
+       
