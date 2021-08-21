@@ -34,9 +34,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Leer este articulo [Brushi 2003](PDF/2003AnnBotanyRoveri.pdf).
  
- Cuando lee el articulo concentrarse en las caracteristicas morfológicas. 
+ Cuando lee el articulo concentrarse en las características morfológicas. 
  
- Preguntas guias:
+ Preguntas guías:
        - ¿Cual son las variables morfológicas que se midieron?
        - ¿Que quiere decir ***Mean*** y  ***s.d.***?
        - 

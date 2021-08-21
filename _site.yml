@@ -23,6 +23,9 @@ navbar:
         - 
           href: 2_Hojas.html
           text: "Diversidad de Forma de Hojas"
+        - 
+          href: 3_Variacion_Sub_Individual.html
+          text: "Variación Sub Individual"         
         
       text: Lectures
   title: " Lab. de Botánica"
