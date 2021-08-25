@@ -37,7 +37,52 @@ Leer este articulo [Brushi 2003](PDF/2003AnnBotanyRoveri.pdf).
  Cuando lee el articulo concentrarse en las características morfológicas. 
  
  Preguntas guías:
-       - ¿Cual son las variables morfológicas que se midieron?
-       - ¿Que quiere decir ***Mean*** y  ***s.d.***?
-       - 
+       - ¿Cual son las variables morfológicas que se midieron? Menciona algunas (4-5)
+       - ¿Qué quiere decir ***Mean*** y  ***s.d.***?
+       - ¿Cual variable tiene mayor promedio?
+       
+
+¿Como uno puede evaluar la variación controlando para el promedio?
+
+El problema de la relación positiva y variación.
+       
+ 
+### Coeficiente de Variación, CV
+ 
+ El CV es un indice de variación quee es estandarizado, en otro palabra es comparable entre cambios en el promedio y unidades de medida (cm, m, km)
+ 
+ Vea este enlace sobre el coficiente de Variación, [CV](https://en.wikipedia.org/wiki/Coefficient_of_variation)
+ 
+ La formula  básica es $V=\frac{sd}{\overline{x}}$, donde **sd** es la desviación estandard, $$s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}$$
+ 
+  
+  
+  
+  La hipotesis que vamos a comprobar es basado en la siguiente aseveración:
+  
+  1. la hojas captan la luz.
+  2. El área de lamina pudiese afectar la capacidad de fotosíntesis.
+  3. Las plantas pudiese adaptarse a los cambios lumínicos
+  4. La hojas ariba de un arbol reciben más luz que las hoja abajo o adentro (cerca del tronco).
+  
+  
+  Hipotesis:  Tema:  Existe Variación-Sub Individual y esta variación es diferente entre individuos.
+  
+  Ejercicio:
+  
+  Se recolectará hojas de 3 arboles de la misma especie, se miderá la siguiente características
+  
+  - el ancho de la hoja
+  - el largo de la hoja
+  
+  La hojas se recolectará de la parta más alta del arbol (expuesto al sol) y la más abajo y adento del arbol (expuesto en la sombra).
+  
+  + 40 hojas ariba
+  + 40 hojas abajo
+  
+  
+  
+  
+  
+  
        
