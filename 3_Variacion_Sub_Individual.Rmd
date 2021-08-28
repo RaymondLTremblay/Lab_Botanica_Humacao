@@ -65,7 +65,9 @@ El problema de la relación positiva y variación.
   4. La hojas arriba de un árbol reciben más luz que las hoja abajo o adentro (cerca del tronco).
   
   
-  Hipótesis:  Tema:  Existe Variación-Sub Individual y esta variación es diferente entre individuos.
+  Hipótesis alterna:  Existe Variación-Sub Individual y esta variación es diferente entre individuos.
+  
+  ¿Cual es la hipótesis nula?
   
   Ejercicio:
   
@@ -76,8 +78,8 @@ El problema de la relación positiva y variación.
   
   La hojas se recolectará de la parta más alta del árbol (expuesto al sol) y la más abajo y adentro del árbol (expuesto en la sombra).
   
-  + 40 hojas arriba
-  + 40 hojas abajo
+  + 40 mínimo hojas arriba
+  + 40 mínimo hojas abajo
   
   
   
@@ -93,8 +95,15 @@ Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59
 Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
  
 
+***
 
+Referencias:
 
+a. [Conceptos generales sobre variación](PDF/Chapt3.pdf)
+b. [Selective Pressure](PDF/pone.0074356.pdf)
+
+Leer el capítulo #3 de este libro
+
+c. [Multiplicity in Unity](PDF/Multiplicity in Unity Carlos Herrera.pdf)
  
-  
-       
+
