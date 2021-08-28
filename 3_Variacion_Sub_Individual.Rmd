@@ -87,12 +87,12 @@ El problema de la relación positiva y variación.
 
 ##### Lab de Lunes sec 001, 3pm a 5.50pm.
 
-Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
+LUNES: Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
 
 
 #####  Lab de Martes sec 005, 12:00pm a 2:50pm.
 
-Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
+MARTES: Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1wNRbc0u9sNjdYF8ko6DyZ9H87IMp39fVktfUwbQChas/edit?usp=sharing)
  
 
 ***
@@ -107,7 +107,7 @@ Leer el capítulo #3 de este libro
 c. [Multiplicity in Unity](PDF/Multiplicity in Unity Carlos Herrera.pdf)
  
 
-## Proxima Lab: 
+## Próximo Lab: 
 
 ### Quiz al comienzo del laboratorio sobre la siguientes lecturas
 
