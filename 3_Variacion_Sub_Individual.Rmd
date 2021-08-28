@@ -41,7 +41,6 @@ Leer este articulo [Brushi 2003](PDF/2003AnnBotanyRoveri.pdf).
        - ¿Qué quiere decir ***Mean*** y  ***s.d.***?
        - ¿Cual variable tiene mayor promedio?
        
-
 ¿Como uno puede evaluar la variación controlando para el promedio?
 
 El problema de la relación positiva y variación.
@@ -49,40 +48,53 @@ El problema de la relación positiva y variación.
  
 ### Coeficiente de Variación, CV
  
- El CV es un indice de variación quee es estandarizado, en otro palabra es comparable entre cambios en el promedio y unidades de medida (cm, m, km)
+ El CV es un indice de variación qué es estandarizado, en otro palabra es comparable entre cambios en el promedio y unidades de medida (cm, me, km)
  
- Vea este enlace sobre el coficiente de Variación, [CV](https://en.wikipedia.org/wiki/Coefficient_of_variation)
+ Vea este enlace sobre el coeficiente de Variación, [CV](https://en.wikipedia.org/wiki/Coefficient_of_variation)
  
- La formula  básica es $V=\frac{sd}{\overline{x}}$, donde **sd** es la desviación estandard, $$s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}$$
+ La formula  básica es $$CV=\frac{sd}{\overline{x}},$$ donde **sd** es la desviación estándar, $$sd = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}$$
  
   
+-------------------
   
-  
-  La hipotesis que vamos a comprobar es basado en la siguiente aseveración:
+  La hipótesis que vamos a comprobar es basado en la siguiente aseveración:
   
   1. la hojas captan la luz.
   2. El área de lamina pudiese afectar la capacidad de fotosíntesis.
   3. Las plantas pudiese adaptarse a los cambios lumínicos
-  4. La hojas ariba de un arbol reciben más luz que las hoja abajo o adentro (cerca del tronco).
+  4. La hojas arriba de un árbol reciben más luz que las hoja abajo o adentro (cerca del tronco).
   
   
-  Hipotesis:  Tema:  Existe Variación-Sub Individual y esta variación es diferente entre individuos.
+  Hipótesis:  Tema:  Existe Variación-Sub Individual y esta variación es diferente entre individuos.
   
   Ejercicio:
   
-  Se recolectará hojas de 3 arboles de la misma especie, se miderá la siguiente características
+  Se recolectará hojas de 3 arboles de la misma especie, se medirá la siguiente características
   
   - el ancho de la hoja
   - el largo de la hoja
   
-  La hojas se recolectará de la parta más alta del arbol (expuesto al sol) y la más abajo y adento del arbol (expuesto en la sombra).
+  La hojas se recolectará de la parta más alta del árbol (expuesto al sol) y la más abajo y adentro del árbol (expuesto en la sombra).
   
-  + 40 hojas ariba
+  + 40 hojas arriba
   + 40 hojas abajo
   
   
   
-  
-  
+### Enlace para añadir los datos recolectados
+
+##### Lab de Lunes sec 001, 3pm a 5.50pm.
+
+Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
+
+
+#####  Lab de Martes sec 005, 12:00pm a 2:50pm.
+
+Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
+ 
+
+
+
+ 
   
        
