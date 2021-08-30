@@ -93,7 +93,14 @@ LUNES: Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3
 #####  Lab de Martes sec 005, 12:00pm a 2:50pm.
 
 MARTES: Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1wNRbc0u9sNjdYF8ko6DyZ9H87IMp39fVktfUwbQChas/edit?usp=sharing)
- 
+
+***
+
+Las especies muestradas
+
+G1 = [*Tabebuia heterophylla*](https://en.wikipedia.org/wiki/Tabebuia_heterophylla)  
+G2 = [*Cananga odorata*](https://en.wikipedia.org/wiki/Cananga_odorata)
+
 
 ***
 
