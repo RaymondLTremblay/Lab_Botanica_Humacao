@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Raymond L. Tremblay" />
+
+
+<title>Smith_Test</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> Lab. de Botánica</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lo Básico
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="schedule.html">Calendario</a>
+    </li>
+    <li>
+      <a href="COVID-19.html">Covid-19</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lectures
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="1_Habit.html">Diversidad de Forma de Vida</a>
+    </li>
+    <li>
+      <a href="2_Hojas.html">Diversidad de Forma de Hojas</a>
+    </li>
+    <li>
+      <a href="3_Variacion_Sub_Individual.html">Variación Sub Individual</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Smith_Test</h1>
+<h4 class="author">Raymond L. Tremblay</h4>
+<h4 class="date">9/6/2021</h4>
+
+</div>
+
+
+<div id="smiths-test" class="section level2">
+<h2>Smith’s Test</h2>
+<p>Test originally described by Cedric A. B. Smith but apparently has only been published in Gruneberg et al 1966. Here described by Leigh Van Valen 2005 in the book “Variation” ed. Benedikt Hallgrímsson and Brian K. Hall.</p>
+<p>In the first part is by hand then I use summarise from plyr package to calculate the different parts of the function</p>
+<pre class="r"><code>library(lawstat)
+library(ggplot2)
+library(BioStatR)
+library(reshape)
+library(e1071)
+library(QuantPsyc)</code></pre>
+<pre><code>## Loading required package: boot</code></pre>
+<pre><code>## Loading required package: MASS</code></pre>
+<pre><code>## 
+## Attaching package: &#39;QuantPsyc&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:base&#39;:
+## 
+##     norm</code></pre>
+<pre class="r"><code>library(boot)
+library(MASS)
+library(ggplot2)
+
+library(plyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;plyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:reshape&#39;:
+## 
+##     rename, round_any</code></pre>
+<pre class="r"><code>Red.Cell.Size.in.Humans &lt;- read.csv(&quot;~/Google Drive/Topicos-2016/DATA Analysis for presentation/Roy-Haldane Conjucture/Red Cell Size in Humans.csv&quot;)
+RBC=Red.Cell.Size.in.Humans
+RBC</code></pre>
+<pre><code>##     IND Cell_Size Freq   Mean Median
+## 1    52      5.50    0 7.3135   7.25
+## 2    52      5.75    0 7.3135   7.25
+## 3    52      6.00    0 7.3135   7.25
+## 4    52      6.25    9 7.3135   7.25
+## 5    52      6.50   17 7.3135   7.25
+## 6    52      6.75   50 7.3135   7.25
+## 7    52      7.00   82 7.3135   7.25
+## 8    52      7.25  145 7.3135   7.25
+## 9    52      7.50   82 7.3135   7.25
+## 10   52      7.75   60 7.3135   7.25
+## 11   52      8.00   33 7.3135   7.25
+## 12   52      8.25   17 7.3135   7.25
+## 13   52      8.50    3 7.3135   7.25
+## 14   52      8.75    2 7.3135   7.25
+## 15   52      9.00    0 7.3135   7.25
+## 16   53      5.50    0 7.4380   7.50
+## 17   53      5.75    1 7.4380   7.50
+## 18   53      6.00    1 7.4380   7.50
+## 19   53      6.25    3 7.4380   7.50
+## 20   53      6.50   10 7.4380   7.50
+## 21   53      6.75   42 7.4380   7.50
+## 22   53      7.00   65 7.4380   7.50
+## 23   53      7.25  105 7.4380   7.50
+## 24   53      7.50  100 7.4380   7.50
+## 25   53      7.75   93 7.4380   7.50
+## 26   53      8.00   43 7.4380   7.50
+## 27   53      8.25   26 7.4380   7.50
+## 28   53      8.50    8 7.4380   7.50
+## 29   53      8.75    2 7.4380   7.50
+## 30   53      9.00    1 7.4380   7.50
+## 31   54      5.50    0 7.4495   7.50
+## 32   54      5.75    0 7.4495   7.50
+## 33   54      6.00    0 7.4495   7.50
+## 34   54      6.25    2 7.4495   7.50
+## 35   54      6.50   10 7.4495   7.50
+## 36   54      6.75   28 7.4495   7.50
+## 37   54      7.00   61 7.4495   7.50
+## 38   54      7.25  120 7.4495   7.50
+## 39   54      7.50  127 7.4495   7.50
+## 40   54      7.75   77 7.4495   7.50
+## 41   54      8.00   40 7.4495   7.50
+## 42   54      8.25   23 7.4495   7.50
+## 43   54      8.50   11 7.4495   7.50
+## 44   54      8.75    1 7.4495   7.50
+## 45   54      9.00    0 7.4495   7.50
+## 46   55      5.50    2 7.1625   7.25
+## 47   55      5.75    3 7.1625   7.25
+## 48   55      6.00    3 7.1625   7.25
+## 49   55      6.25   17 7.1625   7.25
+## 50   55      6.50   29 7.1625   7.25
+## 51   55      6.75   70 7.1625   7.25
+## 52   55      7.00  101 7.1625   7.25
+## 53   55      7.25  119 7.1625   7.25
+## 54   55      7.50   85 7.1625   7.25
+## 55   55      7.75   42 7.1625   7.25
+## 56   55      8.00   19 7.1625   7.25
+## 57   55      8.25    8 7.1625   7.25
+## 58   55      8.50    2 7.1625   7.25
+## 59   55      8.75    0 7.1625   7.25
+## 60   55      9.00    0 7.1625   7.25
+## 61   56      5.50    0 7.4050   7.50
+## 62   56      5.75    0 7.4050   7.50
+## 63   56      6.00    1 7.4050   7.50
+## 64   56      6.25    5 7.4050   7.50
+## 65   56      6.50   14 7.4050   7.50
+## 66   56      6.75   37 7.4050   7.50
+## 67   56      7.00   68 7.4050   7.50
+## 68   56      7.25  123 7.4050   7.50
+## 69   56      7.50   93 7.4050   7.50
+## 70   56      7.75   85 7.4050   7.50
+## 71   56      8.00   47 7.4050   7.50
+## 72   56      8.25   22 7.4050   7.50
+## 73   56      8.50    4 7.4050   7.50
+## 74   56      8.75    0 7.4050   7.50
+## 75   56      9.00    1 7.4050   7.50
+## 76   57      5.50    1 6.8500   6.75
+## 77   57      5.75    2 6.8500   6.75
+## 78   57      6.00   20 6.8500   6.75
+## 79   57      6.25   53 6.8500   6.75
+## 80   57      6.50   78 6.8500   6.75
+## 81   57      6.75   99 6.8500   6.75
+## 82   57      7.00  111 6.8500   6.75
+## 83   57      7.25   84 6.8500   6.75
+## 84   57      7.50   36 6.8500   6.75
+## 85   57      7.75   11 6.8500   6.75
+## 86   57      8.00    4 6.8500   6.75
+## 87   57      8.25    1 6.8500   6.75
+## 88   57      8.50    0 6.8500   6.75
+## 89   57      8.75    0 6.8500   6.75
+## 90   57      9.00    0 6.8500   6.75
+## 91   58      5.50    0 7.3025   7.25
+## 92   58      5.75    1 7.3025   7.25
+## 93   58      6.00    3 7.3025   7.25
+## 94   58      6.25    5 7.3025   7.25
+## 95   58      6.50   21 7.3025   7.25
+## 96   58      6.75   46 7.3025   7.25
+## 97   58      7.00   80 7.3025   7.25
+## 98   58      7.25  142 7.3025   7.25
+## 99   58      7.50   97 7.3025   7.25
+## 100  58      7.75   52 7.3025   7.25
+## 101  58      8.00   36 7.3025   7.25
+## 102  58      8.25   13 7.3025   7.25
+## 103  58      8.50    4 7.3025   7.25
+## 104  58      8.75    0 7.3025   7.25
+## 105  58      9.00    0 7.3025   7.25
+## 106  35      5.25    1 7.1600   7.25
+## 107  35      5.50    0 7.1600   7.25
+## 108  35      5.75    2 7.1600   7.25
+## 109  35      6.00    8 7.1600   7.25
+## 110  35      6.25   13 7.1600   7.25
+## 111  35      6.50   45 7.1600   7.25
+## 112  35      6.75   66 7.1600   7.25
+## 113  35      7.00   95 7.1600   7.25
+## 114  35      7.25  114 7.1600   7.25
+## 115  35      7.50   78 7.1600   7.25
+## 116  35      7.75   42 7.1600   7.25
+## 117  35      8.00   28 7.1600   7.25
+## 118  35      8.25    5 7.1600   7.25
+## 119  35      8.50    6 7.1600   7.25
+## 120  35      8.75    1 7.1600   7.25
+## 121  35      9.00    1 7.1600   7.25</code></pre>
+<pre class="r"><code>head(RBC)</code></pre>
+<pre><code>##   IND Cell_Size Freq   Mean Median
+## 1  52      5.50    0 7.3135   7.25
+## 2  52      5.75    0 7.3135   7.25
+## 3  52      6.00    0 7.3135   7.25
+## 4  52      6.25    9 7.3135   7.25
+## 5  52      6.50   17 7.3135   7.25
+## 6  52      6.75   50 7.3135   7.25</code></pre>
+<pre class="r"><code>summary(RBC)</code></pre>
+<pre><code>##       IND          Cell_Size          Freq            Mean      
+##  Min.   :35.00   Min.   :5.250   Min.   :  0.0   Min.   :6.850  
+##  1st Qu.:52.00   1st Qu.:6.250   1st Qu.:  1.0   1st Qu.:7.160  
+##  Median :54.00   Median :7.250   Median : 13.0   Median :7.303  
+##  Mean   :52.36   Mean   :7.233   Mean   : 33.1   Mean   :7.259  
+##  3rd Qu.:56.00   3rd Qu.:8.250   3rd Qu.: 60.0   3rd Qu.:7.405  
+##  Max.   :58.00   Max.   :9.000   Max.   :145.0   Max.   :7.449  
+##      Median     
+##  Min.   :6.750  
+##  1st Qu.:7.250  
+##  Median :7.250  
+##  Mean   :7.281  
+##  3rd Qu.:7.500  
+##  Max.   :7.500</code></pre>
+<pre class="r"><code>names(RBC)</code></pre>
+<pre><code>## [1] &quot;IND&quot;       &quot;Cell_Size&quot; &quot;Freq&quot;      &quot;Mean&quot;      &quot;Median&quot;</code></pre>
+<pre class="r"><code>RBC2=untable(RBC[,c(1,2)],num=RBC[,3])
+head(RBC2)</code></pre>
+<pre><code>##     IND Cell_Size
+## 4    52      6.25
+## 4.1  52      6.25
+## 4.2  52      6.25
+## 4.3  52      6.25
+## 4.4  52      6.25
+## 4.5  52      6.25</code></pre>
+<pre class="r"><code>names(RBC2)</code></pre>
+<pre><code>## [1] &quot;IND&quot;       &quot;Cell_Size&quot;</code></pre>
+<pre class="r"><code>dfCV=ddply(RBC2, &quot;IND&quot;, summarise, 
+           RBC.mean=mean(Cell_Size, na.rm=TRUE),
+           RBC.medium=median(Cell_Size, na.rm=TRUE),
+           RBC.sd=sd(Cell_Size, na.rm=TRUE),
+           RBC.var=var(Cell_Size, na.rm=TRUE),
+           RBC.sk=skewness(Cell_Size, na.rm=TRUE, type = 3),
+           RBC.ku=kurtosis(Cell_Size, na.rm=TRUE, type = 2),
+           RBC.sd4=RBC.sd^4,
+           sumdif4=sum((signif((Cell_Size-RBC.mean)^4,4))),
+           Length=NROW(Cell_Size[!is.na(Cell_Size)]),
+           RBC.se=RBC.sd/sqrt(Length),
+           tfrac=qt(p=.90, df=Length-1), 
+           LowerLL=RBC.mean-tfrac*RBC.sd/sqrt(Length),
+           UpperLL=RBC.mean+tfrac*RBC.sd/sqrt(Length),
+           CV=100*(RBC.sd/RBC.medium),
+           RBC.CVunb=100*((1+1/(4*Length))*RBC.sd/RBC.medium),
+           RBC.CVunb4=RBC.CVunb^4,
+           s2x=(sumdif4-RBC.sd4*((Length-3)/Length))/((Length-2)*(Length-3)),
+           p11=RBC.sd4/s2x,
+           p22=RBC.var/s2x,
+           p33=1/s2x,
+
+           s2cv=(RBC.CVunb^2)/(2*Length), 
+           s2cvp11=RBC.CVunb^2/s2cv, # part 1
+           s2cvp22=RBC.CVunb/s2cv,  # [part 2]
+           s2cvp33=1/s2cv # part 3
+)
+dfCV</code></pre>
+<pre><code>##   IND RBC.mean RBC.medium    RBC.sd   RBC.var       RBC.sk      RBC.ku
+## 1  35 7.168317       7.25 0.5062958 0.2563355  0.054540208  0.62586555
+## 2  52 7.313500       7.25 0.4455219 0.1984897  0.217411559  0.17055130
+## 3  53 7.438000       7.50 0.4675395 0.2185932  0.027547141  0.23230719
+## 4  54 7.449500       7.50 0.4262489 0.1816881  0.192147452  0.15571242
+## 5  55 7.162500       7.25 0.4662655 0.2174036 -0.216114327  0.63891331
+## 6  56 7.405000       7.50 0.4493092 0.2018788 -0.003828303  0.03947333
+## 7  57 6.850000       6.75 0.4377594 0.1916333  0.004470179 -0.17780161
+## 8  58 7.302500       7.25 0.4418815 0.1952593 -0.034686261  0.37077505
+##      RBC.sd4   sumdif4 Length     RBC.se    tfrac  LowerLL  UpperLL       CV
+## 1 0.06570787 119.24534    505 0.02252987 1.283234 7.139406 7.197228 6.983391
+## 2 0.03939817  61.93632    500 0.01992434 1.283250 7.287932 7.339068 6.145129
+## 3 0.04778298  76.57697    500 0.02090900 1.283250 7.411169 7.464831 6.233860
+## 4 0.03301058  51.65538    500 0.01906243 1.283250 7.425038 7.473962 5.683319
+## 5 0.04726431  85.21905    500 0.02085203 1.283250 7.135742 7.189258 6.431249
+## 6 0.04075503  61.44082    500 0.02009372 1.283250 7.379215 7.430785 5.990789
+## 7 0.03672331  51.42718    500 0.01957719 1.283250 6.824878 6.875122 6.485324
+## 8 0.03812618  63.69984    500 0.01976154 1.283250 7.277141 7.327859 6.094917
+##   RBC.CVunb RBC.CVunb4          s2x      p11      p22      p33       s2cv
+## 1  6.986848   2383.006 0.0004719889 139.2149 543.0964 2118.694 0.04833271
+## 2  6.148202   1428.869 0.0002500834 157.5401 793.6940 3998.665 0.03780038
+## 3  6.236977   1513.201 0.0003092025 154.5362 706.9580 3234.126 0.03889988
+## 4  5.686160   1045.385 0.0002085710 158.2702 871.1093 4794.531 0.03233242
+## 5  6.434465   1714.153 0.0003441212 137.3478 631.7644 2905.953 0.04140233
+## 6  5.993785   1290.638 0.0002480760 164.2844 813.7777 4031.022 0.03592546
+## 7  6.488567   1772.536 0.0002076341 176.8655 922.9375 4816.165 0.04210150
+## 8  6.097965   1382.737 0.0002572137 148.2276 759.1324 3887.818 0.03718518
+##   s2cvp11  s2cvp22  s2cvp33
+## 1    1010 144.5573 20.68992
+## 2    1000 162.6492 26.45476
+## 3    1000 160.3341 25.70702
+## 4    1000 175.8656 30.92871
+## 5    1000 155.4131 24.15323
+## 6    1000 166.8395 27.83542
+## 7    1000 154.1172 23.75212
+## 8    1000 163.9891 26.89244</code></pre>
+<pre class="r"><code>l1=sum(dfCV$p11)
+l1</code></pre>
+<pre><code>## [1] 1236.287</code></pre>
+<pre class="r"><code>l2=sum(dfCV$p22)
+l2</code></pre>
+<pre><code>## [1] 6042.47</code></pre>
+<pre class="r"><code>l3=sum(dfCV$p33)
+l3</code></pre>
+<pre><code>## [1] 29786.97</code></pre>
+<pre class="r"><code>ChiS=l1-l2^2/l3
+ChiS</code></pre>
+<pre><code>## [1] 10.5349</code></pre>
+<pre class="r"><code>qchisq(0.95,df=6)</code></pre>
+<pre><code>## [1] 12.59159</code></pre>
+<pre class="r"><code>l1=sum(dfCV$s2cvp11)
+l1</code></pre>
+<pre><code>## [1] 8010</code></pre>
+<pre class="r"><code>l2=(sum(dfCV$s2cvp22))^2
+l2</code></pre>
+<pre><code>## [1] 1648053</code></pre>
+<pre class="r"><code>l3=sum(dfCV$s2cvp33)
+l3</code></pre>
+<pre><code>## [1] 206.4136</code></pre>
+<pre class="r"><code>ChiS=l1-(l2/l3)
+ChiS</code></pre>
+<pre><code>## [1] 25.77379</code></pre>
+<pre class="r"><code>dfRBC2=ddply(RBC2, &quot;IND&quot;, summarise, 
+             RBC.mean=mean(Cell_Size, na.rm=TRUE),
+             RBC.medium=median(Cell_Size, na.rm=TRUE),
+             RBC.sd=sd(Cell_Size, na.rm=TRUE),
+             RBC.var=var(Cell_Size, na.rm=TRUE),
+             RBC.sk=skewness(Cell_Size, na.rm=TRUE, type = 3),
+             RBC.ku=kurtosis(Cell_Size, na.rm=TRUE, type = 2),
+             RBC.sd4=RBC.sd^4,
+             sumdif4=sum((signif((Cell_Size-RBC.mean)^4,4))),
+             Length=NROW(Cell_Size[!is.na(Cell_Size)]),
+             RBC.se=RBC.sd/sqrt(Length),
+             tfrac=qt(p=.90, df=Length-1), 
+             LowerLL=RBC.mean-tfrac*RBC.sd/sqrt(Length),
+             UpperLL=RBC.mean+tfrac*RBC.sd/sqrt(Length),
+             CV=100*(RBC.sd/RBC.medium),
+             RBC.CVunb=100*((1+1/(4*Length))*RBC.sd/RBC.medium),
+             RBC.CVunb4=RBC.CVunb^4,
+             s2x=(sumdif4-RBC.sd4*((Length-3)/Length))/((Length-2)*(Length-3)),
+             p11=RBC.sd4/s2x,
+             p22=RBC.var/s2x,
+             p33=1/s2x,
+             
+             s2cv=(RBC.CVunb^2)/(2*Length), 
+             s2cvp11=RBC.CVunb^2/s2cv, # part 1
+             s2cvp22=RBC.CVunb/s2cv,  # [part 2]
+             s2cvp33=1/s2cv # part 3
+)
+
+dfRBC2</code></pre>
+<pre><code>##   IND RBC.mean RBC.medium    RBC.sd   RBC.var       RBC.sk      RBC.ku
+## 1  35 7.168317       7.25 0.5062958 0.2563355  0.054540208  0.62586555
+## 2  52 7.313500       7.25 0.4455219 0.1984897  0.217411559  0.17055130
+## 3  53 7.438000       7.50 0.4675395 0.2185932  0.027547141  0.23230719
+## 4  54 7.449500       7.50 0.4262489 0.1816881  0.192147452  0.15571242
+## 5  55 7.162500       7.25 0.4662655 0.2174036 -0.216114327  0.63891331
+## 6  56 7.405000       7.50 0.4493092 0.2018788 -0.003828303  0.03947333
+## 7  57 6.850000       6.75 0.4377594 0.1916333  0.004470179 -0.17780161
+## 8  58 7.302500       7.25 0.4418815 0.1952593 -0.034686261  0.37077505
+##      RBC.sd4   sumdif4 Length     RBC.se    tfrac  LowerLL  UpperLL       CV
+## 1 0.06570787 119.24534    505 0.02252987 1.283234 7.139406 7.197228 6.983391
+## 2 0.03939817  61.93632    500 0.01992434 1.283250 7.287932 7.339068 6.145129
+## 3 0.04778298  76.57697    500 0.02090900 1.283250 7.411169 7.464831 6.233860
+## 4 0.03301058  51.65538    500 0.01906243 1.283250 7.425038 7.473962 5.683319
+## 5 0.04726431  85.21905    500 0.02085203 1.283250 7.135742 7.189258 6.431249
+## 6 0.04075503  61.44082    500 0.02009372 1.283250 7.379215 7.430785 5.990789
+## 7 0.03672331  51.42718    500 0.01957719 1.283250 6.824878 6.875122 6.485324
+## 8 0.03812618  63.69984    500 0.01976154 1.283250 7.277141 7.327859 6.094917
+##   RBC.CVunb RBC.CVunb4          s2x      p11      p22      p33       s2cv
+## 1  6.986848   2383.006 0.0004719889 139.2149 543.0964 2118.694 0.04833271
+## 2  6.148202   1428.869 0.0002500834 157.5401 793.6940 3998.665 0.03780038
+## 3  6.236977   1513.201 0.0003092025 154.5362 706.9580 3234.126 0.03889988
+## 4  5.686160   1045.385 0.0002085710 158.2702 871.1093 4794.531 0.03233242
+## 5  6.434465   1714.153 0.0003441212 137.3478 631.7644 2905.953 0.04140233
+## 6  5.993785   1290.638 0.0002480760 164.2844 813.7777 4031.022 0.03592546
+## 7  6.488567   1772.536 0.0002076341 176.8655 922.9375 4816.165 0.04210150
+## 8  6.097965   1382.737 0.0002572137 148.2276 759.1324 3887.818 0.03718518
+##   s2cvp11  s2cvp22  s2cvp33
+## 1    1010 144.5573 20.68992
+## 2    1000 162.6492 26.45476
+## 3    1000 160.3341 25.70702
+## 4    1000 175.8656 30.92871
+## 5    1000 155.4131 24.15323
+## 6    1000 166.8395 27.83542
+## 7    1000 154.1172 23.75212
+## 8    1000 163.9891 26.89244</code></pre>
+<pre class="r"><code>l1=sum(dfRBC2$s2cvp11)
+l1</code></pre>
+<pre><code>## [1] 8010</code></pre>
+<pre class="r"><code>l2=(sum(dfRBC2$s2cvp22))^2
+l2</code></pre>
+<pre><code>## [1] 1648053</code></pre>
+<pre class="r"><code>l3=sum(dfRBC2$s2cvp33)
+l3</code></pre>
+<pre><code>## [1] 206.4136</code></pre>
+<pre class="r"><code>ChiS=l1-(l2/l3)
+ChiS</code></pre>
+<pre><code>## [1] 25.77379</code></pre>
+<pre class="r"><code>qchisq(0.95,df=7)</code></pre>
+<pre><code>## [1] 14.06714</code></pre>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
