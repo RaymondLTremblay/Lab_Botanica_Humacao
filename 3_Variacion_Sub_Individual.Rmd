@@ -117,19 +117,22 @@ c. [Multiplicity in Unity](PDF/Multiplicity in Unity Carlos Herrera.pdf)
 ## Próximo Lab: 
 Presentación sobre variación [subindividual](Prresentation/Subindividual_variation.pdf)
 
-
+***
 
 ## Comparación estadistica entre tres o más grupos en **MSExcel** o **Google sheet**
 
 Cuando uno quiere comparar 3 o más grupos uno puede usar ANOVA para hacer las determinar si los grupos son significativamente diferente uno del otro.  
 
-Para tener información de que es un NAOVA y como hacerlo en R puede ir al siguiente enlace [Prueba_de_ANOVA]()
+Para tener información de que es un ANOVA y como hacerlo en R puede ir al siguiente enlace [Prueba_de_ANOVA](https://estadisticafacil.github.io/BIOL3740/T11_ANOVA.html)
 
 [ANOVA_EXCEL](https://www.excel-easy.com/examples/anova.html)
+
 [ANOVA-Google_Sheet](https://www.statology.org/one-way-anova-google-sheets/)
 
+***
 
-## Trabajo para entregar
+
+## Trabajo para entregar (25 puntos)
 
 ### Tema a desarrolla diversidad morfológica entre individuos.
 
