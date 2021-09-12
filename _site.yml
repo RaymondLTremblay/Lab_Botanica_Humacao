@@ -28,5 +28,15 @@ navbar:
           text: "Variación Sub Individual"         
         
       text: Lectures
+      
+    - 
+      menu: 
+        - 
+          href: Como-escribir-un-articulo-cientifico.html
+          text: "Como escribir un articulo cientifico"
+        
+      text: Recursos    
+      
+      
   title: " Lab. de Botánica"
 output_dir: "."
