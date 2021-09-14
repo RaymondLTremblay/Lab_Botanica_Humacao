@@ -96,7 +96,7 @@ MARTES: Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1w
 
 ***
 
-Las especies muestradas
+Las especies evaluadas
 
 G1 = [*Tabebuia heterophylla*](https://en.wikipedia.org/wiki/Tabebuia_heterophylla)  
 G2 = [*Cananga odorata*](https://en.wikipedia.org/wiki/Cananga_odorata)
@@ -137,10 +137,10 @@ Para tener información de que es un ANOVA y como hacerlo en R puede ir al sigui
 ### Tema a desarrolla diversidad morfológica entre individuos.
 
 Preguntas para considerar en su trabajo.
-  - donde proviene la variación entre individuos.
-  - a que escala uno puede medir la variación
-  - cuan grande es la variación observada entre diferentes escalas (por ejemplo entre individuos)
-  - como se compara con la información en la literatura.
+  - donde proviene la variación entre individuos (Que evidencia de la literatura).
+  - a que escala uno puede medir la variación (Que evidencia de la literatura). 
+  - cuan grande es la variación observada entre diferentes escalas (por ejemplo entre individuos), Que evidencia de la literatura
+  - como se compara con la información observada con los encontrado en la literatura.
   
   
 
@@ -148,8 +148,26 @@ Preguntas para considerar en su trabajo.
 2. El desarrollo del tema debería tener una secuencia lógica
 3. Gráficos y/o tablas tienen que ser adecuadas
 
+La cantidad de paginas no excederá 4 paginas de texto a espacio doble, la gráficas y tablas son extra, no cuenta en la pagina de texto.   
 
-Recuerda que no se enseña los datos originales, pero los analisis.  
+Se trabará en grupo de dos estudiantes usando todos los datos de su especie.   El profesor, evaluará los escritos y los devolverá a los estudiantes para que tome en consideración las sugerencias. No se asignará una nota al trabajo en la primera ronda.   En la segunda ronda se asignará una nota.  
+
+# Fecha: Entrega de trabajo 
+
+
+## Sección 001
+
+    - Primera ronda: el 27 de septiembre (Trear dos copias empresas al laboratorio)
+
+    - Segunda ronda: el 1 de octubre
+
+## Sección 005
+
+    - Primera ronda: el 21 de septiembre (Trear dos copias empresas al laboratorio)
+
+    - Segunda ronda: el 25 de septiembre
+
+Recuerda que no se enseña los datos originales, pero los análisis.  
 
 
 

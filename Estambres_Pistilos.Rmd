@@ -1,0 +1,61 @@
+---
+title: "4_Estambres_Pistilo"
+author: "RLT"
+date: "9/13/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Estambres y Pistilo en las Gimnosperma y Angiosperma
+
+***
+
+
+## Gimnosperma
+
+Las gimnopserma ud la conoce con el nombre común de pinos (nota que Pino es el nombre de un genero, no de el grupo).
+
+
+En Wikipedia se puede observar la información basica de los que incluye las Gimnosperma
+
+https://es.wikipedia.org/wiki/Gymnospermae
+
+
+***
+
+
+Contestan las siguientes preguntas
+
+1. Cuantos generos hay en los gymnospermae en el mundo?
+2. Cuantas especies hay hay en grupo en el mundo?
+
+***
+
+En Puerto Rico cuantas especies de gymnospermae hay?
+
+ Usa el siguiente libro para contabilizar.
+ 
+ - Busca los siguientes terminos en el libro abajo
+ 
+    - PINOPHYTA
+      - ARAUCARIACEAE
+       - CUPRESSACEAE
+        - PINACEAE
+        - PODOCARPACEAE
+        
+>    Busca fotos de por lo menos especies de cada una de la familias mencionas que se encuentra en Puerto Rico usando fotos en el web (no se te olvide de añadir el enlace de la foto), para cada una de las especies identifica usando el libro si la especies es nativa o no en Puerto Rico.
+    
+    Haz un libro digital de las fotos de las plantas que se encuentra en PR.   
+ 
+ 
+ [VADEMECUM](PDF/VADEMECUM.pdf)
+ 
+ 
+>  Enseña fotos de la estructura masculina y feminina de las gymnospermae con fotos. 
+ 
+
+
+
