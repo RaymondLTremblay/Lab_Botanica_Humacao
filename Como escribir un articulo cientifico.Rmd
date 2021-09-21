@@ -91,7 +91,7 @@ El orden en que se construye un documento en su computadora debería seguir el s
 
 *Ve la siguiente presentación*
 
-[Presentación](Prresentation/Como estructurar un paper de revisión de literatura.pdf)
+[Presentación](Presentation/Estructurar_revision de_literatura.pdf)
 
 
 
