@@ -37,10 +37,58 @@ Aqui un dibujo de una flor típica
 ####### [Sitio en el web donde proviene el dibujo](https://www.google.ca/imgres?imgurl=https://letstalkscience.ca/sites/default/files/2020-06/parts_of_a_flower.png&imgrefurl=https://letstalkscience.ca/educational-resources/backgrounders/plant-reproduction&tbnid=B4pFmAATg73AvM&vet=1&docid=JdWAJpcEHHQvgM&w=1013&h=551&hl=en-ca&source=sh/x/im)
 
 
+
+
+
 ***
 
 
-Tarea: 25 Puntos
+
+## Diversidad de estanbres y pistilos
+
+#### Diversidad es forma de pistilo
+
+
+![Variación en forma de pistilo](Graficos/Style_and_stigma_shape.png)
+
+
+[Sitio donde proviene el dibujo](https://en.wikipedia.org/wiki/Stigma_(botany))
+
+****
+
+
+
+Flor de Grama
+
+![Flor de una especie de grama](Graficos/Grass_flower.png)
+
+****
+
+Stigma de Malvaceae
+
+
+![Pistilo de Malvaceae: Amapola](Graficos/hibiscus-pistil.jpeg)
+
+***
+
+![Flor de la planta de Tomate](Graficos/Tomato_flower.jpeg)
+
+*** 
+ 
+### Estambres y su diversidad
+
+
+[Diversidad de Estambres](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/stamen)
+ 
+
+![Estambres](Graficos/Stamens_Diversity.jpg)
+[Sitio donde proviene el dibujo](https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/primulaceae)
+
+
+***
+
+## Tarea
+### 25 Puntos
 
 
 Regorer el recinto para buscar flores de 10 diferentes tipos de plantas
@@ -48,8 +96,9 @@ Regorer el recinto para buscar flores de 10 diferentes tipos de plantas
  - Tomará fotos de las flores
  - Dibujará las partes sexuales (Pistilos y Anteras)
     -  Incluirá por lo menos una especie de grama.
+ - Incluirá el nombre del tipo de estilo y estambres en cada flor (Nota que puede haber mucho más terminos que lo que esta en estas paginas!!!)
   
-  
+
 ***  
     
 1.     Sugerencia, mira dibujos de las características florales de gramas antes de salir a buscar afuera.      
@@ -57,31 +106,6 @@ Regorer el recinto para buscar flores de 10 diferentes tipos de plantas
 2.     Haga un resumen de algunos puntos que el autor del articulo **Morphogenesis of Flowers - Our Evolving View** David R Smyth presenta.  Selecciona *uno o dos* de los temas y haz un resumen en tus "proprias palabras".  Siempre puede apoyar sus ideas con más literatura. NO más de una pagina espacio simple.   
 
 3.     Presentará su trabajo en MSTeam. Todo trabajo sera individual. Incluirá las fotos y el dibujo identificando bien las partes sexual de las flores. 
-
-
-***
-
-
-
-Diversidad de estanbres y pistilos
-
-Flor de Grama
-
-![Flor de una especie de grama](Graficos/Grass_flower.png)
-
-Stigma de Malvaceae
-
-
-![Pistilo de Malvaceae: Amapola](Graficos/hibiscus-pistil.jpeg)
-
-
-
-![Flor de la planta de Tomate](Graficos/Tomato_flower.jpeg)
-
-
- 
-  
- 
 
 
     
