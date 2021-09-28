@@ -25,6 +25,7 @@ output:
 ### Horario del los laboratorios
 
 **Lunes**:  3:00-5:50pm  (NOTE: Necesita traer su laptop!)
+
 **Martes**: 12:00-2:50pm (NOTE: Necesita traer su laptop!)
 
 **Hora de consulta con Estudiantes**:    
