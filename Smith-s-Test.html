@@ -279,6 +279,9 @@ $(document).ready(function () {
     <li>
       <a href="4_Sexualidad_Floral.html">Las partes sexuales de las flores</a>
     </li>
+    <li>
+      <a href="5_Diversidad_Frutos.html">Diversidad de Tipo Frutos</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -863,120 +866,120 @@ dfRBC2</code></pre>
 y &lt;- unlist(lapply(letters[1:5], function(i) rep(i, 20)))
 df=cbind(x,y)
 df</code></pre>
-<pre><code>##        x                      y  
-##   [1,] &quot;1.1183576261812&quot;      &quot;a&quot;
-##   [2,] &quot;-0.775765367060698&quot;   &quot;a&quot;
-##   [3,] &quot;0.624264971517791&quot;    &quot;a&quot;
-##   [4,] &quot;0.160026526419271&quot;    &quot;a&quot;
-##   [5,] &quot;-0.871560962257983&quot;   &quot;a&quot;
-##   [6,] &quot;-0.168957551100646&quot;   &quot;a&quot;
-##   [7,] &quot;-1.69378259812995&quot;    &quot;a&quot;
-##   [8,] &quot;0.0172229719590059&quot;   &quot;a&quot;
-##   [9,] &quot;0.696788364603909&quot;    &quot;a&quot;
-##  [10,] &quot;0.842832145450429&quot;    &quot;a&quot;
-##  [11,] &quot;0.666234259321733&quot;    &quot;a&quot;
-##  [12,] &quot;0.121777999761526&quot;    &quot;a&quot;
-##  [13,] &quot;1.02445925404697&quot;     &quot;a&quot;
-##  [14,] &quot;1.41590229652439&quot;     &quot;a&quot;
-##  [15,] &quot;0.470589356746132&quot;    &quot;a&quot;
-##  [16,] &quot;-0.401286159953058&quot;   &quot;a&quot;
-##  [17,] &quot;1.09150495880068&quot;     &quot;a&quot;
-##  [18,] &quot;0.16460724954687&quot;     &quot;a&quot;
-##  [19,] &quot;-0.746473978839819&quot;   &quot;a&quot;
-##  [20,] &quot;0.819641417628311&quot;    &quot;a&quot;
-##  [21,] &quot;0.492126332578151&quot;    &quot;b&quot;
-##  [22,] &quot;-0.869959098376125&quot;   &quot;b&quot;
-##  [23,] &quot;0.484351074001182&quot;    &quot;b&quot;
-##  [24,] &quot;-0.00836320328972638&quot; &quot;b&quot;
-##  [25,] &quot;-0.707380643059323&quot;   &quot;b&quot;
-##  [26,] &quot;-0.442536386074991&quot;   &quot;b&quot;
-##  [27,] &quot;-0.343304266304254&quot;   &quot;b&quot;
-##  [28,] &quot;0.236829198066306&quot;    &quot;b&quot;
-##  [29,] &quot;-1.73529497193107&quot;    &quot;b&quot;
-##  [30,] &quot;0.476638903761586&quot;    &quot;b&quot;
-##  [31,] &quot;0.650449831723049&quot;    &quot;b&quot;
-##  [32,] &quot;-0.550808090274686&quot;   &quot;b&quot;
-##  [33,] &quot;-0.381237390393674&quot;   &quot;b&quot;
-##  [34,] &quot;0.634761144321366&quot;    &quot;b&quot;
-##  [35,] &quot;1.27898552179162&quot;     &quot;b&quot;
-##  [36,] &quot;0.26783582870636&quot;     &quot;b&quot;
-##  [37,] &quot;-0.394678738789076&quot;   &quot;b&quot;
-##  [38,] &quot;-1.13395897954403&quot;    &quot;b&quot;
-##  [39,] &quot;0.673644565148782&quot;    &quot;b&quot;
-##  [40,] &quot;-0.34445943663176&quot;    &quot;b&quot;
-##  [41,] &quot;0.258998623249298&quot;    &quot;c&quot;
-##  [42,] &quot;0.444502521797222&quot;    &quot;c&quot;
-##  [43,] &quot;0.369799124103495&quot;    &quot;c&quot;
-##  [44,] &quot;-2.48711873642549&quot;    &quot;c&quot;
-##  [45,] &quot;-1.61908785074582&quot;    &quot;c&quot;
-##  [46,] &quot;0.080054907195972&quot;    &quot;c&quot;
-##  [47,] &quot;1.23217284786718&quot;     &quot;c&quot;
-##  [48,] &quot;-0.0475360698093178&quot;  &quot;c&quot;
-##  [49,] &quot;0.992211016325984&quot;    &quot;c&quot;
-##  [50,] &quot;-1.0365443896239&quot;     &quot;c&quot;
-##  [51,] &quot;0.614320383918908&quot;    &quot;c&quot;
-##  [52,] &quot;-0.0270824555870665&quot;  &quot;c&quot;
-##  [53,] &quot;1.70674486339604&quot;     &quot;c&quot;
-##  [54,] &quot;-2.46910492470336&quot;    &quot;c&quot;
-##  [55,] &quot;0.352273393314634&quot;    &quot;c&quot;
-##  [56,] &quot;-0.786800367891581&quot;   &quot;c&quot;
-##  [57,] &quot;-0.915873548771171&quot;   &quot;c&quot;
-##  [58,] &quot;-1.10867018576467&quot;    &quot;c&quot;
-##  [59,] &quot;-0.00313469965130018&quot; &quot;c&quot;
-##  [60,] &quot;-0.649657278538276&quot;   &quot;c&quot;
-##  [61,] &quot;-0.0278480101488505&quot;  &quot;d&quot;
-##  [62,] &quot;0.567694379802062&quot;    &quot;d&quot;
-##  [63,] &quot;0.783879943123936&quot;    &quot;d&quot;
-##  [64,] &quot;0.814380952591277&quot;    &quot;d&quot;
-##  [65,] &quot;-0.526499755258472&quot;   &quot;d&quot;
-##  [66,] &quot;0.925295799885341&quot;    &quot;d&quot;
-##  [67,] &quot;0.134589740838307&quot;    &quot;d&quot;
-##  [68,] &quot;-1.08868138403404&quot;    &quot;d&quot;
-##  [69,] &quot;-0.290225010031844&quot;   &quot;d&quot;
-##  [70,] &quot;-0.657541791714459&quot;   &quot;d&quot;
-##  [71,] &quot;0.744637477457728&quot;    &quot;d&quot;
-##  [72,] &quot;2.84630566895901&quot;     &quot;d&quot;
-##  [73,] &quot;-0.387237507878222&quot;   &quot;d&quot;
-##  [74,] &quot;-1.354608058251&quot;      &quot;d&quot;
-##  [75,] &quot;0.875756220799634&quot;    &quot;d&quot;
-##  [76,] &quot;0.203202189543086&quot;    &quot;d&quot;
-##  [77,] &quot;0.693071941782733&quot;    &quot;d&quot;
-##  [78,] &quot;0.251126875871317&quot;    &quot;d&quot;
-##  [79,] &quot;1.47041223643946&quot;     &quot;d&quot;
-##  [80,] &quot;-0.84135096359007&quot;    &quot;d&quot;
-##  [81,] &quot;-0.856035611137879&quot;   &quot;e&quot;
-##  [82,] &quot;0.243248082952982&quot;    &quot;e&quot;
-##  [83,] &quot;0.415417486363063&quot;    &quot;e&quot;
-##  [84,] &quot;-0.216739528558487&quot;   &quot;e&quot;
-##  [85,] &quot;-0.292800331590209&quot;   &quot;e&quot;
-##  [86,] &quot;-1.06921446605775&quot;    &quot;e&quot;
-##  [87,] &quot;-0.952698625367161&quot;   &quot;e&quot;
-##  [88,] &quot;-0.390150988044001&quot;   &quot;e&quot;
-##  [89,] &quot;0.68876074436525&quot;     &quot;e&quot;
-##  [90,] &quot;0.812809817359944&quot;    &quot;e&quot;
-##  [91,] &quot;-0.841749178633558&quot;   &quot;e&quot;
-##  [92,] &quot;-1.7266558665834&quot;     &quot;e&quot;
-##  [93,] &quot;1.29460082872498&quot;     &quot;e&quot;
-##  [94,] &quot;-3.57614058651814&quot;    &quot;e&quot;
-##  [95,] &quot;1.09424727536834&quot;     &quot;e&quot;
-##  [96,] &quot;1.21736098477223&quot;     &quot;e&quot;
-##  [97,] &quot;-0.555393440245893&quot;   &quot;e&quot;
-##  [98,] &quot;1.9222575928669&quot;      &quot;e&quot;
-##  [99,] &quot;-0.177405015246382&quot;   &quot;e&quot;
-## [100,] &quot;0.340515133688168&quot;    &quot;e&quot;</code></pre>
+<pre><code>##        x                     y  
+##   [1,] &quot;1.10895214628583&quot;    &quot;a&quot;
+##   [2,] &quot;-0.606426388904809&quot;  &quot;a&quot;
+##   [3,] &quot;0.120797709408705&quot;   &quot;a&quot;
+##   [4,] &quot;0.378358573564894&quot;   &quot;a&quot;
+##   [5,] &quot;-0.754672522407401&quot;  &quot;a&quot;
+##   [6,] &quot;-0.169675391422657&quot;  &quot;a&quot;
+##   [7,] &quot;0.199227976423975&quot;   &quot;a&quot;
+##   [8,] &quot;0.593155175595216&quot;   &quot;a&quot;
+##   [9,] &quot;-0.789393263828343&quot;  &quot;a&quot;
+##  [10,] &quot;-0.755781577720459&quot;  &quot;a&quot;
+##  [11,] &quot;-0.0327388272690685&quot; &quot;a&quot;
+##  [12,] &quot;-0.825165147125068&quot;  &quot;a&quot;
+##  [13,] &quot;0.614123552567684&quot;   &quot;a&quot;
+##  [14,] &quot;-0.750983841389436&quot;  &quot;a&quot;
+##  [15,] &quot;-2.91249982638739&quot;   &quot;a&quot;
+##  [16,] &quot;0.35883469090517&quot;    &quot;a&quot;
+##  [17,] &quot;-0.828902194655772&quot;  &quot;a&quot;
+##  [18,] &quot;1.2354971798547&quot;     &quot;a&quot;
+##  [19,] &quot;1.27784234722282&quot;    &quot;a&quot;
+##  [20,] &quot;-0.935873422649028&quot;  &quot;a&quot;
+##  [21,] &quot;0.147626659042583&quot;   &quot;b&quot;
+##  [22,] &quot;-0.637806244823656&quot;  &quot;b&quot;
+##  [23,] &quot;0.842804562992871&quot;   &quot;b&quot;
+##  [24,] &quot;-0.126080490529026&quot;  &quot;b&quot;
+##  [25,] &quot;1.92814245047298&quot;    &quot;b&quot;
+##  [26,] &quot;1.42964578650376&quot;    &quot;b&quot;
+##  [27,] &quot;-0.395383949602601&quot;  &quot;b&quot;
+##  [28,] &quot;-1.4611547498323&quot;    &quot;b&quot;
+##  [29,] &quot;-0.663333930242246&quot;  &quot;b&quot;
+##  [30,] &quot;-1.80883248950366&quot;   &quot;b&quot;
+##  [31,] &quot;-0.25978119892191&quot;   &quot;b&quot;
+##  [32,] &quot;0.773696724991099&quot;   &quot;b&quot;
+##  [33,] &quot;-1.1952998708034&quot;    &quot;b&quot;
+##  [34,] &quot;-0.552041010307147&quot;  &quot;b&quot;
+##  [35,] &quot;1.22816265182781&quot;    &quot;b&quot;
+##  [36,] &quot;-1.23749680642239&quot;   &quot;b&quot;
+##  [37,] &quot;-1.31210168477861&quot;   &quot;b&quot;
+##  [38,] &quot;-1.89076267127245&quot;   &quot;b&quot;
+##  [39,] &quot;0.477955074125223&quot;   &quot;b&quot;
+##  [40,] &quot;-0.78189773952118&quot;   &quot;b&quot;
+##  [41,] &quot;-0.431523281529057&quot;  &quot;c&quot;
+##  [42,] &quot;2.31949436292907&quot;    &quot;c&quot;
+##  [43,] &quot;0.111280114708765&quot;   &quot;c&quot;
+##  [44,] &quot;-1.45188746762357&quot;   &quot;c&quot;
+##  [45,] &quot;1.39289373240219&quot;    &quot;c&quot;
+##  [46,] &quot;-0.749030443286806&quot;  &quot;c&quot;
+##  [47,] &quot;-0.720702093518272&quot;  &quot;c&quot;
+##  [48,] &quot;-1.02647672107783&quot;   &quot;c&quot;
+##  [49,] &quot;-1.58089591076396&quot;   &quot;c&quot;
+##  [50,] &quot;0.726610096961444&quot;   &quot;c&quot;
+##  [51,] &quot;0.461189126612441&quot;   &quot;c&quot;
+##  [52,] &quot;-0.945960783979876&quot;  &quot;c&quot;
+##  [53,] &quot;0.709152101833534&quot;   &quot;c&quot;
+##  [54,] &quot;0.221746951009073&quot;   &quot;c&quot;
+##  [55,] &quot;0.80946015806932&quot;    &quot;c&quot;
+##  [56,] &quot;-1.06357831371512&quot;   &quot;c&quot;
+##  [57,] &quot;-0.853539256481385&quot;  &quot;c&quot;
+##  [58,] &quot;-0.510495051557486&quot;  &quot;c&quot;
+##  [59,] &quot;0.187923964587522&quot;   &quot;c&quot;
+##  [60,] &quot;-1.34110519226921&quot;   &quot;c&quot;
+##  [61,] &quot;1.64779370368393&quot;    &quot;d&quot;
+##  [62,] &quot;-0.762119787341479&quot;  &quot;d&quot;
+##  [63,] &quot;0.0156046573595809&quot;  &quot;d&quot;
+##  [64,] &quot;0.18368925195309&quot;    &quot;d&quot;
+##  [65,] &quot;0.138643377060451&quot;   &quot;d&quot;
+##  [66,] &quot;-0.815085747207956&quot;  &quot;d&quot;
+##  [67,] &quot;0.693563602884269&quot;   &quot;d&quot;
+##  [68,] &quot;1.30341586744704&quot;    &quot;d&quot;
+##  [69,] &quot;1.06958129088013&quot;    &quot;d&quot;
+##  [70,] &quot;-1.83075614577035&quot;   &quot;d&quot;
+##  [71,] &quot;1.55342270773732&quot;    &quot;d&quot;
+##  [72,] &quot;0.00234835230202824&quot; &quot;d&quot;
+##  [73,] &quot;-1.55784877076723&quot;   &quot;d&quot;
+##  [74,] &quot;-0.609213245702975&quot;  &quot;d&quot;
+##  [75,] &quot;1.09139089034686&quot;    &quot;d&quot;
+##  [76,] &quot;0.0420600854793195&quot;  &quot;d&quot;
+##  [77,] &quot;1.86038170705419&quot;    &quot;d&quot;
+##  [78,] &quot;1.06413740851699&quot;    &quot;d&quot;
+##  [79,] &quot;1.20104482713253&quot;    &quot;d&quot;
+##  [80,] &quot;0.684309841972599&quot;   &quot;d&quot;
+##  [81,] &quot;0.778532458711951&quot;   &quot;e&quot;
+##  [82,] &quot;0.0622153162017009&quot;  &quot;e&quot;
+##  [83,] &quot;2.03712371545661&quot;    &quot;e&quot;
+##  [84,] &quot;0.124810006433857&quot;   &quot;e&quot;
+##  [85,] &quot;0.70636123098904&quot;    &quot;e&quot;
+##  [86,] &quot;-1.25295136208222&quot;   &quot;e&quot;
+##  [87,] &quot;-0.604976717514953&quot;  &quot;e&quot;
+##  [88,] &quot;-0.202313594736813&quot;  &quot;e&quot;
+##  [89,] &quot;1.69668260526757&quot;    &quot;e&quot;
+##  [90,] &quot;1.43465206009953&quot;    &quot;e&quot;
+##  [91,] &quot;-0.130770832439786&quot;  &quot;e&quot;
+##  [92,] &quot;-0.714229710602762&quot;  &quot;e&quot;
+##  [93,] &quot;1.2605093670334&quot;     &quot;e&quot;
+##  [94,] &quot;-0.908872184233453&quot;  &quot;e&quot;
+##  [95,] &quot;-1.62596975326075&quot;   &quot;e&quot;
+##  [96,] &quot;0.826580692562469&quot;   &quot;e&quot;
+##  [97,] &quot;-0.495264544681451&quot;  &quot;e&quot;
+##  [98,] &quot;-1.31953327352063&quot;   &quot;e&quot;
+##  [99,] &quot;0.208856921002853&quot;   &quot;e&quot;
+## [100,] &quot;2.34459440703159&quot;    &quot;e&quot;</code></pre>
 <pre class="r"><code>mslr_test(nr = 1e3, x, y)</code></pre>
 <pre><code>## $MSLRT
-## [1] 4.332798
+## [1] 6.058842
 ## 
 ## $p_value
-## [1] 0.3628361</code></pre>
+## [1] 0.1947968</code></pre>
 <p>IND <int> Cell_Size <dbl></p>
 <pre class="r"><code>mslr_test(nr = 1e3, RBC2$Cell_Size, RBC2$IND)</code></pre>
 <pre><code>## $MSLRT
-## [1] 28.01974
+## [1] 28.53547
 ## 
 ## $p_value
-## [1] 0.0002180887</code></pre>
+## [1] 0.0001757978</code></pre>
 <pre class="r"><code>asymptotic_test(RBC2$Cell_Size, RBC2$IND)</code></pre>
 <pre><code>## $D_AD
 ## [1] 28.38867
