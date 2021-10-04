@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Diversidad de Frutos
 
-### ¿Cual es la diferencia en la definición entre "fruto" en el supermercado "fruto" en termino botanico?
+### ¿Cual es la diferencia en la definición entre "fruto" en el supermercado y "fruto" en termino botánico?
 
 ### Frutos del supermercado
 
@@ -39,7 +39,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ***
 
-### Frutos en termino botanico
+### Frutos en término botánico
 
 - [Tipos de Frutos: vea este documento](https://lizzieharper.co.uk/2014/04/botanical-terms-for-fruit-types/)
 
@@ -52,9 +52,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![Diagrama de Classificación de Frutos](Graficos/Calssification of Fruits.png)
 
-1. Identifica cual es la definiciones de estos frutos y encuentra en la web dos ejemplos (diferentes especies) de cada uno. Debería tener por los menos 3 tipo de clasificación por grupo (menos Frutos compuestos). 
+***
 
-2. Organiza tu trabajo en orden de clasificación 
+## Trabajo para entregar:
+
+Puntuación total 20: 
+
+ 1. Identifica cual es la definiciones de estos frutos (Organiza tus definiciones en una tabla(s) que se puede seguir fácilmente la diferencia entre los tipos de frutos)
+ 
+ 2. Encuentra en la web dos ejemplos de los tipos de frutos en el diagrama (diferentes especies). Debería tener por los menos 3 tipos de clasificación por grupo (menos Frutos compuestos). Por ejemplo de los que son **Dehiscente capsular** se incluye por los menos 3 de los siguientes (**Legume, Follicle, Siliqua y Capsule**)
+ 
+ 3. Toma fotos de por lo menos 4 de estos tipos de frutos (Esto pueden tomado de cualquier sitio: no más de dos frutos del supermercado)
+
+ 4. Organiza tu trabajo en orden de clasificación.  
+ 
+ 
 
 ***
 

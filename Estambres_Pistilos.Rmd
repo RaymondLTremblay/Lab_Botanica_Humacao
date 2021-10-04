@@ -16,10 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Gimnosperma
 
-Las gimnopserma ud la conoce con el nombre común de pinos (nota que Pino es el nombre de un genero, no de el grupo).
+Las gimnopserma ud la conoce con el nombre común de pinos (nota que **Pinus** es el nombre de un genero, no del grupo).
 
 
-En Wikipedia se puede observar la información basica de los que incluye las Gimnosperma
+En Wikipedia se puede observar la información básica de los que incluye las Gimnosperma
 
 https://es.wikipedia.org/wiki/Gymnospermae
 
@@ -29,8 +29,8 @@ https://es.wikipedia.org/wiki/Gymnospermae
 
 Contestan las siguientes preguntas
 
-1. Cuantos generos hay en los gymnospermae en el mundo?
-2. Cuantas especies hay hay en grupo en el mundo?
+1. Cuantos géneros hay en los gymnospermae en el mundo?
+2. Cuantas especies de planta hay en el mundo?
 
 ***
 

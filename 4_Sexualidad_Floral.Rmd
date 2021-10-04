@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Sexualidad floral
 
-Este módulos es sobre reconocer en las plantas en su entorno las carateristicos florales para la reproducción (producción de semillas).
+Este módulos es sobre reconocer en las plantas en su entorno las caracteristicas florales para la reproducción (producción de semillas).
 
 
 En este primer articulo encontraran un dibujo de como Carl Linneus vea la estructura de las flores en 1756.  
@@ -28,7 +28,54 @@ En este primer articulo encontraran un dibujo de como Carl Linneus vea la estruc
 
 ***
 
+# Estambres y Pistilo en las Gimnosperma y Angiosperma
 
+***
+
+
+## Gimnosperma
+
+Las gimnopserma ud la conoce con el nombre común de pinos (nota que **Pinus** es el nombre de un genero, no del grupo).
+
+
+En Wikipedia se puede observar la información básica de los que incluye las Gimnosperma
+
+https://es.wikipedia.org/wiki/Gymnospermae
+
+
+***
+
+
+Contestan las siguientes preguntas
+
+1. Cuantos géneros hay en los gymnospermae en el mundo?
+2. Cuantas especies de planta hay en el mundo?
+
+***
+
+En Puerto Rico cuantas especies de gymnospermae hay?
+
+ Usa el siguiente libro para contabilizar.
+ 
+ - Busca los siguientes terminos en el libro abajo
+ 
+    - PINOPHYTA
+      - ARAUCARIACEAE
+       - CUPRESSACEAE
+        - PINACEAE
+        - PODOCARPACEAE
+        
+>    Busca fotos de por lo menos especies de cada una de la familias mencionas que se encuentra en Puerto Rico usando fotos en el web (no se te olvide de añadir el enlace de la foto), para cada una de las especies identifica usando el libro si la especies es nativa o no en Puerto Rico.
+    
+    Haz un libro digital de las fotos de las plantas que se encuentra en PR.   
+ 
+ 
+ [VADEMECUM](PDF/VADEMECUM.pdf)
+ 
+ 
+>  Enseña fotos de la estructura masculina y feminina de las gymnospermae con fotos. 
+ 
+***
 
 Aqui un dibujo de una flor típica
 
