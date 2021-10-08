@@ -1,0 +1,88 @@
+---
+title: "6_Etnobotanica"
+author: "Raymond L. Tremblay"
+date: "8/20/2021"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+#  theme: simplex   To have the TOC in Red
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+***
+
+## La Etnobotánica
+
+La medicina como la conocemos hoy es algo muy reciente, y la gran mayoría de los fármacos fueron desarollado solamente en los últimos 70-50 años.  Antes de los años 1930, la gran mayoría de las medicinas eran extractos de plantas. 
+
+Leen la información en Wikipedia sobre Etnobotánica
+
+[Etnobotanica Wikipedia](https://en.wikipedia.org/wiki/Ethnobotany)
+
+## Escuela de medicina
+Aqui un enlace de una escuela de medicina dedicado a la Etnobotánica
+
+[Etnobotany Medical School](https://onlinelearning.cornell.edu/medical-ethnobotany)
+
+
+## Historia de la Etnobotanica
+
+La primera vez que se encuentra el termino etnobotánica fue en 1898 por el botanico **John William Harshberger**. Vea el articulo aqui. 
+
+[Historia de la Etnobotanica](https://biocyclopedia.com/index/ethnobotany.php)
+
+## Evidencia y procedimiento etnobotanico. 
+
+En estes dos articulos encontrarán unos ejemplos de los procedimientos del uso de plantas medicinales y como se puede utilizar para encontrar nuevas medicinas
+
+[Procedimiento Etnobotanico](https://www.tandfonline.com/doi/pdf/10.1076/phbi.39.s1.74.0005).
+
+[A living Science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4967429/)
+
+
+
+
+
+
+
+La siguiente presentación fue preparada por la Dra. Amelia Merced. Ella es especialista en briofitas. Trabaja para el US Forest Service.
+
+Vea la siguiente presentación de Power Point, al abrir la presentación sera salvada a su computadora. 
+
+[Introducción a la Etnobotanica](Etnobotanica_RLT.pptx)
+
+
+
+***
+
+
+# Tarea para entregar (20 puntos)
+
+Parte 1:
+
+- Hablar con sus familiares (abuelos, tios, padres) o persona de la comunidades sobre el uso de plantas medicinales. Preguntale si conocen sobre plantas usaron y para que condición. 
+  - Describe con quien habló y su discusión (no más de media pagina por persona, espacio sencillo, total una pagina y media)
+
+Parte 2:
+-  Selecciona tres plantas que ellos usaron y describe su uso. 
+
+- AHORA, usa fuentes de información confiable (Google scholar, PubMed, Research Gate para buscar evidencia para evaluar si hay en la comunidad cientifica lo que se menciona sobre lo que ellos mencionan y cual es la evidencia de alguna efectividad biología para la salud. 
+ 
+  - Describe lo que encentras en los artículos
+    - Menciona claramente lo que los artículos mencionan. Para cada planta, describe la evidencia, solamente una pagina por planta.  
+    - NO se le olvide de añadir las referencias cientificas.  
+    
+    
+
+
+
+
+
