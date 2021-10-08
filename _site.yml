@@ -32,7 +32,9 @@ navbar:
         - 
           href: 5_Diversidad_Frutos.html
           text: "Diversidad de Frutos" 
-        
+        - 
+          href: 6_Etnobotanica.html
+          text: "Etnobotánica"        
       text: Lectures
       
     - 
