@@ -1,0 +1,39 @@
+---
+title: "Plant Story"
+author: "Raymond L. Tremblay"
+date: "8/20/2021"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+#  theme: simplex   To have the TOC in Red
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+***
+
+## Actividad sobre identificación de plantas con **Plant Story** (10 puntos)
+
+1. Baja a su celular inteligente el siguiente app, **Plant Story**
+
+[APPLE](https://apps.apple.com/us/app/plant-story-learn-to-grow/id1514039642)
+
+[Website](https://plantstory.app/)
+
+***
+## Somete lo siguiente
+
+2. Toma photos de 5 plantas con flores, y vea si el software lo identifica. 
+  - Tome un screen shot del resultado y al lado enseña su foto
+
+3. Cuan seguro UD esta con la información.  
+
+***
+4. Someter trabajo en MSTeam 

@@ -34,7 +34,12 @@ navbar:
           text: "Diversidad de Frutos" 
         - 
           href: 6_Etnobotanica.html
-          text: "Etnobotánica"        
+          text: "Etnobotánica" 
+        - 
+          href: x_Plant_Story.html
+          text: "Identificación de plantas con APP"
+          
+          
       text: Lectures
       
     - 
