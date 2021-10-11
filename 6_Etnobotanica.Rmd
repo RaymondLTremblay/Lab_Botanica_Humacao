@@ -33,7 +33,7 @@ Leen la información en Wikipedia sobre Etnobotánica
 # Buscan la siguiente información
 
  - ¿Cuando fue desarrollado el primer antibiótico?
- - ¿Para que enfermedad contagiosa fue creada la primera vacuna? [Presentación sobre la hisotia del desarrollo de las vacunas](https://www.historyofvaccines.org/timeline/all)
+ - ¿Para que enfermedad contagiosa fue creada la primera vacuna? [Presentación sobre la historia del desarrollo de las vacunas](https://www.historyofvaccines.org/timeline/all)
  - ¿Cuales fueron los primeros analgésicos? 
  
  ***
@@ -41,7 +41,7 @@ Leen la información en Wikipedia sobre Etnobotánica
 
 
 ## Escuela de medicina
-Aqui un enlace de una escuela de medicina dedicado a la Etnobotánica
+Aquí un enlace de una escuela de medicina dedicado a la Etnobotánica
 
 [Etnobotany Medical School](https://onlinelearning.cornell.edu/medical-ethnobotany)
 
