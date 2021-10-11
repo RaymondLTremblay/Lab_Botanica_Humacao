@@ -79,8 +79,52 @@ Parte 2:
   - Describe lo que encentras en los artículos
     - Menciona claramente lo que los artículos mencionan. Para cada planta, describe la evidencia, solamente una pagina por planta.  
     - NO se le olvide de añadir las referencias científicas.  
+  
+  
+***  
     
-    
+```{r include=FALSE}
+library(tidyverse)
+library(gt)
+```
+
+```{r echo=FALSE}
+table=tribble(
+ ~ Componente, ~Informe,
+ "Hablar con un familiar sobre su experiencia del uso de 
+ plantas medicinales", "1. Nombre de la persona",
+ "", "2. Nombre(s) común(comunes) de la planta",
+ "", "3. Nombre científico de la planta",
+ "", "4. El uso medicinal de la planta por la persona intrevistado",
+ "Búsqueda de literatura", "",
+ "Solamente se acepterá referencias de las siguientes fuentes y revisado por pares", "5. Busquar información sobre la planta en **PubMEd**",
+ "", "6. Busquar información sobre la planta en **Google Scholar**",
+  "", "7. Busquar información sobre la planta en **Research Gate**",
+ "Evidencia de efectividad biomedica", "",
+ "", "8. EXPLICAR LA evidencia bioquímica de la planta evaluada y sus posible tiene compuestos bio-reactivos",
+ "", "9. Añadir evidencia de la literatura",
+ "", "9-1. Explicar la evidencia: lo que propone los autores", 
+ "", "9-2. Cual seria el proceso bioquimico activo",
+ "", "10. Lista de referencias en formato APA"
+)
+
+
+table %>% 
+  select(Componente, Informe) %>% 
+  gt() %>% 
+  tab_header(title="Organización",
+             subtitle = "PUEDE TRABAJAR en Pares, pero con una persona que NO ha trabajado anteriormente: NO se aceptará trabajo en grupo mayor de 2")
+```
+***
+
+## Qué es un artículo revisado por pares
+
+Vea los siguientes artículos si no es claro lo que es artículo revisado por pares
+
+1. [de Guevara Cervera et al.](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-55522008000200011&lng=en&nrm=iso)
+
+2. [Ejemplo de flujo de trabajo](https://revistascientificas.cuc.edu.co/culturaeducacionysociedad/revision-por-pares)
+
 
 ***
 
