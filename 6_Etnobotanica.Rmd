@@ -21,11 +21,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## La Etnobotánica
 
-La medicina como la conocemos hoy es algo muy reciente, y la gran mayoría de los fármacos fueron desarollado solamente en los últimos 70-50 años.  Antes de los años 1930, la gran mayoría de las medicinas eran extractos de plantas. 
+La medicina como la conocemos hoy es algo muy reciente, y la gran mayoría de los fármacos fueron desarrollado solamente en los últimos 70-50 años.  Antes de los años 1930, la gran mayoría de las medicinas eran extractos de plantas. 
 
 Leen la información en Wikipedia sobre Etnobotánica
 
 [Etnobotanica Wikipedia](https://en.wikipedia.org/wiki/Ethnobotany)
+
+
+***
+
+# Buscan la siguiente información
+
+ - ¿Cuando fue desarrollado el primer antibiótico?
+ - ¿Para que enfermedad contagiosa fue creada la primera vacuna? [Presentación sobre la hisotia del desarrollo de las vacunas](https://www.historyofvaccines.org/timeline/all)
+ - ¿Cuales fueron los primeros analgésicos? 
+ 
+ ***
+
+
 
 ## Escuela de medicina
 Aqui un enlace de una escuela de medicina dedicado a la Etnobotánica
