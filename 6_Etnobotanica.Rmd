@@ -148,7 +148,13 @@ tab_style(
       rows= c(6))
   ) %>% 
   tab_source_note(
-    source_note = md("Vea Vademecum: por Axelrod, para los nombres comunes y cientificos "))
+    source_note = md("Vea Vademecum: por Axelrod, para los nombres comunes y cientificos ")) %>%
+tab_style(
+    style = cell_fill(color = "lightblue"),
+    locations = cells_body(
+      columns = "Componente",
+      rows= c(9))
+  )
 
 
 ```
