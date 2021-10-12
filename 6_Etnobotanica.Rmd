@@ -125,9 +125,41 @@ table=tribble(
 table %>% 
   select(Componente, Informe) %>% 
   gt() %>% 
-  tab_header(title="Organización",
-             subtitle = "PUEDE TRABAJAR en Pares, pero con una persona que NO ha trabajado anteriormente: NO se aceptará trabajo en grupo mayor de 2")
+  tab_header(title= md("**Organización**"),
+             subtitle = md("PUEDE TRABAJAR en Pares,<br>
+                           *Pero con una persona que NO ha trabajado anteriormente*: <br>
+                           NO se aceptará trabajo en grupo mayor de 2")) %>%
+  tab_style(
+    style = cell_fill(color = "lightblue"),
+    locations = cells_body(
+      columns = "Componente",
+      rows= c(1))
+  ) %>% 
+    tab_style(
+    style = cell_fill(color = "yellow"),
+    locations = cells_body(
+      columns = "Componente",
+      rows= c(5))
+  ) %>%
+tab_style(
+    style = cell_fill(color = "lightblue"),
+    locations = cells_body(
+      columns = "Componente",
+      rows= c(6))
+  ) %>% 
+  tab_source_note(
+    source_note = md("Vea Vademecum: por Axelrod, para los nombres comunes y cientificos "))
+
+
 ```
+
+***
+
+### Vea este enlace para los nombres de plantas cientificos y común
+
+[VADEMECUM](PDF/VADEMECUM.pdf)
+
+
 ***
 
 ## Qué es un artículo revisado por pares
