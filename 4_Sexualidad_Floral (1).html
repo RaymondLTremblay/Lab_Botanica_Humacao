@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Raymond L. Tremblay" />
+
+
+<title>4_Sexualidad_Floral</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+<link rel="stylesheet" href="tutorial.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> Lab. de Botánica</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lo Básico
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="schedule.html">Calendario</a>
+    </li>
+    <li>
+      <a href="COVID-19.html">Covid-19</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lectures
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="1_Habit.html">Diversidad de Forma de Vida</a>
+    </li>
+    <li>
+      <a href="2_Hojas.html">Diversidad de Forma de Hojas</a>
+    </li>
+    <li>
+      <a href="3_Variacion_Sub_Individual.html">Variación Sub Individual</a>
+    </li>
+    <li>
+      <a href="4_Sexualidad_Floral.html">Las partes sexuales de las flores</a>
+    </li>
+    <li>
+      <a href="5_Diversidad_Frutos.html">Diversidad de Frutos</a>
+    </li>
+    <li>
+      <a href="6_Etnobotanica.html">Etnobotánica</a>
+    </li>
+    <li>
+      <a href="x_Plant_Story.html">Identificación de plantas con APP</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Recursos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Como-escribir-un-articulo-cientifico.html">Como escribir un articulo cientifico</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">4_Sexualidad_Floral</h1>
+<h4 class="author">Raymond L. Tremblay</h4>
+<h4 class="date">8/20/2021</h4>
+
+</div>
+
+
+<div id="sexualidad-floral" class="section level2">
+<h2>Sexualidad floral</h2>
+<p>Este módulos es sobre reconocer en las plantas en su entorno las caracteristicas florales para la reproducción (producción de semillas).</p>
+<p>En este primer articulo encontraran un dibujo de como Carl Linneus vea la estructura de las flores en 1756.</p>
+<p><a href="PDF/Morphogenesis_of_Flowers--Our_Evolving_View.pdf">Morphogenesis</a></p>
+<hr />
+</div>
+<div id="estambres-y-pistilo-en-las-gimnosperma-y-angiosperma" class="section level1">
+<h1>Estambres y Pistilo en las Gimnosperma y Angiosperma</h1>
+<hr />
+<div id="gimnosperma" class="section level2">
+<h2>Gimnosperma</h2>
+<p>Las gimnopserma ud la conoce con el nombre común de pinos (nota que <strong>Pinus</strong> es el nombre de un genero, no del grupo).</p>
+<p>En Wikipedia se puede observar la información básica de los que incluye las Gimnosperma</p>
+<p><a href="https://es.wikipedia.org/wiki/Gymnospermae" class="uri">https://es.wikipedia.org/wiki/Gymnospermae</a></p>
+<hr />
+<p>Contestan las siguientes preguntas</p>
+<ol style="list-style-type: decimal">
+<li>Cuantos géneros hay en los gymnospermae en el mundo?</li>
+<li>Cuantas especies de planta hay en el mundo?</li>
+</ol>
+<hr />
+<p>En Puerto Rico cuantas especies de gymnospermae hay?</p>
+<p>Usa el siguiente libro para contabilizar.</p>
+<ul>
+<li><p>Busca los siguientes terminos en el libro abajo</p>
+<ul>
+<li>PINOPHYTA
+<ul>
+<li>ARAUCARIACEAE</li>
+<li>CUPRESSACEAE</li>
+<li>PINACEAE</li>
+<li>PODOCARPACEAE</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p>Busca fotos de por lo menos especies de cada una de la familias mencionas que se encuentra en Puerto Rico usando fotos en el web (no se te olvide de añadir el enlace de la foto), para cada una de las especies identifica usando el libro si la especies es nativa o no en Puerto Rico.</p>
+</blockquote>
+<pre><code>Haz un libro digital de las fotos de las plantas que se encuentra en PR.   </code></pre>
+<p><a href="PDF/VADEMECUM.pdf">VADEMECUM</a></p>
+<blockquote>
+<p>Enseña fotos de la estructura masculina y feminina de las gymnospermae con fotos.</p>
+</blockquote>
+<hr />
+<p>Aqui un dibujo de una flor típica</p>
+<div class="figure">
+<img src="Graficos/Flor_Tipica.jpg" alt="" />
+<p class="caption">Flor tipica</p>
+</div>
+<div id="sitio-en-el-web-donde-proviene-el-dibujo" class="section level7">
+<p class="heading"><a href="https://www.google.ca/imgres?imgurl=https://letstalkscience.ca/sites/default/files/2020-06/parts_of_a_flower.png&amp;imgrefurl=https://letstalkscience.ca/educational-resources/backgrounders/plant-reproduction&amp;tbnid=B4pFmAATg73AvM&amp;vet=1&amp;docid=JdWAJpcEHHQvgM&amp;w=1013&amp;h=551&amp;hl=en-ca&amp;source=sh/x/im">Sitio en el web donde proviene el dibujo</a></p>
+<hr />
+</div>
+</div>
+<div id="diversidad-de-estanbres-y-pistilos" class="section level2">
+<h2>Diversidad de estanbres y pistilos</h2>
+<div id="diversidad-es-forma-de-pistilo" class="section level4">
+<h4>Diversidad es forma de pistilo</h4>
+<div class="figure">
+<img src="Graficos/Style_and_stigma_shape.png" alt="" />
+<p class="caption">Variación en forma de pistilo</p>
+</div>
+<p><a href="https://en.wikipedia.org/wiki/Stigma_(botany)">Sitio donde proviene el dibujo</a></p>
+<hr />
+<p>Flor de Grama</p>
+<div class="figure">
+<img src="Graficos/Grass_flower.png" alt="" />
+<p class="caption">Flor de una especie de grama</p>
+</div>
+<hr />
+<p>Stigma de Malvaceae</p>
+<div class="figure">
+<img src="Graficos/hibiscus-pistil.jpeg" alt="" />
+<p class="caption">Pistilo de Malvaceae: Amapola</p>
+</div>
+<hr />
+<div class="figure">
+<img src="Graficos/Tomato_flower.jpeg" alt="" />
+<p class="caption">Flor de la planta de Tomate</p>
+</div>
+<hr />
+</div>
+<div id="estambres-y-su-diversidad" class="section level3">
+<h3>Estambres y su diversidad</h3>
+<p><a href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/stamen">Diversidad de Estambres</a></p>
+<p><img src="Graficos/Stamens_Diversity.jpg" alt="Estambres" /> <a href="https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/primulaceae">Sitio donde proviene el dibujo</a></p>
+<hr />
+</div>
+</div>
+<div id="tarea" class="section level2">
+<h2>Tarea</h2>
+<div id="puntos-trabajo-de-estambres-y-pistilo" class="section level3">
+<h3>15 Puntos (Trabajo de estambres y pistilo)</h3>
+</div>
+<div id="puntos-trabajo-del-resumen-del-artículo-mofogenesis" class="section level3">
+<h3>10 puntos (Trabajo del resumen del artículo Mofogenesis)</h3>
+<p>Regorer el recinto para buscar flores de 10 diferentes tipos de plantas</p>
+<ul>
+<li>Tomará fotos de las flores</li>
+<li>Dibujará las partes sexuales (Pistilos y Anteras)
+<ul>
+<li>Incluirá por lo menos una especie de grama.</li>
+</ul></li>
+<li>Incluirá el nombre del tipo de estilo y estambres en cada flor (Nota que puede haber mucho más terminos que lo que esta en estas paginas!!!)</li>
+</ul>
+<hr />
+<ol style="list-style-type: decimal">
+<li><pre><code>Sugerencia, mira dibujos de las características florales de gramas antes de salir a buscar afuera.      </code></pre></li>
+<li><pre><code>Haga un resumen de algunos puntos que el autor del articulo **Morphogenesis of Flowers - Our Evolving View** David R Smyth presenta.  Selecciona *uno o dos* de los temas y haz un resumen en tus &quot;proprias palabras&quot;.  Siempre puede apoyar sus ideas con más literatura. NO más de una pagina espacio simple.   </code></pre></li>
+<li><pre><code>Presentará su trabajo en MSTeam. Todo trabajo sera individual. Incluirá las fotos y el dibujo identificando bien las partes sexual de las flores. </code></pre></li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

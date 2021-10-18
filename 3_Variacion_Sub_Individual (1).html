@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Raymond L. Tremblay" />
+
+
+<title>Variación Entre-individuos y Sub-individuo</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+<link rel="stylesheet" href="tutorial.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> Lab. de Botánica</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lo Básico
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="schedule.html">Calendario</a>
+    </li>
+    <li>
+      <a href="COVID-19.html">Covid-19</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lectures
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="1_Habit.html">Diversidad de Forma de Vida</a>
+    </li>
+    <li>
+      <a href="2_Hojas.html">Diversidad de Forma de Hojas</a>
+    </li>
+    <li>
+      <a href="3_Variacion_Sub_Individual.html">Variación Sub Individual</a>
+    </li>
+    <li>
+      <a href="4_Sexualidad_Floral.html">Las partes sexuales de las flores</a>
+    </li>
+    <li>
+      <a href="5_Diversidad_Frutos.html">Diversidad de Frutos</a>
+    </li>
+    <li>
+      <a href="6_Etnobotanica.html">Etnobotánica</a>
+    </li>
+    <li>
+      <a href="x_Plant_Story.html">Identificación de plantas con APP</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Recursos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Como-escribir-un-articulo-cientifico.html">Como escribir un articulo cientifico</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Variación Entre-individuos y Sub-individuo</h1>
+<h4 class="author">Raymond L. Tremblay</h4>
+<h4 class="date">8/20/2021</h4>
+
+</div>
+
+
+<div id="variación-definición" class="section level2">
+<h2>Variación: Definición</h2>
+<div id="patrones-de-variación" class="section level5">
+<h5>Patrones de variación</h5>
+<ul>
+<li>Geográfica</li>
+<li>Poblacional</li>
+<li>Individual</li>
+<li>Sub-Individual</li>
+</ul>
+</div>
+<div id="causa-de-la-variación" class="section level5">
+<h5>Causa de la variación</h5>
+<ul>
+<li>Genética</li>
+<li>Ambiental</li>
+<li>Plasticidad Fenotípica</li>
+</ul>
+<p>Leer este articulo <a href="PDF/2003AnnBotanyRoveri.pdf">Brushi 2003</a>.</p>
+<p>Cuando lee el articulo concentrarse en las características morfológicas.</p>
+<p>Preguntas guías: - ¿Cual son las variables morfológicas que se midieron? Menciona algunas (4-5) - ¿Qué quiere decir <strong><em>Mean</em></strong> y <strong><em>s.d.</em></strong>? - ¿Cual variable tiene mayor promedio?</p>
+<p>¿Como uno puede evaluar la variación controlando para el promedio?</p>
+<p>El problema de la relación positiva y variación.</p>
+</div>
+<div id="coeficiente-de-variación-cv" class="section level3">
+<h3>Coeficiente de Variación, CV</h3>
+<p>El CV es un indice de variación qué es estandarizado, en otro palabra es comparable entre cambios en el promedio y unidades de medida (cm, me, km)</p>
+<p>Vea este enlace sobre el coeficiente de Variación, <a href="https://en.wikipedia.org/wiki/Coefficient_of_variation">CV</a></p>
+<p>La formula básica es <span class="math display">\[CV=\frac{sd}{\overline{x}},\]</span> donde <strong>sd</strong> es la desviación estándar, <span class="math display">\[sd = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}\]</span></p>
+<hr />
+<p>La hipótesis que vamos a comprobar es basado en la siguiente aseveración:</p>
+<ol style="list-style-type: decimal">
+<li>la hojas captan la luz.</li>
+<li>El área de lamina pudiese afectar la capacidad de fotosíntesis.</li>
+<li>Las plantas pudiese adaptarse a los cambios lumínicos</li>
+<li>La hojas arriba de un árbol reciben más luz que las hoja abajo o adentro (cerca del tronco).</li>
+</ol>
+<p>Hipótesis alterna: Existe Variación-Sub Individual y esta variación es diferente entre individuos.</p>
+<p>¿Cual es la hipótesis nula?</p>
+<p>Ejercicio:</p>
+<p>Se recolectará hojas de 3 arboles de la misma especie, se medirá la siguiente características</p>
+<ul>
+<li>el ancho de la hoja</li>
+<li>el largo de la hoja</li>
+</ul>
+<p>La hojas se recolectará de la parta más alta del árbol (expuesto al sol) y la más abajo y adentro del árbol (expuesto en la sombra).</p>
+<ul>
+<li>40 mínimo hojas arriba</li>
+<li>40 mínimo hojas abajo</li>
+</ul>
+</div>
+<div id="enlace-para-añadir-los-datos-recolectados" class="section level3">
+<h3>Enlace para añadir los datos recolectados</h3>
+<div id="lab-de-lunes-sec-001-3pm-a-5.50pm." class="section level5">
+<h5>Lab de Lunes sec 001, 3pm a 5.50pm.</h5>
+<p>LUNES: Presione aquí <a href="https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing">Hoja_de Datos</a></p>
+</div>
+<div id="lab-de-martes-sec-005-1200pm-a-250pm." class="section level5">
+<h5>Lab de Martes sec 005, 12:00pm a 2:50pm.</h5>
+<p>MARTES: Presione aquí <a href="https://docs.google.com/spreadsheets/d/1wNRbc0u9sNjdYF8ko6DyZ9H87IMp39fVktfUwbQChas/edit?usp=sharing">Hoja_de Datos</a></p>
+<hr />
+<p>Las especies evaluadas</p>
+<p>G1 = <a href="https://en.wikipedia.org/wiki/Tabebuia_heterophylla"><em>Tabebuia heterophylla</em></a><br />
+G2 = <a href="https://en.wikipedia.org/wiki/Cananga_odorata"><em>Cananga odorata</em></a></p>
+<hr />
+<p>Referencias:</p>
+<ol style="list-style-type: lower-alpha">
+<li><a href="PDF/Chapt3.pdf">Conceptos generales sobre variación</a></li>
+<li><a href="PDF/pone.0074356.pdf">Selective Pressure</a></li>
+</ol>
+<p>Leer el capítulo #3 de este libro</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li><a href="PDF/Multiplicity%20in%20Unity%20Carlos%20Herrera.pdf">Multiplicity in Unity</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="próximo-lab" class="section level2">
+<h2>Próximo Lab:</h2>
+<p>Presentación sobre variación <a href="Prresentation/Subindividual_variation.pdf">subindividual</a></p>
+<hr />
+</div>
+<div id="comparación-estadistica-entre-tres-o-más-grupos-en-msexcel-o-google-sheet" class="section level2">
+<h2>Comparación estadistica entre tres o más grupos en <strong>MSExcel</strong> o <strong>Google sheet</strong></h2>
+<p>Cuando uno quiere comparar 3 o más grupos uno puede usar ANOVA para hacer las determinar si los grupos son significativamente diferente uno del otro.</p>
+<p>Para tener información de que es un ANOVA y como hacerlo en R puede ir al siguiente enlace <a href="https://estadisticafacil.github.io/BIOL3740/T11_ANOVA.html">Prueba_de_ANOVA</a></p>
+<p><a href="https://www.excel-easy.com/examples/anova.html">ANOVA_EXCEL</a></p>
+<p><a href="https://www.statology.org/one-way-anova-google-sheets/">ANOVA-Google_Sheet</a></p>
+<hr />
+</div>
+<div id="trabajo-para-entregar-25-puntos" class="section level2">
+<h2>Trabajo para entregar (25 puntos)</h2>
+<div id="tema-a-desarrolla-diversidad-morfológica-entre-individuos." class="section level3">
+<h3>Tema a desarrolla diversidad morfológica entre individuos.</h3>
+<p>Preguntas para considerar en su trabajo. - donde proviene la variación entre individuos (Que evidencia de la literatura). - a que escala uno puede medir la variación (Que evidencia de la literatura). - cuan grande es la variación observada entre diferentes escalas (por ejemplo entre individuos), Que evidencia de la literatura - como se compara con la información observada con los encontrado en la literatura.</p>
+<ol style="list-style-type: decimal">
+<li>El reporte tiene que incluir todas las partes en orden</li>
+<li>El desarrollo del tema debería tener una secuencia lógica</li>
+<li>Gráficos y/o tablas tienen que ser adecuadas</li>
+</ol>
+<p>La cantidad de paginas no excederá 4 paginas de texto a espacio doble, la gráficas y tablas son extra, no cuenta en la pagina de texto.</p>
+<p>Se trabará en grupo de dos estudiantes usando todos los datos de su especie. El profesor, evaluará los escritos y los devolverá a los estudiantes para que tome en consideración las sugerencias. No se asignará una nota al trabajo en la primera ronda. En la segunda ronda se asignará una nota.</p>
+</div>
+</div>
+<div id="fecha-entrega-de-trabajo" class="section level1">
+<h1>Fecha: Entrega de trabajo</h1>
+<div id="sección-001" class="section level2">
+<h2>Sección 001</h2>
+<pre><code>- Primera ronda: el 27 de septiembre (Trear dos copias empresas al laboratorio)
+
+- Segunda ronda: el 1 de octubre</code></pre>
+</div>
+<div id="sección-005" class="section level2">
+<h2>Sección 005</h2>
+<pre><code>- Primera ronda: el 21 de septiembre (Trear dos copias empresas al laboratorio)
+
+- Segunda ronda: el 25 de septiembre</code></pre>
+<p>Recuerda que no se enseña los datos originales, pero los análisis.</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

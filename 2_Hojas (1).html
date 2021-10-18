@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Raymond L. Tremblay" />
+
+
+<title>Diversidad de Hojas</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+<link rel="stylesheet" href="tutorial.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> Lab. de Botánica</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lo Básico
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="schedule.html">Calendario</a>
+    </li>
+    <li>
+      <a href="COVID-19.html">Covid-19</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lectures
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="1_Habit.html">Diversidad de Forma de Vida</a>
+    </li>
+    <li>
+      <a href="2_Hojas.html">Diversidad de Forma de Hojas</a>
+    </li>
+    <li>
+      <a href="3_Variacion_Sub_Individual.html">Variación Sub Individual</a>
+    </li>
+    <li>
+      <a href="4_Sexualidad_Floral.html">Las partes sexuales de las flores</a>
+    </li>
+    <li>
+      <a href="5_Diversidad_Frutos.html">Diversidad de Frutos</a>
+    </li>
+    <li>
+      <a href="6_Etnobotanica.html">Etnobotánica</a>
+    </li>
+    <li>
+      <a href="x_Plant_Story.html">Identificación de plantas con APP</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Recursos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Como-escribir-un-articulo-cientifico.html">Como escribir un articulo cientifico</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Diversidad de Hojas</h1>
+<h4 class="author">Raymond L. Tremblay</h4>
+<h4 class="date">8/20/2021</h4>
+
+</div>
+
+
+<div id="diversidad-de-formas-de-hojas" class="section level2">
+<h2>Diversidad de Formas de Hojas</h2>
+<div id="organización-de-las-hojas" class="section level4">
+<h4>Organización de las Hojas</h4>
+<ul>
+<li>Composición de las Hojas</li>
+<li>Forma</li>
+<li>Margen</li>
+<li>Venación</li>
+</ul>
+</div>
+<div id="objetivos" class="section level3">
+<h3>Objetivos</h3>
+<p>Reconocer una hojas compuesta y simples</p>
+<p>Lo que define una hoja es donde se encuentra el meristemo axiliar. <a href="https://en.wikipedia.org/wiki/Meristem">Mersitem</a> <a href="https://biodifferences.com/difference-between-simple-and-compound-leaves.html">diferencia entre simple y compuesto</a></p>
+<table>
+<colgroup>
+<col width="37%" />
+<col width="29%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="right">Hojas_simples</th>
+<th align="right">Hojas_Compuestas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Definición</strong></td>
+<td align="right">La hoja en la que la lámina de la hoja no está dividida en lóbulos se llama hoja simple, y la disposición de tales hojas es en sucesión acropetal.</td>
+<td align="right">La hoja que muestra la división de la lámina en folíolos se denomina hojas compuestas. Estas hojas no hacen arreglos de sucesión acropetal de los folíolos.</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>La lamina</strong></td>
+<td align="right">Es sencilla/unica</td>
+<td align="right">Tiene laminas pequeñas que se llama folíolos</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Yema axilar</strong></td>
+<td align="right">La yema se coloca en la axila, cerca del pecíolo y el tallo</td>
+<td align="right">Cada folleto no tiene axila, aunque los brotes se colocan en la axila de la hoja</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>División en lamina</strong></td>
+<td align="right">No hay división de lámina.</td>
+<td align="right">La lámina se divide en más de dos folíolos, que surgen en el costado de un raquis o en la punta del pecíolo.</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Estípulas</strong></td>
+<td align="right">La base de una hoja contiene estípulas.</td>
+<td align="right">Las estípulas se encuentran en la base de la hoja, pero no existen otras estructuras adicionales.</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<ul>
+<li>Hojas simples <img src="Graficos/simple-leaves-pack_23-2147524509.webp" alt="hoja simple" /> <a href="https://www.freepik.com/premium-vector/simple-leaves-pack_818630.htm">De este website</a></li>
+</ul>
+<hr />
+<ul>
+<li>Hojas compuestas <img src="Graficos/rodale-compound-leaves-diagram-by-Lizzie-Harper.jpg" alt="Hojas compuestas" />
+<ul>
+<li><a href="https://lizzieharper.co.uk/2013/10/botanical-illustration-compound-and-simple-leaves/">De este website</a></li>
+</ul></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="forma-de-las-hojas" class="section level2">
+<h2>Forma de las Hojas</h2>
+<p>La forma de las hojas tienen términos para describir su forma.</p>
+<p><img src="Graficos/Examples-of-leaf-shapes.png" alt="Forma de las Hojas" /><a href="https://www.researchgate.net/figure/Examples-of-leaf-shapes_fig1_295685020">de este website</a></p>
+<hr />
+</div>
+<div id="diversidad-de-margen-de-las-hojas" class="section level2">
+<h2>Diversidad de Margen de las Hojas</h2>
+<p><img src="Graficos/margen.png" alt="Margen de las Hojas" /><a href="http://www.bio.miami.edu/dana/pix/leafmargins.jpg">de este website</a></p>
+<hr />
+</div>
+<div id="venación-de-la-hojas" class="section level2">
+<h2>Venación de la Hojas</h2>
+<p><img src="Graficos/Venation.png" alt="Margen de las Hojas" /><a href="https://www.quora.com/What-is-venation-of-a-leaf">de este website</a></p>
+<hr />
+</div>
+<div id="tarea-para-entregar" class="section level2">
+<h2>Tarea para entregar</h2>
+<div id="día-de-entrega-el-proximo-día-de-laboratorio" class="section level4">
+<h4>(Día de entrega, el proximo día de laboratorio)</h4>
+<p><strong>Tomar una foto y Colectar y hacer un album de su colleción hojas.</strong> Las plantas las pueden colectar de cualquier sitio (menos los bosques estatales y federales: NO TENEMOS PERMISO de recolectar en estos sitios)</p>
+<ol class="example" style="list-style-type: decimal">
+<li><p>hojas de 3 plantas con hojas sencillas</p></li>
+<li><p>hojas de 3 plantas con hojas compuestas</p></li>
+</ol>
+<p>Colectar, tomar fotos y dibujar la hojas</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>de 6 diferentes forma de hojas</li>
+</ol>
+<p>Colectar, tomar fotos y dibujar el margen de las hojas</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>de 4 tipo de margen de plantas diferentes</li>
+</ol>
+<p>Colectar, tomar fotos y dibujar la venación de las hojas</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>de 4 tipo de venación de plantas diferentes</li>
+</ol>
+<hr />
+<p><strong>Entrega del trabajo</strong>: Total de puntos (20)</p>
+<ul>
+<li>El trabajo sera entregado en un documento digital (Word, .html, .pdf)</li>
+<li>Cada lámina sera identificado con la información mencionada arriba.</li>
+<li>Las fotos deberían ser adecuada, en otra palabra que se puede demostrar las características mencionados y identificada.</li>
+<li>Cada lámina bien presentada, correctamente identificada vale un (1) punto.</li>
+<li>En cada pagina tendrá, la foto de la hoja, definición de las características y porque se describe con este termino.</li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
