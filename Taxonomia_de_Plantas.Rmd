@@ -1,0 +1,118 @@
+---
+title: "Taxonomia de plantas"
+author: "Raymond L. Tremblay"
+date: "8/20/2021"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+#  theme: simplex   To have the TOC in Red
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+***
+
+Taxonomia de plantas y la evolución de de los grupos taxonomicos.
+
+Los grupos están organizado en el proceso evolutivo basado en "caracteristicas derivadas compartidas".
+
+
+Aqui un árbol basico de los grupos principales de la evoluación de las plantas
+
+![Evolución de los grupos principales](Taxonomy/Plant_Diversity_Basic_Tree.png)
+Sitio de la figura (https://commons.wikimedia.org/wiki/File:Plant_Diversity_(2).svg)
+
+
+NOTA los puntos importante en el proceso evolutivos
+
+ -  Protección del embryo
+ -  Crecimiento apical
+ - Tejido vascular
+ - Megaphylls (Hojas)
+ - Semillas
+ - Flores/ fertilización doble/ Endosperma/ frutos
+ 
+ ***
+ 
+ Evolución de plantas con semillas
+ 
+ ![Seed Plant Evolution](Taxonomy/seedplantevolution.gif)
+ 
+ Sitio de la grafica (http://www.seedbiology.eu/evolution.asp)
+ 
+****
+
+# Evolución de Angiosperma 
+ 
+ 
+![Angiosperm Evolution](Taxonomy/Angio_Evol.jpg.webp)
+ 
+
+
+***
+
+# Evolución de los Monocots
+ 
+![Monocot Tree](Taxonomy/Summary-of-the-monocot-phylogenetic-tree-indicating-families-Support-values-for-the.png)
+ 
+sitio de la figura (https://www.researchgate.net/publication/309658762_Global_monocot_diversification_Geography_explains_variation_in_species_richness_better_than_environment_or_biology)
+ 
+ 
+ 
+*** 
+
+## Reconociendo 20 familias de plantas en el recinto
+
+***
+
+### Monocots
+
+#### Poaceae
+
+#### Cyperaceae
+
+
+
+***
+
+### Eudicots
+
+#### Asteraceae
+
+#### Euphorbiaceae
+
+
+#### Rubiaceae
+
+
+#### Annonaceae
+   - *Anona* 
+
+#### Bignoniaceae 
+  - *Spathodea campanulata*
+    
+    
+
+#### Cacteceae
+
+
+ 
+ 
+ 
+    
+
+
+
+
+
+
+ 
+ 
+ 
