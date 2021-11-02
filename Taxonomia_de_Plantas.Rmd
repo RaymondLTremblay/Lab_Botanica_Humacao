@@ -70,75 +70,170 @@ sitio de la figura (https://www.researchgate.net/publication/309658762_Global_mo
 
 ## Reconociendo ±15 familias de plantas en el recinto
 
+Todas las laminas abajo son del siguiente libro **Flowering PLant Families of the World** por V.H. Heywood, R. K. Brummit, A. Culham y O Seberg. Publicado por Firefly books, Ltd. 2007. 
+
 ***
 
 ### Monocots
 
-#### Arecaceae == Palmae
+### Arecaceae == Palmae
 
 [WIKIPEDIA Arecaceae](https://en.wikipedia.org/wiki/Arecaceae)
 
-#### Bromeliaceae
+![Aracaceae](Plant_Families/Aracaceae.jpg)
+![Aracaceae](Plant_Families/Aracaceae 1.jpg)
+![Aracaceae](Plant_Families/Aracaceae 2.jpg)
+
+***
+
+### Bromeliaceae
 
 [WIKIPEDIA Bromeliaceae](https://en.wikipedia.org/wiki/Bromeliaceae)
 
-#### Orchidaceae
+![Bromeliaceae](Plant_Families/Bromeliaceae 1.jpg)
+![Bromeliaceae](Plant_Families/Bromeliaceae 2.jpg)
+![Bromeliaceae](Plant_Families/Bromeliaceae 3.jpg)
+
+***
+
+### Orchidaceae
 
 [WIKIPEDIA Orchidaceae](https://en.wikipedia.org/wiki/Orchidaceae)
 
-#### Poaceae
+
+![Orchidaceae](Plant_Families/Orchidaceae.jpg)
+![Orchidaceae](Plant_Families/Orchidaceae 1.jpg)
+![Orchidaceae](Plant_Families/Orchidaceae 2.jpg)
+![Orchidaceae](Plant_Families/Orchidaceae 3.jpg)
+![Orchidaceae](Plant_Families/Orchidaceae 4.jpg)
+
+***
+
+
+### Poaceae
 
 [WIKIPEDIA Poaceae](https://en.wikipedia.org/wiki/Poaceae)
 
-#### Cyperaceae
+![Poaceae](Plant_Families/Poaceae.jpg)
+![Poaceae](Plant_Families/Poaceae 1.jpg)
+
+![Poaceae](Plant_Families/Poaceae 2.jpg)
+![Poaceae](Plant_Families/Poaceae 3.jpg)
+![Poaceae](Plant_Families/Poaceae 4.jpg)
+
+
+![Poaceae](Plant_Families/Poaceae 5.jpg)
+
+***
+
+### Cyperaceae
 
 [WIKIPEDIA Cyperaceae](https://en.wikipedia.org/wiki/Cyperaceae)
+
+![Cyperaceae](Plant_Families/Cyperaceae.jpg)
+![Cyperaceae](Plant_Families/Cyperaceae 1.jpg)
+
+![Cyperaceae](Plant_Families/Cyperaceae 2.jpg)
+
 
 
 ***
 
 ### Eudicots
 
-#### Asteraceae
+Vea aquí la definición que agrupa las familias abajo
+
+[Wikipedia Eudicots](https://en.wikipedia.org/wiki/Eudicots#:~:text=The%20eudicots%2C%20Eudicotidae%20or%20eudicotyledons,The%20term%20derives%20from%20Dicotyledons.&text=Numerous%20familiar%20plants%20are%20eudicots,plants%2C%20trees%2C%20and%20ornamentals.)
+
+***
+
+### Asteraceae
 
 [WIKIPEDIA ASTERACEAE](https://en.wikipedia.org/wiki/Asteraceae)
 
-#### Bignonaceae
+
+
+![Asteraceae](Plant_Families/Asteraceae.jpg)
+![Asteraceae](Plant_Families/Asteraceae 1.jpg)
+![Asteraceae](Plant_Families/Asteraceae 2.jpg)
+![Asteraceae](Plant_Families/Asteraceae 3.jpg)
+
+![Asteraceae](Plant_Families/Asteraceae 4.jpg)
+![Asteraceae](Plant_Families/Asteraceae 5.jpg)
+
+***
+
+### Bignonaceae
 
 [WIKIPEDIA Bignonaceae](https://en.wikipedia.org/wiki/Bignoniaceae)
 
+![Bignonaceae](Plant_Families/Bignonaceae.jpg)
+![Bignonaceae](Plant_Families/Bignonaceae 1.jpg)
+![Bignonaceae](Plant_Families/Bignonaceae 2.jpg)
 
-#### Cacteceae
+
+***
+
+### Cacteceae
 
 [WIKIPEDIA  Cacteceae](https://en.wikipedia.org/wiki/Cactus)
 
-#### Convolvulaceae
+
+![Cacteceae](Plant_Families/Cactaceae.jpg)
+![Cacteceae](Plant_Families/Cactaceae 1.jpg)
+![Cacteceae](Plant_Families/Cactaceae 2.jpg)
+
+
+***
+
+### Convolvulaceae
 
 [WIKIPEDIA  Convolvulaceae](https://en.wikipedia.org/wiki/Convolvulaceae)
 
-#### Cucurbitaceae
 
-[WIKIPEDIA  Cucurbitaceae](https://en.wikipedia.org/wiki/Cucurbitaceae)
+![Convolvulaceae](Plant_Families/Convolvulaceae.jpg)
+![Convolvulaceae](Plant_Families/Convolvulaceae 1.jpg)
+![Convolvulaceae](Plant_Families/Convolvulaceae 2.jpg)
 
 
-#### Annonaceae
+***
+
+### Annonaceae
 
 [WIKIPEDIA ANNONACEAE](https://en.wikipedia.org/wiki/Annonaceae)
    - *Anona* 
 
-#### Euphorbiaceae
+![Annonaceae](Plant_Families/Annonaceae.jpg)
+![Annonaceae](Plant_Families/Annonaceae 1.jpg)
+
+***
+
+### Euphorbiaceae
 
 [WIKIPEDIA Euphorbiaceae](https://en.wikipedia.org/wiki/Euphorbiaceae)
 
+![Euphorbiaceae](Plant_Families/Euphorbiaceae.jpg)
+![Euphorbiaceae](Plant_Families/Euphorbiaceae 1.jpg)
 
-#### Fabaceae == Leguminosae
+![Euphorbiaceae](Plant_Families/Euphorbiaceae 2.jpg)
+
+***
+
+### Fabaceae == Leguminosae
 
 [WIKIPEDIA Fabaceae](https://en.wikipedia.org/wiki/Fabaceae)
 
- 
-#### Passifloraceae
- 
-[WIKIPEDIA  Passifloraceae](https://en.wikipedia.org/wiki/Passifloraceae) 
+![Fabaceae](Plant_Families/Fabaceae.jpg)
+
+![Fabaceae](Plant_Families/Fabaceae 1.jpg)
+
+![Fabaceae](Plant_Families/Fabaceae 2.jpg)
+![Fabaceae](Plant_Families/Fabaceae 3.jpg)
+
+
+***
+
+
 
 
  
