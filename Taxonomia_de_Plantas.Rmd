@@ -62,7 +62,7 @@ NOTA los puntos importante en el proceso evolutivos
  
 ![Monocot Tree](Taxonomy/Summary-of-the-monocot-phylogenetic-tree-indicating-families-Support-values-for-the.png)
  
-sitio de la figura (https://www.researchgate.net/publication/309658762_Global_monocot_diversification_Geography_explains_variation_in_species_richness_better_than_environment_or_biology)
+[sitio de la figura](https://www.researchgate.net/publication/309658762_Global_monocot_diversification_Geography_explains_variation_in_species_richness_better_than_environment_or_biology)
  
  
  
@@ -70,7 +70,7 @@ sitio de la figura (https://www.researchgate.net/publication/309658762_Global_mo
 
 ## Reconociendo ±10 familias de plantas en el recinto
 
-Lista de familias que debería reconocer por unas características morfológicas.
+#### Lista de familias que debería reconocer por unas características morfológicas.
 
  - Arecaceae
  - Bromeliaceae
