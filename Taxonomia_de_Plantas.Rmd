@@ -68,16 +68,31 @@ sitio de la figura (https://www.researchgate.net/publication/309658762_Global_mo
  
 *** 
 
-## Reconociendo 20 familias de plantas en el recinto
+## Reconociendo ±15 familias de plantas en el recinto
 
 ***
 
 ### Monocots
 
+#### Arecaceae == Palmae
+
+[WIKIPEDIA Arecaceae](https://en.wikipedia.org/wiki/Arecaceae)
+
+#### Bromeliaceae
+
+[WIKIPEDIA Bromeliaceae](https://en.wikipedia.org/wiki/Bromeliaceae)
+
+#### Orchidaceae
+
+[WIKIPEDIA Orchidaceae](https://en.wikipedia.org/wiki/Orchidaceae)
+
 #### Poaceae
+
+[WIKIPEDIA Poaceae](https://en.wikipedia.org/wiki/Poaceae)
 
 #### Cyperaceae
 
+[WIKIPEDIA Cyperaceae](https://en.wikipedia.org/wiki/Cyperaceae)
 
 
 ***
@@ -86,25 +101,46 @@ sitio de la figura (https://www.researchgate.net/publication/309658762_Global_mo
 
 #### Asteraceae
 
-#### Euphorbiaceae
+[WIKIPEDIA ASTERACEAE](https://en.wikipedia.org/wiki/Asteraceae)
 
+#### Bignonaceae
 
-#### Rubiaceae
+[WIKIPEDIA Bignonaceae](https://en.wikipedia.org/wiki/Bignoniaceae)
 
-
-#### Annonaceae
-   - *Anona* 
-
-#### Bignoniaceae 
-  - *Spathodea campanulata*
-    
-    
 
 #### Cacteceae
 
+[WIKIPEDIA  Cacteceae](https://en.wikipedia.org/wiki/Cactus)
+
+#### Convolvulaceae
+
+[WIKIPEDIA  Convolvulaceae](https://en.wikipedia.org/wiki/Convolvulaceae)
+
+#### Cucurbitaceae
+
+[WIKIPEDIA  Cucurbitaceae](https://en.wikipedia.org/wiki/Cucurbitaceae)
+
+
+#### Annonaceae
+
+[WIKIPEDIA ANNONACEAE](https://en.wikipedia.org/wiki/Annonaceae)
+   - *Anona* 
+
+#### Euphorbiaceae
+
+[WIKIPEDIA Euphorbiaceae](https://en.wikipedia.org/wiki/Euphorbiaceae)
+
+
+#### Fabaceae == Leguminosae
+
+[WIKIPEDIA Fabaceae](https://en.wikipedia.org/wiki/Fabaceae)
 
  
+#### Passifloraceae
  
+[WIKIPEDIA  Passifloraceae](https://en.wikipedia.org/wiki/Passifloraceae) 
+
+
  
     
 
