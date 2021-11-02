@@ -29,7 +29,7 @@ library(ggplot2)
 library(plyr)
 ```
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 Red.Cell.Size.in.Humans <- read.csv("~/Google Drive/Topicos-2016/DATA Analysis for presentation/Roy-Haldane Conjucture/Red Cell Size in Humans.csv")
 RBC=Red.Cell.Size.in.Humans
 RBC
@@ -42,7 +42,7 @@ head(RBC2)
 names(RBC2)
 ```
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 dfCV=ddply(RBC2, "IND", summarise, 
            RBC.mean=mean(Cell_Size, na.rm=TRUE),
            RBC.medium=median(Cell_Size, na.rm=TRUE),
@@ -74,7 +74,7 @@ dfCV
 ```
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 l1=sum(dfCV$p11)
 l1
 l2=sum(dfCV$p22)
@@ -84,7 +84,7 @@ l3
 ```
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 ChiS=l1-l2^2/l3
 ChiS
 
@@ -92,7 +92,7 @@ qchisq(0.95,df=6)
 ```
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 l1=sum(dfCV$s2cvp11)
 l1
 l2=(sum(dfCV$s2cvp22))^2
@@ -105,7 +105,7 @@ ChiS
 
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 dfRBC2=ddply(RBC2, "IND", summarise, 
              RBC.mean=mean(Cell_Size, na.rm=TRUE),
              RBC.medium=median(Cell_Size, na.rm=TRUE),
@@ -138,7 +138,7 @@ dfRBC2
 
 ```
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 l1=sum(dfRBC2$s2cvp11)
 l1
 l2=(sum(dfRBC2$s2cvp22))^2
@@ -153,7 +153,7 @@ qchisq(0.95,df=7)
 ## Minimum example of Smith's Test
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 df_Smiths=ddply(RBC2, "IND", summarise, 
              RBC.mean=mean(Cell_Size, na.rm=TRUE),
              RBC.sd=sd(Cell_Size, na.rm=TRUE),
@@ -183,13 +183,13 @@ dfRBC2
 ```
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 library(cvequality)
 ```
 
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 x <- rnorm(100)
 y <- unlist(lapply(letters[1:5], function(i) rep(i, 20)))
 df=cbind(x,y)
@@ -204,7 +204,7 @@ Cell_Size
 
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 mslr_test(nr = 1e3, RBC2$Cell_Size, RBC2$IND)
 
 
