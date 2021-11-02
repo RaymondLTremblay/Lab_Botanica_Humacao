@@ -68,7 +68,20 @@ sitio de la figura (https://www.researchgate.net/publication/309658762_Global_mo
  
 *** 
 
-## Reconociendo ±15 familias de plantas en el recinto
+## Reconociendo ±10 familias de plantas en el recinto
+
+Lista de familias que debería reconocer por unas características morfológicas.
+
+ - Arecaceae
+ - Bromeliaceae
+ - Poaceae
+ - Cyperaceae
+ - Asteraceae
+ - Bignoniaceae
+ - Cactaceae
+ - Convolvulaceae
+ - Euphorbiaceae
+ - Fabaceae
 
 Todas las laminas abajo son del siguiente libro **Flowering PLant Families of the World** por V.H. Heywood, R. K. Brummit, A. Culham y O Seberg. Publicado por Firefly books, Ltd. 2007. 
 
