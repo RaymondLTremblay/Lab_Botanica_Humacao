@@ -37,10 +37,14 @@ navbar:
           text: "Etnobotánica" 
         - 
           href: Taxonomia_de_Plantas.html
-          text: "Taxonomia de Plantas 15 familias"          
+          text: "Taxonomía de Plantas 15 familias"          
         - 
           href: x_Plant_Story.html
           text: "Identificación de plantas con APP"
+        - 
+          href: Preparando_un_herbario.html
+          text: "Preparando un Herbario"          
+          
           
           
       text: Lectures
