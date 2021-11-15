@@ -176,7 +176,7 @@ Vea el siguiente Vídeo
 
 # Tarea que entregar. 
 
-#### Por cada planta bien montada, identificada y esteticamente bien preprada hay un maximó de 7 puntos (un máximo de 49 puntos). 
+#### Por cada planta bien montada, identificada y esteticamente bien preprada hay un maximó de 7 puntos por planta (un máximo de 49 puntos). 
 
 Basado en las familias de plantas aprendida la semana pasada.
 
@@ -188,7 +188,7 @@ Basado en las familias de plantas aprendida la semana pasada.
     - Nota que las plantas seleccionada tienen que tener mínimo o flores o frutas (preferiblemente ambas).
     - Añadir su *label* con toda sus partes, como aparece en los ejemplos.  Usar la información disponible como el *Vademecum* para identificar las plantas y el Herbario de la UPR Río Piedras, vea enlace arriba.    
     
-### NOTA: No se considerará ninguna planta que no este seca.  
+### NOTA: No se considerará ninguna planta que no este seca.  ESO quiere decir que TIENE que coleccionar las plantas **HOY** si quieren que este seca. 
 
 **Después de su colección las plantas toman de 2-3 semanas a secar en Puerto Rico**
 
