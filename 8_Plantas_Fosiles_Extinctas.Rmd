@@ -45,46 +45,57 @@ Temas
 1. Evolución de los organismos del plantas (árbol filogénetico y tiempo)
 
 
-
+![Geological Period](Fossil_Photos/Geological_Period.jpg)
 
 2. Evolución de las plantas terrestres (árbol filogénetico y tiempo)
 
+![Phylogenetic tree](Fossil_Photos/plantrelat.gif)
+
+![Phylogenetic tree](Fossil_Photos/pro_plfr.gif)
 
 3. Características derivadas de los grupos principales.
 
+![Caracteriticas derivadas](Fossil_Photos/DOYLE_2019.jpg)
 
 
-Preguntas 1:
+![Phylogenetic tree](Fossil_Photos/Weng_Chapple_2010.jpg)
 
-En que periodo estuvieron mayormente los animales acuáticos?
 
-Preguntas 2: 
+## Pregunta 1:
+
+En que periodo estuvieron mayormente los animales acuáticos (cuando no habia animales terrestres)?
+
+## Pregunta 2: 
 
 En que periodo estuvieron mayormente los dinosaurios?
 
 
-Preguntas 3: 
+## Pregunta 3: 
 
 Que tipo de plantas dominaba cuando durante la era de los dinosaurios?
 
 
 
+
 ### Temas de trabajo
 
- #### Cada estudiante tendrá un articulo asignado como base para comenzar su trabajo.
+#### Cada estudiante tendrá un articulo asignado como base para comenzar su trabajo.
  
  - Se hara un trabajo escrito de 5 paginas
  - Se hara una presentación oral de 10 minutos.
  
-Cada presentación/trabajo escrito incluirá una 
+### Cada presentación/trabajo escrito incluirá una 
 
 - introducción al articulo
   - su objetivo
   - su hallazgos
   - su resultados
+  
+### Conponentes a incluir en adición de discutie el articulo  
+
 - un mapa donde se encuentra los fósiles en el articulo
 - un figura para poner claro en que **ERA** geológica se encuentra el tema del articulo.
-- Se apoyará con artículos revisados por pares, no solamente el articulo original, y estos TIENEN que leerlos.  
+- Se apoyará con artículos revisados por pares, no solamente el articulo original, y estos ultimos TIENEN que leerlos y citarlos corectamente.    
 
 
 
@@ -96,15 +107,6 @@ Para expandir su trabajo la mejor manera es
  - ver/leer los artículos citado por otros autores del articulo que UD leyó.
  - hacer una búsqueda en Google Scholar de las palabras claves del artículo leído
  
-
-
-
- 
- 
- 
- 
-
-
 
 ### Palabras claves para busqueda en Google Scholar
 
@@ -119,41 +121,93 @@ Para expandir su trabajo la mejor manera es
 
 ***
 
-### Algunas referencias
+### Referencias y asignaciones por estudiante
 
 
 [Paleobotany Dilcher 2001](PDF/Paleobotany_1.pdf)
 
+ - Carlos Alejandro
+ - Nartalia Dominguez
+
 [Cropolites and Dinosaurs](PDF/First report on vertebrate coprolites from the Upper Cretaceous (Santonian) Csehbánya 2 Formation of Iharkút, Hungary.pdf)
+
+ - Victoria Andreu
+ - Sofia Otiniano
+ 
 
 [The origin of life Cycle of Land Plants](PDF/The Origin of the Life Cycle of Land Plants: A simple modification in the life cycle of an extinct green alga is the likely origin of the first land plants | 10.2307:27853160.pdf)
 
-[Algal Ancestor to land plants](PDF/Algal ancestor of land plants was preadapted for symbiosis.pdf)
+ - Stephan Bianco
+ - Yan Carrasquillo
+
+
+[Algal Ancestor to land plants](PDF/Algal ancestor of land plants was preadapted for symbiosis.pdf) 
+
+- Alexis Castro
+- Dennisse Ortiz
 
 [Aglaophyton](PDF/Four hundred-million-year-old vesicular arbuscular mycorrhizae. | 10.1073:pnas.91.25.11841.pdf)
 
+- Rinelly Comas
+- Natalie Alvarez
+
 [Phylogenetic relationships among early land plants](PDF/Phylogenetic Relationships between the Earliest Land Plants | 10.1016:j.cub.2018.01.034.pdf)
+
+- Marery Cruz
+- Hibrahim Ayala
 
 [Early land plants and Oxygen](PDF/Earliest land plants created modern levels of atmospheric oxygen.pdf)
 
+- Gidelka Dipini
+- Alanairis Martinez
+
 [Microfossils of early land plants](PDF/The microfossil record of early land plants.pdf)
+
+- Jorge Hernández
+- Solimar Meléndez
 
 [Morphological Evolution in land plants](PDF/Morphological evolution in land plants- new designs with old genes.pdf)
 
+- Lymarie Marin
+- David Alvarez
+
 [The Antillean paleocommunities](PDF/Historical biogeography of Caribbean plants- introduction to current know- ledge and possibilities from a phylogenetic perspective.pdf) Vea la referencias adentro en la sección de **Fossils and Paleovegetation**
+
+- Nadia Moran
+- Naiomie Garcia
 
 [Photograpghy of plant fossiles](PDF/Photography of plant fossils—New techniques, old tricks | 10.1016:j.revpalbo.2011.05.001.pdf)
 
+- Paola Moyet
+- Ivonne Pauneto
+
 [Fossil plant record and global climate change](PDF/The fossil plant record and global climatic change.pdf)
+
+- Adriana Nieves
+- Frederick Thomas
 
 [Mexico Fossils](PDF/Mexico- Assembling extinct plants from their isolated parts.pdf)
 
+- Amiris Perez
+- Javier Alvarado
+
 [The oldest fossil mushroom](PDF/The oldest fossil mushroom.pdf)
+
+- Amanda Rivera
+- Jeira Paredes
 
 [PaleoBotany-Tracheophytes](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Tracheophytes"
 
+- Imardalize Roman
+
 [PaleoBotany-Lycopods](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Lycopods"
+
+- Carla Vazquez
 
 [PaleoBotany-Cycads](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Cycads"
 
+- Lizmeily Velez
+
 [PaleoBotany-Early Seed Plants](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Early Seed Plants"
+
+- 
