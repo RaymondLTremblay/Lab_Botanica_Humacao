@@ -75,7 +75,7 @@ En que periodo estuvieron mayormente los dinosaurios?
 Que tipo de plantas dominaba cuando durante la era de los dinosaurios?
 
 
-
+***
 
 ### Temas de trabajo
 
@@ -87,28 +87,27 @@ Que tipo de plantas dominaba cuando durante la era de los dinosaurios?
     - estilo adecuado para trabajo en ciencia
   
  
-### Cada presentación/trabajo escrito incluirá una 
+### Cada \trabajo escrito incluirá una 
 
 - introducción al articulo
-  - su objetivo
-  - su hallazgos
-  - su resultados
+  - sus objetivos
+  - sus hallazgos
+  - sus resultados
   
-### Conponentes a incluir en adición de discutie el articulo  
+### Conponentes a incluir en adición de discutir el articulo  
 
 - un mapa donde se encuentra los fósiles en el articulo
 - un figura para poner claro en que **ERA** geológica se encuentra el tema del articulo.
-- Se apoyará con artículos revisados por pares, no solamente el articulo original, y estos ultimos TIENEN que leerlos y citarlos corectamente.    
+- Se apoyará con artículos revisados por pares, no solamente el artículo original, y estos últimos TIENEN que leerlos y citarlos correctamente.    
 
 
-
-Se usará el articulo como una base para expandir el trabajo, tendrá que utilizar en su trabajo **por lo menos 4** otras referencias revisado por pares.  *Los artículos NO revisado por pares NO se considerarán como valida*.
+Se usará el artículo como una base para expandir el trabajo, tendrá que utilizar en su trabajo **por lo menos 4** otras referencias revisado por pares.  *Los artículos NO revisado por pares NO serán considerado como valida*.
 
 Para expandir su trabajo la mejor manera es 
 
  - ver/leer los artículos citado en el mismo
- - ver/leer los artículos citado por otros autores del articulo que UD leyó.
- - hacer una búsqueda en Google Scholar de las palabras claves del artículo leído
+ - ver/leer los artículos citado por otros autores del artículo que UD leyó.
+ - hacer una búsqueda en **Google Scholar** de las palabras claves del artículo leído mencioando en el artículo o la lista abajo.
  
 
 ### Palabras claves para busqueda en Google Scholar
@@ -118,9 +117,9 @@ Para expandir su trabajo la mejor manera es
 - First plants
 - Earliest land plants
 - Paleobotany review
-- paleobotany evolution of plants
-- Cropolites and Dinosaurs
-- Algae and land plants
+- Paleobotany evolution of plants
+- Cropolites Dinosaurs
+- Algae land plants
 
 ***
 
