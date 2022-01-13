@@ -27,11 +27,10 @@ Descripción de los tipos de estructura/arquitectura/forma de vida de las planta
 
 ### Objetivos
 
-Definen y reconocer las siguientes forma de vida de las Plantas
+**Definen y reconocer las siguientes forma de vida de las Plantas**
 
 +	Herbáceas
 +	Lenõsas
-	
 	
     -	Arboles
     -	Arbustos
@@ -42,13 +41,19 @@ Definen y reconocer las siguientes forma de vida de las Plantas
       - lianas
       - herbaceas (sin lignina)
     
-[Vea este enlace para las formas de Vida de las Plantas](https://en.wikipedia.org/wiki/Habit_(biology))   
+[Vea este enlace para las formas de Vida de las Plantas](https://en.wikipedia.org/wiki/Habit_(biology))
+
+[Vea este enlace para más definiciones con forma de vida de plantas](https://www.anbg.gov.au/cpbr/herbarium/collecting/habit-types.html)
     
 ***  
 
 ### Objetivos
 
 Definen y reconocer las siguientes forma de vida de las Briofitas
+
+1. ¿Cual son los tres grupos principal de briofitas?
+
+2. ¿Como se diferencia estos grupos?
 
 
 + Briofitas [Bryophyte](https://en.wikipedia.org/wiki/Bryophyte)
@@ -61,7 +66,7 @@ Definen y reconocer las siguientes forma de vida de las Briofitas
   + Clasificación de Briofitas
    [Classification](https://www.toppr.com/ask/content/concept/classification-of-bryophytes-202047/)
 
-    - foliose   [foliose](https://en.wikipedia.org/wiki/Foliose_lichen)
+    - foliose   [foliose](https://www.britannica.com/plant/bryophyte)
     - thallose  [thallus](https://en.wikipedia.org/wiki/Thallus) 
 
 
