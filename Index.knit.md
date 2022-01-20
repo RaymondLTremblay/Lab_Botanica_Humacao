@@ -1,0 +1,188 @@
+---
+title: "Laboratorio de Botanica"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+#  theme: simplex   To have the TOC in Red
+    toc: yes
+    toc_float: yes
+---
+
+
+
+
+***
+**Instructor:** Raymond L. Tremblay, PhD   
+  
+**Oficina**: NL 104
+
+**Teléfono**: (787) 850-0000 (x9497)	
+
+**2022**: Enero
+
+**Coreo electrónico**: raymond.tremblay_at_upr_dot_edu	
+ 
+***
+### Horario del los laboratorios
+
+ - Jueves 3:00pm a 5:50pm
+
+
+**Hora de consulta con Estudiantes**: 
+
+- Lunes y Miercoles from 10:30 a 12:30pm (NL 104) 
+- Jueves 8:30 -10:30
+- o por MSTeam “Horas de Consulta Tremblay”: Por acuerdo enviando me un email para solicitar (Solamente si estamos remoto).   
+
+***
+## Libro obligatorio. 
+Aquí dos sitios donde pueden conseguir el libro
+
+- Ninguno
+
+•	Artículos revisados por pares serán asignados para fomentar el método de utilizar estas herramientas en ciencias. 
+
+***
+### Programados
+- [R- free statistical programming language](https://cran.r-project.org/) 
+- [RStudio](https://rstudio.com)
+- MSExcel, Numbers o Google Sheet 
+
+***
+
+### Prerequisitos    
+- BIOL 3011-3013: Biología General y Laboratorio primer semestre 
+- BIOL 3012-3014: Biología General y Laboratorio segundo semestre  
+
+***
+### Descripción del laboratorio (Descripción original): Cambios serán aplicado debido a la condiciones del estado de la falta espacio adecuado y la situación de COVID-19  
+Objetivos:
+
+A través del laboratorio, el estudiante:
+
+  1. Creará conciencia de que el laboratorio es un lugar de trabajo y debe seguir las
+normas de seguridad ya establecidas en el manejo de sustancias y materiales
+potencialmente peligrosos para no atentar contra la seguridad personal y
+colectiva.
+  2. Desarrollará destrezas en la preparación de cortes de porciones vegetales para
+obtener secciones finas para microscopía de los tejidos vegetales.
+  3. Aprenderá a preparar montajes húmedos de organismos fotosintéticos y tejidos
+ vegetales.
+4. Aprenderá el manejo seguro de material preservado en líquidos y en papel.
+
+5. Reforzará las habilidades aprendidas en el uso del microscopio compuesto y de
+ disección en su curso de Biología General.
+6. Se capacitará para manejar cultivos puros evitando contaminación.
+7. Aprenderá técnicas simples de tinción de las células y los tejidos vegetales.
+8. Desarrollará la habilidad de representar en dibujos rotulados estructuras de
+ organismos y organismos completos, de forma tal que le permitirá reforzar el
+ aprendizaje del contenido.
+9. Estudiará estructuras vegetales presentadas en laminillas y dibujos rotulados, con
+el fin de que pueda apreciar los cambios más sobresalientes que sufrieron los
+ organismos fotosintéticos a través de su historia evolutiva.
+10. Aprenderá a tomar muestras de aguas de charca, hojas, flores y especímenes de
+plantas que traerá al laboratorio.
+11. Conocerá los modelos de organismos utilizados como representativos de los
+grupos estudiados.
+12. Desarrollará la destreza de construir y analizar mapas de información para
+comparar diferentes filas dentro de un mismo grupo de plantas y otros organismos
+fotosintéticos.
+13. Aprenderá a trabajar en grupos con la intención de mejorar las relaciones
+interpersonales que lleven a facilitar la comprensión de conceptos y fomenten el
+compañerismo.
+14. Fomentará su aprecio por los organismos fotosintéticos al comprender la
+importancia de éstos en los ecosistemas y para la vida.
+15. Apreciará la relevancia del estudio visual y microscópico de los organismos
+ fotosintéticos en términos de la morfología y fisiología para entender su nicho
+ ecológico.
+16. Utilizará el conocimiento adquirido y el pensamiento crítico para la solución de
+ problemas relacionados con la conservación del ambiente.
+17. Ampliará sus conocimientos sobre los organismos fotosintéticos, en especial
+sobre las plantas.
+
+***
+### Objetivos del curso
+
+Al finalizar el curso el estudiante podrá:
+
+    1. Discutir la importancia de la estadística en los estudios biológicos.
+    2. Ordenar datos biológicos en forma lógica.
+ 
+
+***
+### Puntuación: 
+Este curso sera evaluado con los siguiente items:
+
+
+|Item                    |     Valor              |
+|:--------------------|-------------------:|
+|Ejercicios práctico (4-6 total) |	  50%|     
+|Pruebas cortas                  |  20%  |   
+|Examen parcial # 1 (fecha TBD)	 | 10%   |
+|Examen Final (fecha TBD)   	   |   10%  | 
+|Participación | 10% |
+
+NOTE: 
+Escala de Notas: El laboratorio equivale a 33% de la nota de la clase
+
+  * A (100 to 90) 
+  * B (89 to 80) 
+  * C (79 to 70) 
+  * D (69 to 60) 
+  * F (< 60) 
+
+***
+### Examenes:
+Habrá un examen parciales.  Este examen serán de selecciones múltiples, pareo, respuesta corta, y análisis de conceptos.
+
+
+### Si hay clases por forma remota, es obligatorio tener la camera prendida durante **todo las clases y el exámen (si fuese por este medio)**. No es permitido usar el celular, Ud. tendrá que demostrar que el celular este detrás de uds antes de comenzar el examen   
+
+***
+### Conferencias
+En la clase las notas serán basado primeramente en la participación y algunas pruebas cortas.  Su participación es esencial para el aprendizaje (y para un ambiente positivo). Aprender *NO* es un proceso pasivo: los estudiantes deben participar haciendo preguntas y discutir el material con su conocimiento anterior (Su bagaje de conocimiento).  
+
+***
+### Ejercicios (metodo de someter los trabajos es a determinar) 
+Los ejercicios están enfocado en la aplicación de conceptos y métodos discutido en la clase y solución de problemas. Se hará un esfuerza de usar datos reales para demostrar como trabajar con los análisis, tablas, y gráficos en R, RStudio y RMarkdown.  Típicamente, tendrán solamente una semana para hacer los ejercicios y entregarlos en formato *.html*.   
+
+***
+### Faltar a clase y examen:
+*Los trabajos cortos y pruebas cortas NO se reponen*.  Si falta a la clase es su responsabilidad hablar con los otros estudiantes para saber lo que se discutió en la clase. Los examen se reponen solamente por una escusa valida.    
+
+***
+### Derechos de Estudiantes con Impedimentos
+
+La UPR-Humacao cumple con las leyes ADA (Americans with Disabilities Act) y
+51 (Servicios Educativos Integrales para Personas con Impedimentos) para garantizar
+igualdad en el acceso a la educación y servicios. Estudiantes con impedimentos: informe al (la) profesor(a) de cada curso sobre sus necesidades especiales y/o de acomodo razonable para el curso, en la tarjeta de información de la primera semana y visite la Oficina de Servicios para la Población con Impedimentos (SERPI) a la brevedad posible. Se mantendrá la confidencialidad.
+
+***
+### Integridad académica
+La Universidad de Puerto Rico promueve los más altos estándares de integridad
+académica y científica. El Artículo 6.2 del Reglamento General de Estudiantes de la
+Universidad de Puerto Rico (Certificación Núm. 13, 2009-2010, de la Junta de Síndicos)
+establece que "la deshonestidad académica incluye, pero no se limita a: acciones
+fraudulentas, la obtención de notas o grados académicos valiéndose de falsas o
+fraudulentas simulaciones, copiar total o parcialmente la labor académica de otra persona,
+plagiar total o parcialmente el trabajo de otra persona, copiar total o parcialmente las
+respuestas de otra persona a las preguntas de un examen, haciendo o consiguiendo que
+otro tome en su nombre cualquier prueba o examen oral o escrito, así como la ayuda o
+facilitación para que otra persona incurra en la referida conducta". Cualquiera de estas
+acciones estará sujeta a sanciones disciplinarias en conformidad con el procedimiento
+disciplinario establecido en el Reglamento General de Estudiantes de la UPR vigente.
+
+***
+### Comentario sobre grabar videos y/o audio de las clases
+Los estudiantes no PUEDEN grabar la clase por forma de video o audio sin el permiso del profesor.  Algunos estudiantes con necesidades especiales pueden hablar con el profesor para pedir el permiso.  La solicitud y aprobación del permiso tiene que ser por escrito (por ejemplo por email).  
+
+***
+### Espacio libre de acoso sexual
+La Universidad de Puerto Rico prohíbe el descrimen por razón de sexo y género en todas sus modalidades, incluyendo el hostigamiento sexual. Según la Política Institucional contra el hostigamiento sexual, en la Universidad de Puerto Rico, Cert. Núm. 130 (2014-2015) de la Junta de Gobierno, si un(a) estudiante está siendo o fue afectado por conductas relacionadas a hostigamiento sexual, puede acudir ante la Oficina del Procurador Estudiantil, el Decanato de Estudiantes o el Coordinador de Cumplimiento con Título IX para una orientación o presentar una querella.
+
+***
+### Protocolo de la Clase
+Los teléfonos mobiles serán apagado durante la clase.  Si necesita una calculadora traerla al salón. El teléfono no debería esta visible durante la clase al menos que pide permiso al instructor. Recuerda que que se usara computadoras portátiles en cada sesión.
+
