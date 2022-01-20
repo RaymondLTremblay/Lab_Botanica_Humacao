@@ -16,9 +16,9 @@ output:
 ***
 **Instructor:** Raymond L. Tremblay, PhD   
   
-**Oficina**: Vagón de Biología
+**Oficina**: NL 104
 
-**Teléfono**: (787) 850-0000 (dept de biología)	
+**Teléfono**: (787) 850-0000 (x9497)	
 
 **2022**: Enero
 
@@ -27,12 +27,14 @@ output:
 ***
 ### Horario del los laboratorios
 
-**Jueves**:  3:00-5:50pm  (NOTE: Necesita traer su laptop!)
+ - Jueves 3:00pm a 5:50pm
 
 
+**Hora de consulta con Estudiantes**: 
 
-**Hora de consulta con Estudiantes**:    
-- TBD o por MSTeam en el grupo "Horas de Consulta".    
+- Lunes y Miercoles from 10:30 a 12:30pm (NL 104) 
+- Jueves 9:00 -12:00
+- o por MSTeam “Horas de Consulta Tremblay”: Por acuerdo enviando me un email para solicitar (Solamente si estamos remoto).   
 
 ***
 ## Libro obligatorio. 
