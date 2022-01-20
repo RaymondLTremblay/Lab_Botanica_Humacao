@@ -33,7 +33,7 @@ output:
 **Hora de consulta con Estudiantes**: 
 
 - Lunes y Miercoles from 10:30 a 12:30pm (NL 104) 
-- Jueves 9:00 -12:00
+- Jueves 8:30 -10:30
 - o por MSTeam “Horas de Consulta Tremblay”: Por acuerdo enviando me un email para solicitar (Solamente si estamos remoto).   
 
 ***
