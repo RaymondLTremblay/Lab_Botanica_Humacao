@@ -16,7 +16,13 @@ navbar:
       
      text: Lo Básico
     - 
-      menu: 
+      menu:
+        - 
+          href: A_Como_preparar_un_informe_Profesional.html
+          text: "Como Preparar un informe cientifico Profesional"
+        -
+          href: B_Diversidad_Plantas_mi_Patio.html
+          text: "Cual es la Diversidad de Plantas en mi Patio"  
         -
           href: 1_Habit.html
           text: "Diversidad de Forma de Vida"

@@ -1,0 +1,58 @@
+---
+title: "Como preparar un informe profesional"
+author: "Raymond L. Tremblay"
+date: "8/20/2021"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+#  theme: simplex   To have the TOC in Red
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Como preparar un informe profesional.
+
+
+1. En la pestaña "Recursos" del curso busca el articulo de **Ecarnot et al. 2015** y descaga el articulo.
+
+Vera que el articulo esta preparado para nuevos investigadores (e.i. Ustedes o con poca experiencia).  El objetivo del articulo es ayudar a organizarse para preparar un informe profesional.  
+
+En el ejercicio de hoy en clase estaremos leyendo el articulo y discutiendo de las sugerencias.
+
+Secciones de este articulo
+
+- Background
+- Getting started: things to do before you write a word
+- What are the main sections of a scientific article?
+  - The introduction section (Grupo 1)
+  - The method section (Grupo 2)
+  - The result section (Grupo 3)
+  - The discussion section (Grupo 4)
+  - The Abstract 
+  - The Title
+  - The References
+
+
+ 
+***
+  
+## Actividad 1
+
+- Todos van a leer la sección "Background"
+- Los subgrupos tendrán una sección a leer y informar al grupo 
+  - Tiempo 20 minutos para leer y preparar lo que van a informar al todos los estudiantes del salón
+  - Cada grupo tendrá de 5 - 8 minutos para informar a la clase.
+  
+
+## Actividad 2
+
+- Presentación de "Estructurar un paper y terminarlo" 
+- En la pestaña "Recursos" del curso busca el enlace de **Presentación**.
+

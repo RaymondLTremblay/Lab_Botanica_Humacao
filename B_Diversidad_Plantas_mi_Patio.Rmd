@@ -1,0 +1,55 @@
+---
+title: "B_Diversidad_de_plantas_Patio"
+author: "Raymond L. Tremblay"
+date: "8/20/2021"
+output:
+  html_document:
+    css: tutorial.css
+    fig_caption: yes
+    highlight: pygments
+#  theme: simplex   To have the TOC in Red
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## La diversidad de Plantas en mi patio
+
+- Recorrer su patio y visualiza las plantas presente
+
+1. Toma foto de la diferentes especies que encontraste en tu patio.
+2. Contabiliza (más o menos; no vaya a contar cuanta grama en hay, usa tu mejor estimado) por cada especie.
+3. Encontraste flores o frutos? En cual especie.
+
+**Haz un reporte profesional de lo que encontraste para someter en MSTeam (entregar la semana próxima)**
+
+- Puntación 10 puntos
+  - Fotos claras (Con su nombre)
+  - Tabla de la cantidad de individuos por especie
+      - si sabe el nombre científico lo puede poner, si sabe el nombre comun lo puede poner (pero no en la misma columna)
+    
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(gt)
+Table=tribble(~ Especie, ~N,
+        "Especie_1", 10,
+        "Especie_2", 300,
+        "Especie_3", 1,
+        "....", NA)
+gt(Table)
+```
+    
+
+***
+
+## Al final del semestre
+
+4. Estará haciendo lo mismo, y el objetivo es hacer una comparación entre lo que viste en tu patio en la primera semana y al final del semestre.  
+ 
+ 
+ 
+ 
