@@ -35,11 +35,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(gt)
-Table=tribble(~ Especie, ~N,
-        "Especie_1", 10,
-        "Especie_2", 300,
-        "Especie_3", 1,
-        "....", NA)
+Table=tribble(~"Nombre Cientifico de las Especies", ~"Nombre Comun", ~N,
+        "Especie_1", "Angelito", 10,
+        "Especie_2", "...", 300,
+        "Prestoa montana","Palma de Sierra", 1,
+        "....","...", NA)
 gt(Table)
 ```
     
