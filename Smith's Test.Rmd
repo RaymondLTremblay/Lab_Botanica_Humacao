@@ -30,9 +30,10 @@ library(plyr)
 ```
 
 ```{r eval=FALSE, include=FALSE}
-Red.Cell.Size.in.Humans <- read.csv("~/Google Drive/Topicos-2016/DATA Analysis for presentation/Roy-Haldane Conjucture/Red Cell Size in Humans.csv")
-RBC=Red.Cell.Size.in.Humans
-RBC
+library(readr)
+Red_Cell_Size_in_Humans <- read_csv("~/Dropbox/GD_Old_to_Db/Topicos-2016/DATA Analysis for presentation/Roy-Haldane Conjucture/Red Cell Size in Humans.csv")
+RBC=Red_Cell_Size_in_Humans
+RBC=data.frame(RBC)
 head(RBC)
 summary(RBC)
 names(RBC)
@@ -177,7 +178,7 @@ df_Smiths=ddply(RBC2, "IND", summarise,
              s2cvp22=RBC.CVunb/s2cv,  # [part 2]
              s2cvp33=1/s2cv # [part 3]
 )
-
+df_Smiths
 dfRBC2
 
 ```

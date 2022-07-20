@@ -14,7 +14,7 @@
 
 <title>Taxonomia de plantas</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -49,6 +49,7 @@
 
 
 
+
 <link rel="stylesheet" href="tutorial.css" type="text/css" />
 
 
@@ -73,6 +74,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -298,7 +302,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -311,7 +315,7 @@ div.tocify {
   <a href="index.html">Home</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Lo Básico
      
     <span class="caret"></span>
@@ -326,7 +330,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Lectures
      
     <span class="caret"></span>
@@ -371,7 +375,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Recursos
      
     <span class="caret"></span>
@@ -403,9 +407,14 @@ div.tocify {
 
 <hr />
 <p>Taxonomia de plantas y la evolución de de los grupos taxonomicos.</p>
-<p>Los grupos están organizado en el proceso evolutivo basado en “caracteristicas derivadas compartidas”.</p>
-<p>Aqui un árbol basico de los grupos principales de la evoluación de las plantas</p>
-<p><img src="Taxonomy/Plant_Diversity_Basic_Tree.png" alt="Evolución de los grupos principales" /> Sitio de la figura (<a href="https://commons.wikimedia.org/wiki/File:Plant_Diversity_(2).svg" class="uri">https://commons.wikimedia.org/wiki/File:Plant_Diversity_(2).svg</a>)</p>
+<p>Los grupos están organizado en el proceso evolutivo basado en
+“caracteristicas derivadas compartidas”.</p>
+<p>Aqui un árbol basico de los grupos principales de la evoluación de
+las plantas</p>
+<p><img src="Taxonomy/Plant_Diversity_Basic_Tree.png"
+alt="Evolución de los grupos principales" /> Sitio de la figura (<a
+href="https://commons.wikimedia.org/wiki/File:Plant_Diversity_(2).svg"
+class="uri">https://commons.wikimedia.org/wiki/File:Plant_Diversity_(2).svg</a>)</p>
 <p>NOTA los puntos importante en el proceso evolutivos</p>
 <ul>
 <li>Protección del embryo</li>
@@ -421,7 +430,9 @@ div.tocify {
 <img src="Taxonomy/seedplantevolution.gif" alt="" />
 <p class="caption">Seed Plant Evolution</p>
 </div>
-<p>Sitio de la grafica (<a href="http://www.seedbiology.eu/evolution.asp" class="uri">http://www.seedbiology.eu/evolution.asp</a>)</p>
+<p>Sitio de la grafica (<a
+href="http://www.seedbiology.eu/evolution.asp"
+class="uri">http://www.seedbiology.eu/evolution.asp</a>)</p>
 <hr />
 <div id="evolución-de-angiosperma" class="section level1">
 <h1>Evolución de Angiosperma</h1>
@@ -434,15 +445,23 @@ div.tocify {
 <div id="evolución-de-los-monocots" class="section level1">
 <h1>Evolución de los Monocots</h1>
 <div class="figure">
-<img src="Taxonomy/Summary-of-the-monocot-phylogenetic-tree-indicating-families-Support-values-for-the.png" alt="" />
+<img
+src="Taxonomy/Summary-of-the-monocot-phylogenetic-tree-indicating-families-Support-values-for-the.png"
+alt="" />
 <p class="caption">Monocot Tree</p>
 </div>
-<p><a href="https://www.researchgate.net/publication/309658762_Global_monocot_diversification_Geography_explains_variation_in_species_richness_better_than_environment_or_biology">sitio de la figura</a></p>
+<p><a
+href="https://www.researchgate.net/publication/309658762_Global_monocot_diversification_Geography_explains_variation_in_species_richness_better_than_environment_or_biology">sitio
+de la figura</a></p>
 <hr />
-<div id="reconociendo-10-familias-de-plantas-en-el-recinto" class="section level2">
+<div id="reconociendo-10-familias-de-plantas-en-el-recinto"
+class="section level2">
 <h2>Reconociendo ±10 familias de plantas en el recinto</h2>
-<div id="lista-de-familias-que-debería-reconocer-por-unas-características-morfológicas." class="section level4">
-<h4>Lista de familias que debería reconocer por unas características morfológicas.</h4>
+<div
+id="lista-de-familias-que-debería-reconocer-por-unas-características-morfológicas."
+class="section level4">
+<h4>Lista de familias que debería reconocer por unas características
+morfológicas.</h4>
 <ul>
 <li>Arecaceae</li>
 <li>Bromeliaceae</li>
@@ -455,7 +474,9 @@ div.tocify {
 <li>Euphorbiaceae</li>
 <li>Fabaceae</li>
 </ul>
-<p>Todas las laminas abajo son del siguiente libro <strong>Flowering PLant Families of the World</strong> por V.H. Heywood, R. K. Brummit, A. Culham y O Seberg. Publicado por Firefly books, Ltd. 2007.</p>
+<p>Todas las laminas abajo son del siguiente libro <strong>Flowering
+PLant Families of the World</strong> por V.H. Heywood, R. K. Brummit, A.
+Culham y O Seberg. Publicado por Firefly books, Ltd. 2007.</p>
 <hr />
 </div>
 <div id="monocots" class="section level3">
@@ -463,27 +484,42 @@ div.tocify {
 </div>
 <div id="arecaceae-palmae" class="section level3">
 <h3>Arecaceae == Palmae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Arecaceae">WIKIPEDIA Arecaceae</a></p>
-<p><img src="Plant_Families/Aracaceae.jpg" alt="Aracaceae" /> <img src="Plant_Families/Aracaceae%201.jpg" alt="Aracaceae" /> <img src="Plant_Families/Aracaceae%202.jpg" alt="Aracaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Arecaceae">WIKIPEDIA
+Arecaceae</a></p>
+<p><img src="Plant_Families/Aracaceae.jpg" alt="Aracaceae" /> <img
+src="Plant_Families/Aracaceae%201.jpg" alt="Aracaceae" /> <img
+src="Plant_Families/Aracaceae%202.jpg" alt="Aracaceae" /></p>
 <hr />
 </div>
 <div id="bromeliaceae" class="section level3">
 <h3>Bromeliaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Bromeliaceae">WIKIPEDIA Bromeliaceae</a></p>
-<p><img src="Plant_Families/Bromeliaceae%201.jpg" alt="Bromeliaceae" /> <img src="Plant_Families/Bromeliaceae%202.jpg" alt="Bromeliaceae" /> <img src="Plant_Families/Bromeliaceae%203.jpg" alt="Bromeliaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Bromeliaceae">WIKIPEDIA
+Bromeliaceae</a></p>
+<p><img src="Plant_Families/Bromeliaceae%201.jpg" alt="Bromeliaceae" />
+<img src="Plant_Families/Bromeliaceae%202.jpg" alt="Bromeliaceae" />
+<img src="Plant_Families/Bromeliaceae%203.jpg" alt="Bromeliaceae" /></p>
 <hr />
 </div>
 <div id="orchidaceae" class="section level3">
 <h3>Orchidaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Orchidaceae">WIKIPEDIA Orchidaceae</a></p>
-<p><img src="Plant_Families/Orchidaceae.jpg" alt="Orchidaceae" /> <img src="Plant_Families/Orchidaceae%201.jpg" alt="Orchidaceae" /> <img src="Plant_Families/Orchidaceae%202.jpg" alt="Orchidaceae" /> <img src="Plant_Families/Orchidaceae%203.jpg" alt="Orchidaceae" /> <img src="Plant_Families/Orchidaceae%204.jpg" alt="Orchidaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Orchidaceae">WIKIPEDIA
+Orchidaceae</a></p>
+<p><img src="Plant_Families/Orchidaceae.jpg" alt="Orchidaceae" /> <img
+src="Plant_Families/Orchidaceae%201.jpg" alt="Orchidaceae" /> <img
+src="Plant_Families/Orchidaceae%202.jpg" alt="Orchidaceae" /> <img
+src="Plant_Families/Orchidaceae%203.jpg" alt="Orchidaceae" /> <img
+src="Plant_Families/Orchidaceae%204.jpg" alt="Orchidaceae" /></p>
 <hr />
 </div>
 <div id="poaceae" class="section level3">
 <h3>Poaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Poaceae">WIKIPEDIA Poaceae</a></p>
-<p><img src="Plant_Families/Poaceae.jpg" alt="Poaceae" /> <img src="Plant_Families/Poaceae%201.jpg" alt="Poaceae" /></p>
-<p><img src="Plant_Families/Poaceae%202.jpg" alt="Poaceae" /> <img src="Plant_Families/Poaceae%203.jpg" alt="Poaceae" /> <img src="Plant_Families/Poaceae%204.jpg" alt="Poaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Poaceae">WIKIPEDIA
+Poaceae</a></p>
+<p><img src="Plant_Families/Poaceae.jpg" alt="Poaceae" /> <img
+src="Plant_Families/Poaceae%201.jpg" alt="Poaceae" /></p>
+<p><img src="Plant_Families/Poaceae%202.jpg" alt="Poaceae" /> <img
+src="Plant_Families/Poaceae%203.jpg" alt="Poaceae" /> <img
+src="Plant_Families/Poaceae%204.jpg" alt="Poaceae" /></p>
 <div class="figure">
 <img src="Plant_Families/Poaceae%205.jpg" alt="" />
 <p class="caption">Poaceae</p>
@@ -492,8 +528,10 @@ div.tocify {
 </div>
 <div id="cyperaceae" class="section level3">
 <h3>Cyperaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Cyperaceae">WIKIPEDIA Cyperaceae</a></p>
-<p><img src="Plant_Families/Cyperaceae.jpg" alt="Cyperaceae" /> <img src="Plant_Families/Cyperaceae%201.jpg" alt="Cyperaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Cyperaceae">WIKIPEDIA
+Cyperaceae</a></p>
+<p><img src="Plant_Families/Cyperaceae.jpg" alt="Cyperaceae" /> <img
+src="Plant_Families/Cyperaceae%201.jpg" alt="Cyperaceae" /></p>
 <div class="figure">
 <img src="Plant_Families/Cyperaceae%202.jpg" alt="" />
 <p class="caption">Cyperaceae</p>
@@ -503,44 +541,66 @@ div.tocify {
 <div id="eudicots" class="section level3">
 <h3>Eudicots</h3>
 <p>Vea aquí la definición que agrupa las familias abajo</p>
-<p><a href="https://en.wikipedia.org/wiki/Eudicots#:~:text=The%20eudicots%2C%20Eudicotidae%20or%20eudicotyledons,The%20term%20derives%20from%20Dicotyledons.&amp;text=Numerous%20familiar%20plants%20are%20eudicots,plants%2C%20trees%2C%20and%20ornamentals.">Wikipedia Eudicots</a></p>
+<p><a
+href="https://en.wikipedia.org/wiki/Eudicots#:~:text=The%20eudicots%2C%20Eudicotidae%20or%20eudicotyledons,The%20term%20derives%20from%20Dicotyledons.&amp;text=Numerous%20familiar%20plants%20are%20eudicots,plants%2C%20trees%2C%20and%20ornamentals.">Wikipedia
+Eudicots</a></p>
 <hr />
 </div>
 <div id="asteraceae" class="section level3">
 <h3>Asteraceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Asteraceae">WIKIPEDIA ASTERACEAE</a></p>
-<p><img src="Plant_Families/Asteraceae.jpg" alt="Asteraceae" /> <img src="Plant_Families/Asteraceae%201.jpg" alt="Asteraceae" /> <img src="Plant_Families/Asteraceae%202.jpg" alt="Asteraceae" /> <img src="Plant_Families/Asteraceae%203.jpg" alt="Asteraceae" /></p>
-<p><img src="Plant_Families/Asteraceae%204.jpg" alt="Asteraceae" /> <img src="Plant_Families/Asteraceae%205.jpg" alt="Asteraceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Asteraceae">WIKIPEDIA
+ASTERACEAE</a></p>
+<p><img src="Plant_Families/Asteraceae.jpg" alt="Asteraceae" /> <img
+src="Plant_Families/Asteraceae%201.jpg" alt="Asteraceae" /> <img
+src="Plant_Families/Asteraceae%202.jpg" alt="Asteraceae" /> <img
+src="Plant_Families/Asteraceae%203.jpg" alt="Asteraceae" /></p>
+<p><img src="Plant_Families/Asteraceae%204.jpg" alt="Asteraceae" /> <img
+src="Plant_Families/Asteraceae%205.jpg" alt="Asteraceae" /></p>
 <hr />
 </div>
 <div id="bignonaceae" class="section level3">
 <h3>Bignonaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Bignoniaceae">WIKIPEDIA Bignonaceae</a></p>
-<p><img src="Plant_Families/Bignonaceae.jpg" alt="Bignonaceae" /> <img src="Plant_Families/Bignonaceae%201.jpg" alt="Bignonaceae" /> <img src="Plant_Families/Bignonaceae%202.jpg" alt="Bignonaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Bignoniaceae">WIKIPEDIA
+Bignonaceae</a></p>
+<p><img src="Plant_Families/Bignonaceae.jpg" alt="Bignonaceae" /> <img
+src="Plant_Families/Bignonaceae%201.jpg" alt="Bignonaceae" /> <img
+src="Plant_Families/Bignonaceae%202.jpg" alt="Bignonaceae" /></p>
 <hr />
 </div>
 <div id="cacteceae" class="section level3">
 <h3>Cacteceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Cactus">WIKIPEDIA Cacteceae</a></p>
-<p><img src="Plant_Families/Cactaceae.jpg" alt="Cacteceae" /> <img src="Plant_Families/Cactaceae%201.jpg" alt="Cacteceae" /> <img src="Plant_Families/Cactaceae%202.jpg" alt="Cacteceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Cactus">WIKIPEDIA
+Cacteceae</a></p>
+<p><img src="Plant_Families/Cactaceae.jpg" alt="Cacteceae" /> <img
+src="Plant_Families/Cactaceae%201.jpg" alt="Cacteceae" /> <img
+src="Plant_Families/Cactaceae%202.jpg" alt="Cacteceae" /></p>
 <hr />
 </div>
 <div id="convolvulaceae" class="section level3">
 <h3>Convolvulaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Convolvulaceae">WIKIPEDIA Convolvulaceae</a></p>
-<p><img src="Plant_Families/Convolvulaceae.jpg" alt="Convolvulaceae" /> <img src="Plant_Families/Convolvulaceae%201.jpg" alt="Convolvulaceae" /> <img src="Plant_Families/Convolvulaceae%202.jpg" alt="Convolvulaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Convolvulaceae">WIKIPEDIA
+Convolvulaceae</a></p>
+<p><img src="Plant_Families/Convolvulaceae.jpg" alt="Convolvulaceae" />
+<img src="Plant_Families/Convolvulaceae%201.jpg" alt="Convolvulaceae" />
+<img src="Plant_Families/Convolvulaceae%202.jpg"
+alt="Convolvulaceae" /></p>
 <hr />
 </div>
 <div id="annonaceae" class="section level3">
 <h3>Annonaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Annonaceae">WIKIPEDIA ANNONACEAE</a> - <em>Anona</em></p>
-<p><img src="Plant_Families/Annonaceae.jpg" alt="Annonaceae" /> <img src="Plant_Families/Annonaceae%201.jpg" alt="Annonaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Annonaceae">WIKIPEDIA
+ANNONACEAE</a> - <em>Anona</em></p>
+<p><img src="Plant_Families/Annonaceae.jpg" alt="Annonaceae" /> <img
+src="Plant_Families/Annonaceae%201.jpg" alt="Annonaceae" /></p>
 <hr />
 </div>
 <div id="euphorbiaceae" class="section level3">
 <h3>Euphorbiaceae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Euphorbiaceae">WIKIPEDIA Euphorbiaceae</a></p>
-<p><img src="Plant_Families/Euphorbiaceae.jpg" alt="Euphorbiaceae" /> <img src="Plant_Families/Euphorbiaceae%201.jpg" alt="Euphorbiaceae" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Euphorbiaceae">WIKIPEDIA
+Euphorbiaceae</a></p>
+<p><img src="Plant_Families/Euphorbiaceae.jpg" alt="Euphorbiaceae" />
+<img src="Plant_Families/Euphorbiaceae%201.jpg"
+alt="Euphorbiaceae" /></p>
 <div class="figure">
 <img src="Plant_Families/Euphorbiaceae%202.jpg" alt="" />
 <p class="caption">Euphorbiaceae</p>
@@ -549,7 +609,8 @@ div.tocify {
 </div>
 <div id="fabaceae-leguminosae" class="section level3">
 <h3>Fabaceae == Leguminosae</h3>
-<p><a href="https://en.wikipedia.org/wiki/Fabaceae">WIKIPEDIA Fabaceae</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Fabaceae">WIKIPEDIA
+Fabaceae</a></p>
 <div class="figure">
 <img src="Plant_Families/Fabaceae.jpg" alt="" />
 <p class="caption">Fabaceae</p>
@@ -558,7 +619,8 @@ div.tocify {
 <img src="Plant_Families/Fabaceae%201.jpg" alt="" />
 <p class="caption">Fabaceae</p>
 </div>
-<p><img src="Plant_Families/Fabaceae%202.jpg" alt="Fabaceae" /> <img src="Plant_Families/Fabaceae%203.jpg" alt="Fabaceae" /></p>
+<p><img src="Plant_Families/Fabaceae%202.jpg" alt="Fabaceae" /> <img
+src="Plant_Families/Fabaceae%203.jpg" alt="Fabaceae" /></p>
 <hr />
 </div>
 </div>

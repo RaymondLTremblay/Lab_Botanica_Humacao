@@ -14,7 +14,7 @@
 
 <title>LabBot bosquejo 2021_08_02</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -313,7 +317,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -326,7 +330,7 @@ div.tocify {
   <a href="index.html">Home</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Lo Básico
      
     <span class="caret"></span>
@@ -341,7 +345,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Lectures
      
     <span class="caret"></span>
@@ -386,7 +390,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Recursos
      
     <span class="caret"></span>
@@ -408,7 +412,7 @@ div.tocify {
 <div id="header">
 
 <div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
 <ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
 <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
 <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
@@ -426,7 +430,8 @@ div.tocify {
 
 <div id="laboratorio-de-botanica-biol4429" class="section level2">
 <h2>LABORATORIO DE BOTANICA – BIOL4429</h2>
-<div id="sección-001-y-005-agosto---diciembre-2021" class="section level3">
+<div id="sección-001-y-005-agosto---diciembre-2021"
+class="section level3">
 <h3>Sección 001 y 005 Agosto - Diciembre 2021</h3>
 <p>Profesor: Denny S. Fernández del Viso Oficina: Horas de consulta:</p>
 <ul>
@@ -434,31 +439,43 @@ div.tocify {
 <li>Mar. 1:00 - 2:00,</li>
 <li>Mier. 1:30 - 4:30</li>
 </ul>
-<p>Oficina del Profersor (Al lado del Ascensor) Dirección de correo electrónico: <a href="mailto:raymond.tremblay@upr.edu" class="email">raymond.tremblay@upr.edu</a></p>
-<p>MOODLE: <a href="https://online.upr.edu" class="uri">https://online.upr.edu</a></p>
+<p>Oficina del Profersor (Al lado del Ascensor) Dirección de correo
+electrónico: <a href="mailto:raymond.tremblay@upr.edu"
+class="email">raymond.tremblay@upr.edu</a></p>
+<p>MOODLE: <a href="https://online.upr.edu"
+class="uri">https://online.upr.edu</a></p>
 </div>
 </div>
 <div id="administración" class="section level2">
 <h2>Administración:</h2>
-<p>El curso se administrá a través de la plataforma MOODLE de la UPR.</p>
-<p>Los estudiantes deben conocer los procedimientos de trabajo con MOODLE, y el manejo de archivos en el sistema operativo de su computadora.</p>
+<p>El curso se administrá a través de la plataforma MOODLE de la
+UPR.</p>
+<p>Los estudiantes deben conocer los procedimientos de trabajo con
+MOODLE, y el manejo de archivos en el sistema operativo de su
+computadora.</p>
 </div>
 <div id="objetivos-generales" class="section level2">
 <h2>Objetivos Generales:</h2>
 <p>Al terminar este curso, lo/as estudiantes podrán:</p>
 <ol style="list-style-type: decimal">
-<li>Identificar los principales tejidos, células y organelos de las plantas.</li>
-<li>Describir las características morfológicas de los grupos taxonómicos superiores de las plantas.</li>
-<li>Relacionar las estructuras observadas con su función en las plantas.</li>
-<li>Reconstruir la evolución de las plantas, usando las características morfológicas y anatómicas observadas.</li>
+<li>Identificar los principales tejidos, células y organelos de las
+plantas.</li>
+<li>Describir las características morfológicas de los grupos taxonómicos
+superiores de las plantas.</li>
+<li>Relacionar las estructuras observadas con su función en las
+plantas.</li>
+<li>Reconstruir la evolución de las plantas, usando las características
+morfológicas y anatómicas observadas.</li>
 <li>Elaborar hipótesis para una investigación con plantas.</li>
 </ol>
 </div>
 <div id="temas" class="section level2">
 <h2>Temas:</h2>
 <ol style="list-style-type: decimal">
-<li>Introducción al laboratorio y las plantas como sistema biológico.</li>
-<li>Introducción a las macromoléculas, pigmentos y célula eucariótica vegetal Germinación<br />
+<li>Introducción al laboratorio y las plantas como sistema
+biológico.</li>
+<li>Introducción a las macromoléculas, pigmentos y célula eucariótica
+vegetal Germinación<br />
 </li>
 <li>La raíz</li>
 <li>El tallo</li>
@@ -489,25 +506,51 @@ div.tocify {
 </div>
 <div id="las-pruebas-cortas" class="section level3">
 <h3>Las pruebas cortas</h3>
-<p>Las pruebas cortas (QUIZES) estarán disponibles en MOODLE durante la semana de la sesión de laboratorio y por al menos tres días. En los quizes se harán preguntas de los subtemas y conceptos descritos para el laboratorio de esa semana. Los subtemas, definiciones, conceptos, preguntas, observaciones, etc. para las pruebas cortas los pueden encontrar en la presentación de CONTENIDO, de cada laboratorio. Tiene dos oportunidades para realizar el quiz, y la nota final es el promedio de ambos intentos (o la de un único intento). En la última semana de clases podrá repetir (o completar) un (1) quiz. Para esto debe notificar la semana antes al profesor indicando el quiz que desea repetir o completar.</p>
+<p>Las pruebas cortas (QUIZES) estarán disponibles en MOODLE durante la
+semana de la sesión de laboratorio y por al menos tres días. En los
+quizes se harán preguntas de los subtemas y conceptos descritos para el
+laboratorio de esa semana. Los subtemas, definiciones, conceptos,
+preguntas, observaciones, etc. para las pruebas cortas los pueden
+encontrar en la presentación de CONTENIDO, de cada laboratorio. Tiene
+dos oportunidades para realizar el quiz, y la nota final es el promedio
+de ambos intentos (o la de un único intento). En la última semana de
+clases podrá repetir (o completar) un (1) quiz. Para esto debe notificar
+la semana antes al profesor indicando el quiz que desea repetir o
+completar.</p>
 <hr />
 </div>
 <div id="los-informes" class="section level3">
 <h3>Los Informes</h3>
-<p>Los informes (no necesariamente habrá asignaciones todas las semanas) aparecen con el nombre INFORME. Tiene 10 días para completarlos, o perderá hasta el 10% de la nota si no lo entrega a tiempo, o no ha solicitado más tiempo. La evaluación de cada informe (escrito u oral) se hará mediante una rúbrica que deben revisar antes de hacerlo.</p>
+<p>Los informes (no necesariamente habrá asignaciones todas las semanas)
+aparecen con el nombre INFORME. Tiene 10 días para completarlos, o
+perderá hasta el 10% de la nota si no lo entrega a tiempo, o no ha
+solicitado más tiempo. La evaluación de cada informe (escrito u oral) se
+hará mediante una rúbrica que deben revisar antes de hacerlo.</p>
 <hr />
 <p>El Proyecto</p>
-<p>El proyecto consiste en una investigación casera sobre alguno de los temas que se hayan cubierto en las sesiones de laboratorio. Antes de iniciar su investigación, deberá presentar la hipótesis, objetivos y diseño de la investigación. Debe realizar un informe, en formato de artículo científico y una presentación corta del proyecto. El proyecto puede ser realizado por una persona o en pareja.</p>
-<p>Se otorgarán bonos a la nota final del laboratorio (máximo de 8 puntos), a discreción del profesor, por participación en viajes de campo fuera de la universidad, o actividades que anuncie durante el semestre.</p>
+<p>El proyecto consiste en una investigación casera sobre alguno de los
+temas que se hayan cubierto en las sesiones de laboratorio. Antes de
+iniciar su investigación, deberá presentar la hipótesis, objetivos y
+diseño de la investigación. Debe realizar un informe, en formato de
+artículo científico y una presentación corta del proyecto. El proyecto
+puede ser realizado por una persona o en pareja.</p>
+<p>Se otorgarán bonos a la nota final del laboratorio (máximo de 8
+puntos), a discreción del profesor, por participación en viajes de campo
+fuera de la universidad, o actividades que anuncie durante el
+semestre.</p>
 <hr />
 </div>
 <div id="materiales-solicitados" class="section level3">
 <h3>Materiales solicitados:</h3>
-<p>libreta de laboratorio cada estudiante debe presentarse con bata de laboratorio, mascarilla adecuada, y gafas de seguridad o cubierta facial</p>
+<p>libreta de laboratorio cada estudiante debe presentarse con bata de
+laboratorio, mascarilla adecuada, y gafas de seguridad o cubierta
+facial</p>
 </div>
 <div id="referencias" class="section level3">
 <h3>Referencias:</h3>
-<p>Libros de botánica disponible o texto de la clase. Internet (sitios con contenido moderado, editado y/o evaluado, Wikipedia, p. ej.). Para cada tema tendrán disponibles artículos científicos.</p>
+<p>Libros de botánica disponible o texto de la clase. Internet (sitios
+con contenido moderado, editado y/o evaluado, Wikipedia, p. ej.). Para
+cada tema tendrán disponibles artículos científicos.</p>
 </div>
 </div>
 
