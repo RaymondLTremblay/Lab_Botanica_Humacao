@@ -1,7 +1,7 @@
 ---
 title: "Como preparar un informe profesional"
 author: "Raymond L. Tremblay"
-date: "8/20/2021"
+
 output:
   html_document:
     css: tutorial.css
@@ -45,7 +45,7 @@ Secciones de este articulo
   
 ## Actividad 1
 
-- Todos van a leer la sección "Background"
+- **Todos van a leer la sección "Background"**
 - Los subgrupos tendrán una sección a leer y informar al grupo 
   - Tiempo 20 minutos para leer y preparar lo que van a informar al todos los estudiantes del salón
   - Cada grupo tendrá de 5 - 8 minutos para informar a la clase.
@@ -55,4 +55,13 @@ Secciones de este articulo
 
 - Presentación de "Estructurar un paper y terminarlo" 
 - En la pestaña "Recursos" del curso busca el enlace de **Presentación**.
+
+
+## Actividad 3
+
+- Leer el siguiente articulo y busca todas las secciones mencionados ariba y evaluá **cada una** de las partes.
+
+Rivera Gómez, N., Tremblay, R. L., & Meléndez-Ackerman, E. (2006). Distribution of life cycle stages in a lithophytic and epiphytic orchid. Folia Geobotanica, 41(1), 107-120.
+
+
 

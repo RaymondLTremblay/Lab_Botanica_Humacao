@@ -112,7 +112,10 @@ La forma de las hojas tienen términos para describir su forma.
 
 + El trabajo sera entregado en un documento digital (Word, .html, .pdf)
 + Cada lámina sera identificado con la información mencionada arriba. 
-+ Las fotos deberían ser adecuada, en otra palabra que se puede demostrar las características mencionados y identificada, o sea, una foto de toda la hoja, de los detalles de la hoja, del borde de la hoja.
++ Las fotos deberían ser adecuada, en otra palabra que se puede demostrar las características mencionados y identificada, o sea, 
+    - una foto de toda la hoja, 
+    - de los detalles de la hoja, 
+    - del borde de la hoja.
 + Cada lámina bien presentada, correctamente identificada vale un (1) punto. 
 + En cada pagina tendrá, la foto de la hoja, definición de las características y porque se describe con este termino.  
 

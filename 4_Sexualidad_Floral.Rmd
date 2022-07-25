@@ -1,7 +1,7 @@
 ---
 title: "4_Sexualidad_Floral"
 author: "Raymond L. Tremblay"
-date: "8/20/2021"
+
 output:
   html_document:
     css: tutorial.css

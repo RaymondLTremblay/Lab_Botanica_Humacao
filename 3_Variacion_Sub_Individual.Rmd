@@ -31,19 +31,25 @@ knitr::opts_chunk$set(echo = TRUE)
 + Ambiental
 + Plasticidad Fenotípica
 
+***
 
-Leer este articulo [Brushi 2003](PDF/2003AnnBotanyRoveri.pdf).
- 
+### Leer este articulo [Brushi 2003](PDF/2003AnnBotanyRoveri.pdf).
+
+***
+
+### Enfocar el los aspectos morfologicos del articulos
+
  Cuando lee el articulo concentrarse en las características morfológicas. 
  
  Preguntas guías:
-       - ¿Cual son las variables morfológicas que se midieron? Menciona algunas (4-5)
-       - ¿Qué quiere decir ***Mean*** y  ***s.d.***?
-       - ¿Cual variable tiene mayor promedio?
+ 
+  - ¿Cual son las variables morfológicas que se midieron? Menciona algunas (4-5)
+  - ¿Qué quiere decir ***Mean*** y  ***s.d.***?
+  - ¿Cual variable tiene mayor promedio?
        
-¿Como uno puede evaluar la variación controlando para el promedio?
+¿Como uno puede evaluar la variación controlando por el promedio?
 
-El problema de la relación positiva y variación.
+
        
  
 ### Coeficiente de Variación, CV
@@ -81,25 +87,23 @@ El problema de la relación positiva y variación.
   + 40 mínimo hojas arriba
   + 40 mínimo hojas abajo
   
-  
+***
   
 ### Enlace para añadir los datos recolectados
 
-##### Lab de Lunes sec 001, 3pm a 5.50pm.
 
-LUNES: Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
+##### Lab de Viernes sec 002, 7:00am a 10.50pm.
+
+Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1lsT6FBG7xGQdZ7Qnjs_LHlfIXRqQSnp5XOJ9rggCQnE/edit?usp=sharing)
 
 
-#####  Lab de Martes sec 005, 12:00pm a 2:50pm.
-
-MARTES: Presione aquí [Hoja_de Datos](https://docs.google.com/spreadsheets/d/1wNRbc0u9sNjdYF8ko6DyZ9H87IMp39fVktfUwbQChas/edit?usp=sharing)
 
 ***
 
 Las especies evaluadas
 
 G1 = [*Tabebuia heterophylla*](https://en.wikipedia.org/wiki/Tabebuia_heterophylla)  
-G2 = [*Cananga odorata*](https://en.wikipedia.org/wiki/Cananga_odorata)
+G2 = [*Catanga odorata*](https://en.wikipedia.org/wiki/Cananga_odorata)
 
 
 ***
@@ -155,21 +159,30 @@ Se trabará en grupo de dos estudiantes usando todos los datos de su especie.   
 # Fecha: Entrega de trabajo 
 
 
-## Sección 001
+## Sección 002
 
     - Primera ronda: el 27 de septiembre (Trear dos copias empresas al laboratorio)
 
     - Segunda ronda: el 1 de octubre
 
-## Sección 005
-
-    - Primera ronda: el 21 de septiembre (Trear dos copias empresas al laboratorio)
-
-    - Segunda ronda: el 25 de septiembre
 
 Recuerda que no se enseña los datos originales, pero los análisis.  
 
 
+
+
+
+
+
+```{r eval=FALSE, include=FALSE}
+#Datos de años anteriores
+#LUNES: Presione aquí [Hoja_de #Datos](https://docs.google.com/spreadsheets/d/1V3x81vW59nj_3wiutnvrITYicAEarDbLEy3mVbUQjp0/edit?usp=sharing)
+
+
+#####  Lab de Martes sec 005, 12:00pm a 2:50pm.
+
+#MARTES: Presione aquí [Hoja_de #Datos](https://docs.google.com/spreadsheets/d/1wNRbc0u9sNjdYF8ko6DyZ9H87IMp39fVktfUwbQChas/edit?usp=sharing)
+```
 
 
 
