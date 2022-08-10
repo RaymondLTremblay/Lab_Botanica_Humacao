@@ -30,7 +30,7 @@ Favor mirar el calendario regularmente, ya que este puede cambiar!
 
 ```{r include=FALSE}
 library(readr)
-Calendario_Curso <- read_csv("Schedule_2022_August.csv")
+Calendario_Curso <- read_csv("Schedule_2022.csv")
 ```
 
 
