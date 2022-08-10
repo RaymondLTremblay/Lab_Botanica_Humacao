@@ -35,12 +35,27 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(gt)
-Table=tribble(~"Nombre Cientifico de las Especies", ~"Nombre Comun", ~N,
-        "Especie_1", "Angelito", 10,
-        "Especie_2", "...", 300,
-        "Prestoea montana","Palma de Sierra", 1,
-        "....","...", NA)
-gt(Table)
+Table=tribble(~"Num_Especie", ~"Nombre Cientifico de las Especies", ~"Nombre Comun", ~N,
+        1, "Especie_1", "Angelito", 10,
+        2, "Especie_2", "...", 300,
+        3, "Prestoea montana","Palma de Sierra", 1,
+        4, "....","...", NA)
+
+
+gt(Table)|> 
+  tab_header(
+    title = "Especie en la U.",
+    subtitle = "Diversidad"
+  ) |> 
+  tab_style(
+      cell_text(style = "italic"),
+      location = cells_body(
+        columns="Nombre Cientifico de las Especies",
+        rows=3
+      )
+    )
+
+
 ```
     
 
@@ -48,7 +63,7 @@ gt(Table)
 
 ## Al final del semestre
 
-4. Estará haciendo lo mismo, y el objetivo es hacer una comparación entre lo que viste en tu patio en la primera semana y al final del semestre.  
+4. Estará haciendo lo mismo al final del semestre, y el objetivo es hacer una comparación entre lo que viste en tu patio en la primera semana y al final del semestre.  
  
  
  
