@@ -46,7 +46,7 @@ navbar:
           text: "Taxonomía de Plantas 15 familias"          
         - 
           href: x_Plant_Story.html
-          text: "Identificación de plantas con APP"
+          text: "Identificación de plantas con un APP"
         - 
           href: Preparando_un_herbario.html
           text: "Preparando un Herbario"
