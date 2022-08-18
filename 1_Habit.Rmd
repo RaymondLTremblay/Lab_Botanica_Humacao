@@ -26,7 +26,7 @@ Descripción de los tipos de estructura/arquitectura/forma de vida de las planta
 ***
 
 
-### Objetivos 1_AA
+### Objetivos 1
 
 
 #### Reconocer los grupos principales de plantas
