@@ -10,6 +10,7 @@ output:
 #  theme: simplex   To have the TOC in Red
     toc: yes
     toc_float: yes
+    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}

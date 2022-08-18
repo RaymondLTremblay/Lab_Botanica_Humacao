@@ -10,6 +10,7 @@ output:
 #  theme: simplex   To have the TOC in Red
     toc: yes
     toc_float: yes
+    code_folding: hide
 ---
 
 
@@ -25,21 +26,41 @@ Descripción de los tipos de estructura/arquitectura/forma de vida de las planta
 ***
 
 
-### Objetivos
+### Objetivos 1
+
+
+#### Reconocer los grupos principales de plantas
+
+```{r}
+knitr::include_graphics("Graficos/Main_Plant_groups.png")
+```
+***
+### Objetivos 2
 
 **Definen y reconocer las siguientes forma de vida de las Plantas**
 
-+	Herbáceas
+
 +	Lenõsas
 	
     -	Arboles
     -	Arbustos
+    - lianas (¿cual es la diferencia entre una enredadera y una liana?)
+    
+ +	Herbáceas   
+ 
     -	Herbáceas
     -	Suculentas
-    -	Gramas 
+    -	Gramas
+    - Juncias (sedges)
     - Enredaderas
-      - lianas (¿cual es la diferencia entre una enredadera y una liana?)
       - herbaceas (sin lignina)
+      
+ + Localización
+ 
+   - Terrestre
+   - Epífitas (crece sobre otra plantas)
+   - Litófitas (crece sobre piedras)
+      
   
   Para más detalles vea estos enlaces:
   
@@ -47,32 +68,65 @@ Descripción de los tipos de estructura/arquitectura/forma de vida de las planta
 
 [Vea este enlace para más definiciones con forma de vida de plantas](https://www.anbg.gov.au/cpbr/herbarium/collecting/habit-types.html)
 
-Haz una lista de cada uno de estos terminos y su definición, asegurate que la deficición sea especifica.  
+Haz una lista de cada uno de estos términos y su definición, asegúrate que la definición sea especifica.  
 
 
     
 ***  
 
-### Objetivos
+### Objetivos 3
 
 Definen y reconocer las siguientes forma de vida de las Briofitas
 
-1. ¿Cual son los tres grupos principal de briofitas?
++ ¿Cual son los tres grupos principal de briofitas?
 
-2. ¿Como se diferencia estos grupos?
++ ¿Como se diferencia estos grupos?
 
 
-+ Briofitas [Bryophyte](https://en.wikipedia.org/wiki/Bryophyte)
++ Briófitas [Bryophyte](https://en.wikipedia.org/wiki/Bryophyte)
 
 [Vea un Musgos aqui](https://en.wiktionary.org/wiki/bryophyte#/media/File:Marchantia_polymorpha_190708.jpg)
 
 
 
 
-  + Clasificación de Briofitas
+  + Clasificación de Briófitas
    [Classification](https://www.toppr.com/ask/content/concept/classification-of-bryophytes-202047/)
 
     - foliose   [foliose](https://www.britannica.com/plant/bryophyte)
     - thallose  [thallus](https://en.wikipedia.org/wiki/Thallus) 
+
+
+## Actividad práctico: Recorido del patio de la UPRH
+
+## Actividad para entregar
+  
+  En el patio de su casa y vecindario.  Buscar los siguientes tipos de forma de planta
+    
+     + Tomar una fotos de estos tipos de forma de planta.
+      -	Arboles
+      -	Arbustos
+      -	Herbáceas
+      -	Suculentas
+      -	Gramas
+      - Juncias (sedges)
+      - Enredaderas
+        - lianas (¿cual es la diferencia entre una enredadera y una liana?)
+        - herbaceas (sin lignina)
+      
+     + Identificar correctamente la forma de crecimiento para cada foto
+      
+      **Someter el trabajo por MSTeam. NO más tarde del día antes de la próxima clase a las 11:59pm.**
+      
+      El trabajo es individual ( 15 puntos)
+
+        + El tarabajo tiene que ser sometido en forma de .html, word o pdf.
+        + Bien organizado y profesional. 
+          - Trabajos presentado de forma desorganizado tendrán automaticamente -5 en puntuación.
+          
+          
+      
+
+
 
 
