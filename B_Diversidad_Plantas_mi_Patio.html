@@ -14,7 +14,7 @@
 
 <title>B_Diversidad_de_plantas_Patio</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -135,11 +135,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -438,12 +442,12 @@ div.tocify {
 </ul></li>
 </ul></li>
 </ul>
-<div id="zeovopzldc" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="igexyvclgq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#zeovopzldc .gt_table {
+#igexyvclgq .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -468,7 +472,7 @@ div.tocify {
   border-left-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_heading {
+#igexyvclgq .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -480,7 +484,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_title {
+#igexyvclgq .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -492,7 +496,7 @@ div.tocify {
   border-bottom-width: 0;
 }
 
-#zeovopzldc .gt_subtitle {
+#igexyvclgq .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -504,13 +508,13 @@ div.tocify {
   border-top-width: 0;
 }
 
-#zeovopzldc .gt_bottom_border {
+#igexyvclgq .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_col_headings {
+#igexyvclgq .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -525,7 +529,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_col_heading {
+#igexyvclgq .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -545,7 +549,7 @@ div.tocify {
   overflow-x: hidden;
 }
 
-#zeovopzldc .gt_column_spanner_outer {
+#igexyvclgq .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -557,15 +561,15 @@ div.tocify {
   padding-right: 4px;
 }
 
-#zeovopzldc .gt_column_spanner_outer:first-child {
+#igexyvclgq .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zeovopzldc .gt_column_spanner_outer:last-child {
+#igexyvclgq .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zeovopzldc .gt_column_spanner {
+#igexyvclgq .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -577,7 +581,7 @@ div.tocify {
   width: 100%;
 }
 
-#zeovopzldc .gt_group_heading {
+#igexyvclgq .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -602,7 +606,7 @@ div.tocify {
   vertical-align: middle;
 }
 
-#zeovopzldc .gt_empty_group_heading {
+#igexyvclgq .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -617,15 +621,15 @@ div.tocify {
   vertical-align: middle;
 }
 
-#zeovopzldc .gt_from_md > :first-child {
+#igexyvclgq .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zeovopzldc .gt_from_md > :last-child {
+#igexyvclgq .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zeovopzldc .gt_row {
+#igexyvclgq .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -644,7 +648,7 @@ div.tocify {
   overflow-x: hidden;
 }
 
-#zeovopzldc .gt_stub {
+#igexyvclgq .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -657,7 +661,7 @@ div.tocify {
   padding-right: 5px;
 }
 
-#zeovopzldc .gt_stub_row_group {
+#igexyvclgq .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -671,11 +675,11 @@ div.tocify {
   vertical-align: top;
 }
 
-#zeovopzldc .gt_row_group_first td {
+#igexyvclgq .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#zeovopzldc .gt_summary_row {
+#igexyvclgq .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -685,16 +689,16 @@ div.tocify {
   padding-right: 5px;
 }
 
-#zeovopzldc .gt_first_summary_row {
+#igexyvclgq .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_first_summary_row.thick {
+#igexyvclgq .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#zeovopzldc .gt_last_summary_row {
+#igexyvclgq .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -704,7 +708,7 @@ div.tocify {
   border-bottom-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_grand_summary_row {
+#igexyvclgq .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -714,7 +718,7 @@ div.tocify {
   padding-right: 5px;
 }
 
-#zeovopzldc .gt_first_grand_summary_row {
+#igexyvclgq .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -724,11 +728,11 @@ div.tocify {
   border-top-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_striped {
+#igexyvclgq .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zeovopzldc .gt_table_body {
+#igexyvclgq .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -737,7 +741,7 @@ div.tocify {
   border-bottom-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_footnotes {
+#igexyvclgq .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -751,7 +755,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_footnote {
+#igexyvclgq .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -760,7 +764,7 @@ div.tocify {
   padding-right: 5px;
 }
 
-#zeovopzldc .gt_sourcenotes {
+#igexyvclgq .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -774,7 +778,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#zeovopzldc .gt_sourcenote {
+#igexyvclgq .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -782,60 +786,69 @@ div.tocify {
   padding-right: 5px;
 }
 
-#zeovopzldc .gt_left {
+#igexyvclgq .gt_left {
   text-align: left;
 }
 
-#zeovopzldc .gt_center {
+#igexyvclgq .gt_center {
   text-align: center;
 }
 
-#zeovopzldc .gt_right {
+#igexyvclgq .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zeovopzldc .gt_font_normal {
+#igexyvclgq .gt_font_normal {
   font-weight: normal;
 }
 
-#zeovopzldc .gt_font_bold {
+#igexyvclgq .gt_font_bold {
   font-weight: bold;
 }
 
-#zeovopzldc .gt_font_italic {
+#igexyvclgq .gt_font_italic {
   font-style: italic;
 }
 
-#zeovopzldc .gt_super {
+#igexyvclgq .gt_super {
   font-size: 65%;
 }
 
-#zeovopzldc .gt_footnote_marks {
+#igexyvclgq .gt_two_val_uncert {
+  display: inline-block;
+  line-height: 1em;
+  text-align: right;
+  font-size: 60%;
+  vertical-align: -0.25em;
+  margin-left: 0.1em;
+}
+
+#igexyvclgq .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#zeovopzldc .gt_asterisk {
+#igexyvclgq .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#zeovopzldc .gt_slash_mark {
+#igexyvclgq .gt_slash_mark {
   font-size: 0.7em;
   line-height: 0.7em;
   vertical-align: 0.15em;
 }
 
-#zeovopzldc .gt_fraction_numerator {
+#igexyvclgq .gt_fraction_numerator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: 0.45em;
 }
 
-#zeovopzldc .gt_fraction_denominator {
+#igexyvclgq .gt_fraction_denominator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: -0.05em;

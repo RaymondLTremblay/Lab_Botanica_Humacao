@@ -14,7 +14,7 @@
 
 <title>6_Etnobotanica</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -134,11 +134,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -465,12 +469,12 @@ div.tocify {
 </ul></li>
 </ul>
 <hr />
-<div id="bkymhmsega" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="hpghbtkrqh" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#bkymhmsega .gt_table {
+#hpghbtkrqh .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -495,7 +499,7 @@ div.tocify {
   border-left-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_heading {
+#hpghbtkrqh .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -507,7 +511,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_title {
+#hpghbtkrqh .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -519,7 +523,7 @@ div.tocify {
   border-bottom-width: 0;
 }
 
-#bkymhmsega .gt_subtitle {
+#hpghbtkrqh .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -531,13 +535,13 @@ div.tocify {
   border-top-width: 0;
 }
 
-#bkymhmsega .gt_bottom_border {
+#hpghbtkrqh .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_col_headings {
+#hpghbtkrqh .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -552,7 +556,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_col_heading {
+#hpghbtkrqh .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -572,7 +576,7 @@ div.tocify {
   overflow-x: hidden;
 }
 
-#bkymhmsega .gt_column_spanner_outer {
+#hpghbtkrqh .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -584,15 +588,15 @@ div.tocify {
   padding-right: 4px;
 }
 
-#bkymhmsega .gt_column_spanner_outer:first-child {
+#hpghbtkrqh .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#bkymhmsega .gt_column_spanner_outer:last-child {
+#hpghbtkrqh .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#bkymhmsega .gt_column_spanner {
+#hpghbtkrqh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -604,7 +608,7 @@ div.tocify {
   width: 100%;
 }
 
-#bkymhmsega .gt_group_heading {
+#hpghbtkrqh .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -629,7 +633,7 @@ div.tocify {
   vertical-align: middle;
 }
 
-#bkymhmsega .gt_empty_group_heading {
+#hpghbtkrqh .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -644,15 +648,15 @@ div.tocify {
   vertical-align: middle;
 }
 
-#bkymhmsega .gt_from_md > :first-child {
+#hpghbtkrqh .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#bkymhmsega .gt_from_md > :last-child {
+#hpghbtkrqh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#bkymhmsega .gt_row {
+#hpghbtkrqh .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -671,7 +675,7 @@ div.tocify {
   overflow-x: hidden;
 }
 
-#bkymhmsega .gt_stub {
+#hpghbtkrqh .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -684,7 +688,7 @@ div.tocify {
   padding-right: 5px;
 }
 
-#bkymhmsega .gt_stub_row_group {
+#hpghbtkrqh .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -698,11 +702,11 @@ div.tocify {
   vertical-align: top;
 }
 
-#bkymhmsega .gt_row_group_first td {
+#hpghbtkrqh .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#bkymhmsega .gt_summary_row {
+#hpghbtkrqh .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -712,16 +716,16 @@ div.tocify {
   padding-right: 5px;
 }
 
-#bkymhmsega .gt_first_summary_row {
+#hpghbtkrqh .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_first_summary_row.thick {
+#hpghbtkrqh .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#bkymhmsega .gt_last_summary_row {
+#hpghbtkrqh .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -731,7 +735,7 @@ div.tocify {
   border-bottom-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_grand_summary_row {
+#hpghbtkrqh .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -741,7 +745,7 @@ div.tocify {
   padding-right: 5px;
 }
 
-#bkymhmsega .gt_first_grand_summary_row {
+#hpghbtkrqh .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -751,11 +755,11 @@ div.tocify {
   border-top-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_striped {
+#hpghbtkrqh .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#bkymhmsega .gt_table_body {
+#hpghbtkrqh .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -764,7 +768,7 @@ div.tocify {
   border-bottom-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_footnotes {
+#hpghbtkrqh .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -778,7 +782,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_footnote {
+#hpghbtkrqh .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -787,7 +791,7 @@ div.tocify {
   padding-right: 5px;
 }
 
-#bkymhmsega .gt_sourcenotes {
+#hpghbtkrqh .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -801,7 +805,7 @@ div.tocify {
   border-right-color: #D3D3D3;
 }
 
-#bkymhmsega .gt_sourcenote {
+#hpghbtkrqh .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -809,60 +813,69 @@ div.tocify {
   padding-right: 5px;
 }
 
-#bkymhmsega .gt_left {
+#hpghbtkrqh .gt_left {
   text-align: left;
 }
 
-#bkymhmsega .gt_center {
+#hpghbtkrqh .gt_center {
   text-align: center;
 }
 
-#bkymhmsega .gt_right {
+#hpghbtkrqh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#bkymhmsega .gt_font_normal {
+#hpghbtkrqh .gt_font_normal {
   font-weight: normal;
 }
 
-#bkymhmsega .gt_font_bold {
+#hpghbtkrqh .gt_font_bold {
   font-weight: bold;
 }
 
-#bkymhmsega .gt_font_italic {
+#hpghbtkrqh .gt_font_italic {
   font-style: italic;
 }
 
-#bkymhmsega .gt_super {
+#hpghbtkrqh .gt_super {
   font-size: 65%;
 }
 
-#bkymhmsega .gt_footnote_marks {
+#hpghbtkrqh .gt_two_val_uncert {
+  display: inline-block;
+  line-height: 1em;
+  text-align: right;
+  font-size: 60%;
+  vertical-align: -0.25em;
+  margin-left: 0.1em;
+}
+
+#hpghbtkrqh .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#bkymhmsega .gt_asterisk {
+#hpghbtkrqh .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#bkymhmsega .gt_slash_mark {
+#hpghbtkrqh .gt_slash_mark {
   font-size: 0.7em;
   line-height: 0.7em;
   vertical-align: 0.15em;
 }
 
-#bkymhmsega .gt_fraction_numerator {
+#hpghbtkrqh .gt_fraction_numerator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: 0.45em;
 }
 
-#bkymhmsega .gt_fraction_denominator {
+#hpghbtkrqh .gt_fraction_denominator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: -0.05em;
