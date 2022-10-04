@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Objetivos
 
-- Este modulo tiene como objetivo hacer una breve introducción de los grupos taxonómicos de plantas extintas y 
+- Este modulo tiene como objetivo hacer una breve introducción de los grupos taxonómicos de plantas extintas
 
 - Un recorrido breve de los periodos y la diversificación de las plantas y sus características derivadas. 
 
@@ -84,10 +84,10 @@ Que tipo de plantas dominaba cuando durante la era de los dinosaurios?
  - Se hara un trabajo escrito de 5 paginas
     - Espacio sencillo
     - Referencias adecuadas para trabajo en ciencia
-    - estilo adecuado para trabajo en ciencia
+    - Estilo adecuado para trabajo en ciencia
   
  
-### Cada \trabajo escrito incluirá una 
+### Cada trabajo escrito incluirá una 
 
 - introducción al articulo
   - sus objetivos
@@ -97,7 +97,7 @@ Que tipo de plantas dominaba cuando durante la era de los dinosaurios?
 ### Conponentes a incluir en adición de discutir el articulo  
 
 - un mapa donde se encuentra los fósiles en el articulo
-- un figura para poner claro en que **ERA** geológica se encuentra el tema del articulo.
+- un figura para poner claro en que **ERA** geológica se encuentra el tema del artículo.
 - Se apoyará con artículos revisados por pares, no solamente el artículo original, y estos últimos TIENEN que leerlos y citarlos correctamente.    
 
 
@@ -125,92 +125,78 @@ Para expandir su trabajo la mejor manera es
 
 ### Referencias y asignaciones por estudiante
 
-## EL Trabajo es INDIVIDUAL, Si hay dos nombres es solamente pq son dos secciones de laboratorio.  UD no de comunica con esa perosna, **NO ES UN TRABAJO de GRUPO**. 
+## EL Trabajo es INDIVIDUAL. 
 
 
 [Paleobotany Dilcher 2001](PDF/Paleobotany_1.pdf)
 
- - Carlos Alejandro
- - Nartalia Dominguez
+ - José Colon-Miranda
 
 [Cropolites and Dinosaurs](PDF/First report on vertebrate coprolites.pdf)
 
- - Victoria Andreu
- - Sofia Otiniano
+ - Bryna Cruz-Lopez
  
 
 [The origin of life Cycle of Land Plants](PDF/The origin of the life cycle of land plants.pdf)
 
- - Stephan Bianco
- - Yan Carrasquillo
+ - Omelv Garcia-Gonzalez
 
 
 [Algal Ancestor to land plants](PDF/Algal ancestor of land plants was preadapted for symbiosis.pdf) 
 
-- Alexis Castro
-- Dennisse Ortiz
+- Ariana Gonzalez-Cruz
 
 [Aglaophyton](PDF/Four hundred-million-year-old vesicular arbuscular mycorrhizae.pdf)
 
-- Rinelly Comas
-- Natalie Alvarez
+- Luis Lopez-Vergara
 
 [Phylogenetic relationships among early land plants](PDF/Plant Evolution-Phylogenetic relationship between.pdf)
 
-- Marery Cruz
-- Hibrahim Ayala
+- Gabriela Maldonado-Crespo
 
 [Early land plants and Oxygen](PDF/Earliest land plants created modern levels of atmospheric oxygen.pdf)
 
-- Gidelka Dipini
-- Alanairis Martinez
+- Jediel Monge-Medina
 
 [Microfossils of early land plants](PDF/rstb.2000.0612.pdf)
 
-- Jorge Hernández
-- Solimar Meléndez
+- JFabiola Ortiz-Carrasquillo
 
 [Morphological Evolution in land plants](PDF/Morphological evolution in land plants- new designs with old genes.pdf)
 
-- Lymarie Marin
-- David Alvarez
+- Jeira Paredes-Rosa
 
 [The Antillean paleocommunities](PDF/Historical biogeography of Caribbean plants- introduction to current know- ledge and possibilities from a phylogenetic perspective.pdf) Vea la referencias adentro en la sección de **Fossils and Paleovegetation**
 
-- Nadia Moran
-- Naiomie Garcia
+- Luz Quintero-Rios
 
 [Photograpghy of plant fossiles](PDF/KerpBomfleurRevPalaeobotPalynol2011red.pdf)
 
-- Paola Moyet
-- Ivonne Pauneto
+- Darielys Rivera-Fuentes
 
 [Fossil plant record and global climate change](PDF/The fossil plant record and global climatic change.pdf)
 
-- Adriana Nieves
-- Frederick Thomas
+- Roberto Rodriguez-Garcia
 
 [Mexico Fossils](PDF/Mexico- Assembling extinct plants from their isolated parts.pdf)
 
-- Amiris Perez
-- Javier Alvarado
+- Melanie Rodriguez-Kercado
 
 [The oldest fossil mushroom](PDF/The oldest fossil mushroom.pdf)
 
-- Amanda Rivera
-- Jeira Paredes
+- Neilitz Ruiz-Ortiz
 
 [PaleoBotany-Tracheophytes](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Tracheophytes"
 
-- Imardalize Roman
+- Claudia Toledo-Molinary
 
 [PaleoBotany-Lycopods](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Lycopods"
 
-- Carla Vazquez
+- Henry Velazquez-Martinez
 
 [PaleoBotany-Cycads](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Cycads"
 
-- Lizmeily Velez
+- 
 
 [PaleoBotany-Early Seed Plants](PDF/Paleobotany of Land Plants.pdf) Concentrar en "Early Seed Plants"
 
