@@ -14,7 +14,7 @@
 
 <title>Preparando un herbario</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -171,8 +171,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +180,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -552,6 +545,24 @@ alt="" />
 <hr />
 </div>
 </div>
+</div>
+<div id="orchid-from-jamaica" class="section level2">
+<h2>Orchid from Jamaica</h2>
+<p><img
+src="http://cdn.flmnh.ufl.edu/Herbarium/jpg/198/198228a1.jpg" /></p>
+</div>
+<div id="passiflora-de-puerto-rico" class="section level2">
+<h2>Passiflora de Puerto Rico</h2>
+<p><img
+src="http://cdn.flmnh.ufl.edu/Herbarium/jpg/215/215136a1.jpg" /></p>
+<hr />
+</div>
+<div id="herbario-del-padre-de-la-taxonomia-carl-linnaeus-1707-1778."
+class="section level2">
+<h2>Herbario del padre de la taxonomia (Carl Linnaeus), 1707-1778.</h2>
+<p><a href="https://linnean-online.org/linnaean_herbarium.html">Linnaeus
+Herbarium</a></p>
+<hr />
 <div id="como-preparar-plantas-para-un-herbario" class="section level3">
 <h3>Como preparar plantas para un herbario</h3>
 <p>Vea el siguiente Vídeo</p>
