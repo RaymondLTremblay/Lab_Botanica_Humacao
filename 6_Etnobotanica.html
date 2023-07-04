@@ -14,7 +14,7 @@
 
 <title>6_Etnobotanica</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -30,7 +30,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -171,8 +171,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +180,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -500,14 +493,26 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
 </ul></li>
 </ul>
 <hr />
-<div id="boaxvftqun" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+<div id="fpcopsxryo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#fpcopsxryo table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#boaxvftqun .gt_table {
+#fpcopsxryo thead, #fpcopsxryo tbody, #fpcopsxryo tfoot, #fpcopsxryo tr, #fpcopsxryo td, #fpcopsxryo th {
+  border-style: none;
+}
+
+#fpcopsxryo p {
+  margin: 0;
+  padding: 0;
+}
+
+#fpcopsxryo .gt_table {
   display: table;
   border-collapse: collapse;
+  line-height: normal;
   margin-left: auto;
   margin-right: auto;
   color: #333333;
@@ -530,19 +535,12 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-left-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
+#fpcopsxryo .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-#boaxvftqun .gt_title {
+#fpcopsxryo .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -554,25 +552,37 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-bottom-width: 0;
 }
 
-#boaxvftqun .gt_subtitle {
+#fpcopsxryo .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
-  padding-top: 0;
-  padding-bottom: 6px;
+  padding-top: 3px;
+  padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
 
-#boaxvftqun .gt_bottom_border {
+#fpcopsxryo .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fpcopsxryo .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_col_headings {
+#fpcopsxryo .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -587,7 +597,7 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-right-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_col_heading {
+#fpcopsxryo .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -607,7 +617,7 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   overflow-x: hidden;
 }
 
-#boaxvftqun .gt_column_spanner_outer {
+#fpcopsxryo .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -619,15 +629,15 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   padding-right: 4px;
 }
 
-#boaxvftqun .gt_column_spanner_outer:first-child {
+#fpcopsxryo .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#boaxvftqun .gt_column_spanner_outer:last-child {
+#fpcopsxryo .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#boaxvftqun .gt_column_spanner {
+#fpcopsxryo .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -639,7 +649,11 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   width: 100%;
 }
 
-#boaxvftqun .gt_group_heading {
+#fpcopsxryo .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#fpcopsxryo .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -662,9 +676,10 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-right-width: 1px;
   border-right-color: #D3D3D3;
   vertical-align: middle;
+  text-align: left;
 }
 
-#boaxvftqun .gt_empty_group_heading {
+#fpcopsxryo .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -679,15 +694,15 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   vertical-align: middle;
 }
 
-#boaxvftqun .gt_from_md > :first-child {
+#fpcopsxryo .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#boaxvftqun .gt_from_md > :last-child {
+#fpcopsxryo .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#boaxvftqun .gt_row {
+#fpcopsxryo .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -706,7 +721,7 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   overflow-x: hidden;
 }
 
-#boaxvftqun .gt_stub {
+#fpcopsxryo .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -719,7 +734,7 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   padding-right: 5px;
 }
 
-#boaxvftqun .gt_stub_row_group {
+#fpcopsxryo .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -733,11 +748,15 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   vertical-align: top;
 }
 
-#boaxvftqun .gt_row_group_first td {
+#fpcopsxryo .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#boaxvftqun .gt_summary_row {
+#fpcopsxryo .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#fpcopsxryo .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -747,16 +766,16 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   padding-right: 5px;
 }
 
-#boaxvftqun .gt_first_summary_row {
+#fpcopsxryo .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_first_summary_row.thick {
+#fpcopsxryo .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#boaxvftqun .gt_last_summary_row {
+#fpcopsxryo .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -766,7 +785,7 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-bottom-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_grand_summary_row {
+#fpcopsxryo .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -776,7 +795,7 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   padding-right: 5px;
 }
 
-#boaxvftqun .gt_first_grand_summary_row {
+#fpcopsxryo .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -786,11 +805,21 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-top-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_striped {
+#fpcopsxryo .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fpcopsxryo .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#boaxvftqun .gt_table_body {
+#fpcopsxryo .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -799,7 +828,7 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-bottom-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_footnotes {
+#fpcopsxryo .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -813,30 +842,8 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   border-right-color: #D3D3D3;
 }
 
-#boaxvftqun .gt_footnote {
+#fpcopsxryo .gt_footnote {
   margin: 0px;
-  font-size: 90%;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#boaxvftqun .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#boaxvftqun .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -844,114 +851,133 @@ planta, describe la evidencia, solamente una pagina por planta.<br />
   padding-right: 5px;
 }
 
-#boaxvftqun .gt_left {
+#fpcopsxryo .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fpcopsxryo .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fpcopsxryo .gt_left {
   text-align: left;
 }
 
-#boaxvftqun .gt_center {
+#fpcopsxryo .gt_center {
   text-align: center;
 }
 
-#boaxvftqun .gt_right {
+#fpcopsxryo .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#boaxvftqun .gt_font_normal {
+#fpcopsxryo .gt_font_normal {
   font-weight: normal;
 }
 
-#boaxvftqun .gt_font_bold {
+#fpcopsxryo .gt_font_bold {
   font-weight: bold;
 }
 
-#boaxvftqun .gt_font_italic {
+#fpcopsxryo .gt_font_italic {
   font-style: italic;
 }
 
-#boaxvftqun .gt_super {
+#fpcopsxryo .gt_super {
   font-size: 65%;
 }
 
-#boaxvftqun .gt_footnote_marks {
-  font-style: italic;
-  font-weight: normal;
+#fpcopsxryo .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
+  position: initial;
 }
 
-#boaxvftqun .gt_asterisk {
+#fpcopsxryo .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#boaxvftqun .gt_indent_1 {
+#fpcopsxryo .gt_indent_1 {
   text-indent: 5px;
 }
 
-#boaxvftqun .gt_indent_2 {
+#fpcopsxryo .gt_indent_2 {
   text-indent: 10px;
 }
 
-#boaxvftqun .gt_indent_3 {
+#fpcopsxryo .gt_indent_3 {
   text-indent: 15px;
 }
 
-#boaxvftqun .gt_indent_4 {
+#fpcopsxryo .gt_indent_4 {
   text-indent: 20px;
 }
 
-#boaxvftqun .gt_indent_5 {
+#fpcopsxryo .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table">
-  <thead class="gt_header">
-    <tr>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    <tr class="gt_heading">
       <td colspan="2" class="gt_heading gt_title gt_font_normal" style><strong>Organización</strong></td>
     </tr>
-    <tr>
+    <tr class="gt_heading">
       <td colspan="2" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style>PUEDE TRABAJAR en Pares,<br>
 <em>Pero con una persona que NO ha trabajado anteriormente</em>: <br>
 NO se aceptará trabajo en grupo mayor de 2</td>
     </tr>
-  </thead>
-  <thead class="gt_col_headings">
-    <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Componente</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Informe</th>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Componente">Componente</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Informe">Informe</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
-    <tr><td class="gt_row gt_left" style="background-color: #ADD8E6;">Hablar con un familiar sobre su experiencia del uso de 
+    <tr><td headers="Componente" class="gt_row gt_left" style="background-color: #ADD8E6;">Hablar con un familiar sobre su experiencia del uso de 
  plantas medicinales</td>
-<td class="gt_row gt_left">1. Nombre de la persona</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">2. Nombre(s) común(comunes) de la planta</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">3. Nombre científico de la planta</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">4. El uso medicinal de la planta por la persona intrevistado</td></tr>
-    <tr><td class="gt_row gt_left" style="background-color: #FFFF00;">Búsqueda de literatura</td>
-<td class="gt_row gt_left"></td></tr>
-    <tr><td class="gt_row gt_left" style="background-color: #ADD8E6;">Solamente se acepterá referencias de las siguientes fuentes y revisado por pares</td>
-<td class="gt_row gt_left">5. Busquar información sobre la planta en **PubMEd**</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">6. Busquar información sobre la planta en **Google Scholar**</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">7. Busquar información sobre la planta en **Research Gate**</td></tr>
-    <tr><td class="gt_row gt_left" style="background-color: #ADD8E6;">Evidencia de efectividad biomedica</td>
-<td class="gt_row gt_left"></td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">8. EXPLICAR LA evidencia bioquímica de la planta evaluada y sus posible tiene compuestos bio-reactivos</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">9. Añadir evidencia de la literatura</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">9-1. Explicar la evidencia: lo que propone los autores</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">9-2. Cual seria el proceso bioquimico activo</td></tr>
-    <tr><td class="gt_row gt_left"></td>
-<td class="gt_row gt_left">10. Lista de referencias en formato APA</td></tr>
+<td headers="Informe" class="gt_row gt_left">1. Nombre de la persona</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">2. Nombre(s) común(comunes) de la planta</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">3. Nombre científico de la planta</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">4. El uso medicinal de la planta por la persona intrevistado</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left" style="background-color: #FFFF00;">Búsqueda de literatura</td>
+<td headers="Informe" class="gt_row gt_left"></td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left" style="background-color: #ADD8E6;">Solamente se acepterá referencias de las siguientes fuentes y revisado por pares</td>
+<td headers="Informe" class="gt_row gt_left">5. Busquar información sobre la planta en **PubMEd**</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">6. Busquar información sobre la planta en **Google Scholar**</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">7. Busquar información sobre la planta en **Research Gate**</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left" style="background-color: #ADD8E6;">Evidencia de efectividad biomedica</td>
+<td headers="Informe" class="gt_row gt_left"></td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">8. EXPLICAR LA evidencia bioquímica de la planta evaluada y sus posible tiene compuestos bio-reactivos</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">9. Añadir evidencia de la literatura</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">9-1. Explicar la evidencia: lo que propone los autores</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">9-2. Cual seria el proceso bioquimico activo</td></tr>
+    <tr><td headers="Componente" class="gt_row gt_left"></td>
+<td headers="Informe" class="gt_row gt_left">10. Lista de referencias en formato APA</td></tr>
   </tbody>
   <tfoot class="gt_sourcenotes">
     <tr>
